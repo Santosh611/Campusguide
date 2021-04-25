@@ -712,6 +712,22 @@ attr percentWidth
 attr percentX
 attr percentY
 attr perpendicularPath_percent
+attr piv_animationDuration
+attr piv_animationType
+attr piv_autoVisibility
+attr piv_count
+attr piv_dynamicCount
+attr piv_interactiveAnimation
+attr piv_orientation
+attr piv_padding
+attr piv_radius
+attr piv_rtl_mode
+attr piv_scaleFactor
+attr piv_select
+attr piv_selectedColor
+attr piv_strokeWidth
+attr piv_unselectedColor
+attr piv_viewPager
 attr pivotAnchor
 attr placeholderText
 attr placeholderTextAppearance
@@ -793,6 +809,25 @@ attr singleChoiceItemLayout
 attr singleLine
 attr singleSelection
 attr sizePercent
+attr sliderAnimationDuration
+attr sliderAutoCycleDirection
+attr sliderAutoCycleEnabled
+attr sliderIndicatorAnimationDuration
+attr sliderIndicatorEnabled
+attr sliderIndicatorGravity
+attr sliderIndicatorMargin
+attr sliderIndicatorMarginBottom
+attr sliderIndicatorMarginLeft
+attr sliderIndicatorMarginRight
+attr sliderIndicatorMarginTop
+attr sliderIndicatorOrientation
+attr sliderIndicatorPadding
+attr sliderIndicatorRadius
+attr sliderIndicatorRtlMode
+attr sliderIndicatorSelectedColor
+attr sliderIndicatorUnselectedColor
+attr sliderScrollTimeInSec
+attr sliderStartAutoCycle
 attr sliderStyle
 attr snackbarButtonStyle
 attr snackbarStyle
@@ -1803,6 +1838,7 @@ dimen upsdk_margin_m
 dimen upsdk_margin_xs
 dimen upsdk_master_body_2
 dimen upsdk_master_subtitle
+drawable _231696
 drawable abc_ab_share_pack_mtrl_alpha
 drawable abc_action_bar_item_background_material
 drawable abc_btn_borderless_material
@@ -2009,6 +2045,7 @@ drawable scankit_photo
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable top_log1
 drawable upsdk_cancel_bg
 drawable upsdk_cancel_normal
 drawable upsdk_cancel_pressed_bg
@@ -2100,6 +2137,7 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id auto_focus
+id back_and_forth
 id back_img_in
 id bannerLayout
 id barrier
@@ -2142,6 +2180,7 @@ id clip_horizontal
 id clip_vertical
 id clockwise
 id collapseActionView
+id color
 id confirm_button
 id consLytBanner
 id container
@@ -2185,6 +2224,7 @@ id dragLeft
 id dragRight
 id dragStart
 id dragUp
+id drop
 id dropdown_menu
 id easeIn
 id easeInOut
@@ -2214,6 +2254,7 @@ id floating
 id forever
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -2289,6 +2330,7 @@ id hms_progress_text
 id home
 id homeAsUp
 id honorRequest
+id horizontal
 id hw_banner_view
 id hwid_button_theme_full_title
 id hwid_button_theme_no_title
@@ -2302,14 +2344,14 @@ id hwid_corner_radius_large
 id hwid_corner_radius_medium
 id hwid_corner_radius_small
 id hybrid
+id ibutton
 id icon
 id icon_group
 id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView
-id imageView2
+id imageView3
 id imageView4
 id img_btn
 id info
@@ -2396,6 +2438,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id myimage
 id name_layout
 id name_textview
 id navigation_header_container
@@ -2444,6 +2487,7 @@ id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
 id scale
+id scale_down
 id scan_title
 id scankit_decode
 id scankit_decode_failed
@@ -2481,6 +2525,7 @@ id sin
 id size_layout
 id skipCollapsed
 id slide
+id slider
 id smallLabel
 id snackbar_action
 id snackbar_text
@@ -2510,6 +2555,7 @@ id stretch
 id submenuarrow
 id submit_area
 id surfaceView
+id swap
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -2533,6 +2579,9 @@ id textStart
 id textTop
 id textView
 id textView2
+id textView3
+id textView4
+id textView5
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2542,6 +2591,7 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id thinWorm
 id third_app_dl_progress_text
 id third_app_dl_progressbar
 id third_app_warn_text
@@ -2571,6 +2621,7 @@ id up
 id useLogo
 id version_layout
 id version_textview
+id vertical
 id view_offset_helper
 id viewfinderView
 id visible
@@ -2578,6 +2629,7 @@ id window_image_content
 id window_image_progress
 id withText
 id withinBounds
+id worm
 id wrap
 id wrap_content
 id zero_corner_chip
@@ -2650,6 +2702,9 @@ layout activity_location
 layout activity_main
 layout activity_maps
 layout activity_mapviewdemo
+layout activity_scannerinfo
+layout activity_slideradapter
+layout activity_sliderdata
 layout activity_splash
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -3878,6 +3933,7 @@ styleable OnClick clickAction targetId
 styleable OnSwipe dragDirection dragScale dragThreshold limitBoundsTo maxAcceleration maxVelocity moveWhenScrollAtTop nestedScrollFlags onTouchUp touchAnchorId touchAnchorSide touchRegionId
 styleable PPSBannerView hiad_adId hiad_bannerSize
 styleable PPSRoundCornerLayout hiad_roundCorner
+styleable PageIndicatorView piv_animationDuration piv_animationType piv_autoVisibility piv_count piv_dynamicCount piv_interactiveAnimation piv_orientation piv_padding piv_radius piv_rtl_mode piv_scaleFactor piv_select piv_selectedColor piv_strokeWidth piv_unselectedColor piv_viewPager
 styleable PopupWindow android_popupBackground android_popupAnimationStyle overlapAnchor
 styleable PopupWindowBackgroundState state_above_anchor
 styleable PropertySet android_visibility android_alpha layout_constraintTag motionProgress visibilityMode
@@ -3891,6 +3947,7 @@ styleable SearchView android_focusable android_maxWidth android_inputType androi
 styleable ShapeAppearance cornerFamily cornerFamilyBottomLeft cornerFamilyBottomRight cornerFamilyTopLeft cornerFamilyTopRight cornerSize cornerSizeBottomLeft cornerSizeBottomRight cornerSizeTopLeft cornerSizeTopRight
 styleable ShapeableImageView contentPadding contentPaddingBottom contentPaddingEnd contentPaddingLeft contentPaddingRight contentPaddingStart contentPaddingTop shapeAppearance shapeAppearanceOverlay strokeColor strokeWidth
 styleable Slider android_enabled android_value android_stepSize android_valueFrom android_valueTo haloColor haloRadius labelBehavior labelStyle thumbColor thumbElevation thumbRadius thumbStrokeColor thumbStrokeWidth tickColor tickColorActive tickColorInactive tickVisible trackColor trackColorActive trackColorInactive trackHeight
+styleable SliderView sliderAnimationDuration sliderAutoCycleDirection sliderAutoCycleEnabled sliderIndicatorAnimationDuration sliderIndicatorEnabled sliderIndicatorGravity sliderIndicatorMargin sliderIndicatorMarginBottom sliderIndicatorMarginLeft sliderIndicatorMarginRight sliderIndicatorMarginTop sliderIndicatorOrientation sliderIndicatorPadding sliderIndicatorRadius sliderIndicatorRtlMode sliderIndicatorSelectedColor sliderIndicatorUnselectedColor sliderScrollTimeInSec sliderStartAutoCycle
 styleable Snackbar snackbarButtonStyle snackbarStyle snackbarTextViewStyle
 styleable SnackbarLayout android_maxWidth actionTextColorAlpha animationMode backgroundOverlayColorAlpha backgroundTint backgroundTintMode elevation maxActionInlineWidth
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme

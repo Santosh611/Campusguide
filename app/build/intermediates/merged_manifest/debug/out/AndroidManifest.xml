@@ -24,7 +24,7 @@
 
     <application
         android:name="androidx.multidex.MultiDexApplication"
-        android:allowBackup="false"
+        android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
@@ -32,8 +32,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.Acctu"
-        android:usesCleartextTraffic="true" >
+        android:theme="@style/Theme.Acctu" >
+        <activity android:name="com.example.acctu.Scannerinfo" />
+        <!-- <activity android:name=".SliderData"></activity> -->
+        <!-- <activity android:name=".SliderAdapter" /> -->
         <activity android:name="com.example.acctu.MapViewDemoActivity" />
         <activity android:name="com.example.acctu.BasicMapDemoActivity" />
         <activity android:name="com.example.acctu.MapsActivity" />

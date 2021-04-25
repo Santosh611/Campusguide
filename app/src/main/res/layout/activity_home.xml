@@ -7,26 +7,57 @@
     android:backgroundTint="@color/cardview_dark_background"
     tools:context=".HomeActivity">
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:hwads="http://schemas.android.com/apk/res-auto"
+    <RelativeLayout
         android:id="@+id/root_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="#050505"
+        tools:layout_editor_absoluteX="-46dp"
+        tools:layout_editor_absoluteY="28dp">
 
         <com.huawei.hms.ads.banner.BannerView
             android:id="@+id/hw_banner_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            hwads:adId="@string/banner_ad_id"
-            hwads:bannerSize="BANNER_SIZE_360_57" />
+            app:adId="@string/banner_ad_id"
+            app:bannerSize="BANNER_SIZE_360_57" />
+
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/slider"
+            android:layout_width="324dp"
+            android:layout_height="124dp"
+            android:layout_alignBottom="@+id/hw_banner_view"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="66dp"
+            android:layout_marginEnd="42dp"
+            android:layout_marginBottom="540dp"
+            app:sliderAnimationDuration="600"
+            app:sliderAutoCycleDirection="back_and_forth"
+            app:sliderIndicatorAnimationDuration="600"
+            app:sliderIndicatorEnabled="true"
+            app:sliderIndicatorGravity="center_horizontal|bottom"
+            app:sliderIndicatorMargin="15dp"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorPadding="3dp"
+            app:sliderIndicatorRadius="2dp"
+            app:sliderIndicatorSelectedColor="#5A5A5A"
+            app:sliderIndicatorUnselectedColor="#FFF"
+            app:sliderScrollTimeInSec="1" />
+
 
     </RelativeLayout>
 
     <TextView
         android:layout_width="556dp"
         android:layout_height="303dp"
+        android:autoText="false"
+        android:background="#020202"
         android:text="Ramakrishnan College of Technology is a private college, situated in Tiruchirappalli in the Tamil Nadu state of India. It imparts behavioural, technical and value-based education to the students in order to empower them. Established in 2010, KRCT is recognized as one of the leading engineering colleges of Tamil Nadu."
+        android:textColor="@color/hiad_90_percent_white"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -34,19 +65,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.931" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/krct_admin_block"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-4dp" />
-
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Scanner"
+        app:backgroundTint="#35DCB4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
@@ -60,6 +84,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:text="Maps"
+        app:backgroundTint="#35DCB4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -70,6 +95,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Location "
+        app:backgroundTint="#35DCB4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

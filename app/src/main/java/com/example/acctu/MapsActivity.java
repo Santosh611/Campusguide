@@ -142,8 +142,9 @@ public class MapsActivity extends AppCompatActivity implements View.OnClickListe
 //            startActivity(intent);
         if (R.id.BasicMap == v.getId()) {
             Log.i(TAG, "onClick: BasicMap");
-            Intent i = new Intent(this, BasicMapDemoActivity.class);
+            Intent i = new Intent(this, MapViewDemoActivity.class);
             startActivity(i);
+            finish();
         }
 //         else if (R.id.MarkerClusteringDemo == v.getId()) {
 //            Log.i(TAG, "onClick: MarkerClusteringDemo");

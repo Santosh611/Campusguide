@@ -4,13 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000000"
     tools:context=".LocationActivity">
 
     <Button
         android:id="@+id/btnstartul"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#090909"
         android:text="@string/start_update_location"
+        app:backgroundTint="#35DCB4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.547"
@@ -23,6 +26,7 @@
         android:layout_width="125dp"
         android:layout_height="38dp"
         android:text="@string/stop_update_location"
+        app:backgroundTint="#35DCB4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,6 +37,7 @@
         android:id="@+id/tresult"
         android:layout_width="119dp"
         android:layout_height="64dp"
+        android:textColor="@color/hiad_90_percent_white"
         android:text="@string/result"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,4 +45,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.598" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="213dp"
+        android:layout_height="107dp"
+        android:text="This will provide you with the Latitude and the Longitude of the specific area you're in !!"
+        android:textColor="@color/hiad_90_percent_white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.838" />
 </androidx.constraintlayout.widget.ConstraintLayout>

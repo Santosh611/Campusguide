@@ -91,9 +91,11 @@ public class LocationActivity extends AppCompatActivity implements View.OnClickL
             case R.id.btnstartul:
                 startupdatelocation();
 
+
                 break;
             case R.id.btnstopul:
                 stopupdatelocation();
+
 
                 break;
 

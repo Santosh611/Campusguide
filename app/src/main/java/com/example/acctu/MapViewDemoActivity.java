@@ -59,7 +59,7 @@ public class MapViewDemoActivity extends AppCompatActivity implements OnMapReady
         Log.d(TAG, "onMapReady: ");
         hMap = map;
         hMap.setMyLocationEnabled(true);
-        hMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(48.893478, 2.334595), 10));
+        hMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(10.929685963333904, 78.73875966897228), 50));
     }
 
     @Override

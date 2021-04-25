@@ -49,19 +49,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-//        btnIdT.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Toast.makeText(MainActivity.this,"Success",Toast.LENGTH_LONG).show();
-//                AccountAuthParams authParams = new AccountAuthParamsHelper(AccountAuthParams.DEFAULT_AUTH_REQUEST_PARAM).setIdToken().createParams();
-//                AccountAuthService service = AccountAuthManager.getService(MainActivity.this, authParams);
-//                startActivityForResult(service.getSignInIntent(), 8888);
-//                Intent intent = new Intent(MainActivity.this, HomeActivity.class);
-//                startActivity(intent);
-//                finish();
-//
-//            }
-//        });
+
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override

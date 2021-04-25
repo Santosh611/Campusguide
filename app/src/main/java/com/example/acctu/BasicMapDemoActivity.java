@@ -27,7 +27,6 @@ public class BasicMapDemoActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(BasicMapDemoActivity.this, MapViewDemoActivity.class);
                 startActivity(intent);
-                finish();
 
             }
         });
