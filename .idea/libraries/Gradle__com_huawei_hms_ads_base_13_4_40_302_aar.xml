@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.huawei.hms:ads-base:13.4.40.302@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/30729aa149b997bb7c28fdbb35d6a753/jetified-ads-base-13.4.40.302/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/30729aa149b997bb7c28fdbb35d6a753/jetified-ads-base-13.4.40.302/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/30729aa149b997bb7c28fdbb35d6a753/jetified-ads-base-13.4.40.302/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

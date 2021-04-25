@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdsActivity">
+    <EditText
+        android:id="@+id/edtNmbrFindNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/txt_enter_number"
+        app:layout_constraintEnd_toStartOf="@+id/edtNmbrFindNumber"
+        app:layout_constraintTop_toTopOf="@+id/edtNmbrFindNumber" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+
+        app:layout_constraintEnd_toStartOf="@+id/txtVwchance"
+        app:layout_constraintTop_toTopOf="@+id/txtVwchance" />
+
+    <TextView
+        android:id="@+id/txtVwchance"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="28dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/edtNmbrFindNumber"
+        app:layout_constraintTop_toBottomOf="@+id/edtNmbrFindNumber" />
+
+    <Button
+        android:id="@+id/btnFindNumber"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="28dp"
+
+        app:layout_constraintEnd_toEndOf="@+id/edtNmbrFindNumber"
+        app:layout_constraintTop_toBottomOf="@+id/txtVwchance" />
+
+    <Button
+        android:id="@+id/btnWatchAdd"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/btnFindNumber"
+        app:layout_constraintTop_toBottomOf="@+id/btnFindNumber" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/consLytBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.huawei.hms.ads.banner.BannerView
+            android:id="@+id/bannerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

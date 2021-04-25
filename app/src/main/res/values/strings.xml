@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Account Kit </string>
+    <string name="my_files">Scanner</string>
+    <string name="shared">Hot Spots</string>
+
+    <string name="openNavDrawer">Navigation Drawer Open</string>
+    <string name="closeNavDrawer">Navigation Drawer Close</string>
+    <string name="explore">Explore</string>
+    <string name="txt_enter_number">Enter Number</string>
+    <string name="banner_ad_id">testw6vs28auh3</string>
+
+    <string name="owner">HUAWEI Developer</string>
+    <string name="copyright_info">Copyright 2020. Huawei Technologies Co., Ltd</string>
+    <string name="status_load_ad_success">Ad loading state: loaded successfully.</string>
+    <string name="status_load_ad_fail">Ad loading state: failed to be loaded. Error code: </string>
+    <string name="status_ad_dismissed">Ad is dismissed.</string>
+    <string name="start_update_location">Start update location</string>
+    <string name="stop_update_location">Stop update location</string>
+    <string name="result">Result</string>
+    <string name="createmapview">createMapView</string>
+</resources>

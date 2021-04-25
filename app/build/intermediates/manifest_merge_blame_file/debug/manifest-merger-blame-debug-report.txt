@@ -1,0 +1,546 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.acctu"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+8-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml
+10    <!-- check network permissions -->
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- check wifi state -->
+11-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Camera permission -->
+12-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:6:5-76
+12-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:6:22-73
+13    <uses-permission android:name="android.permission.CAMERA" /> <!-- File read permission -->
+13-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:7:5-65
+13-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:7:22-62
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:8:5-80
+14-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:8:22-77
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:9:5-81
+15-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:10:5-79
+16-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+17-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:11:5-85
+17-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:11:22-82
+18    <uses-permission android:name="com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA" />
+18-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:12:5-106
+18-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:12:22-103
+19
+20    <!-- HMS-SDK引导升级HMS功能，访问OTA服务器需要网络权限 -->
+21    <uses-permission android:name="android.permission.INTERNET" /> <!-- 如果是安卓8.0，应用编译配置的targetSdkVersion>=26，请务必添加以下权限 -->
+21-->[com.huawei.hms:base:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\dd8e525a186adde594ef79f379730fb6\jetified-base-5.2.0.300\AndroidManifest.xml:10:5-67
+21-->[com.huawei.hms:base:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\dd8e525a186adde594ef79f379730fb6\jetified-base-5.2.0.300\AndroidManifest.xml:10:22-64
+22    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+22-->[com.huawei.hms:availableupdate:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\d17f67cb64df9d8a145c5b0df170862d\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:14:5-83
+22-->[com.huawei.hms:availableupdate:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\d17f67cb64df9d8a145c5b0df170862d\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:14:22-80
+23    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+23-->[com.huawei.hms:ads-splash:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\ca992f0fc4aaf83fbd1d48d62fb64a3a\jetified-ads-splash-13.4.40.302\AndroidManifest.xml:12:5-75
+23-->[com.huawei.hms:ads-splash:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\ca992f0fc4aaf83fbd1d48d62fb64a3a\jetified-ads-splash-13.4.40.302\AndroidManifest.xml:12:22-72
+24
+25    <application
+25-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:14:5-36:19
+26        android:name="androidx.multidex.MultiDexApplication"
+27        android:allowBackup="false"
+27-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:15:9-36
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.3.1] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\e08f6ca07d1a98fec83395c9db69a69d\core-1.3.1\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:16:9-43
+31        android:label="Campus Guide"
+31-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:17:9-37
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:18:9-54
+33        android:supportsRtl="true"
+33-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:19:9-35
+34        android:testOnly="true"
+35        android:theme="@style/Theme.Acctu"
+35-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:20:9-43
+36        android:usesCleartextTraffic="true" >
+36-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:21:9-44
+37        <activity android:name="com.example.acctu.MapViewDemoActivity" />
+37-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:22:9-66
+37-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:22:19-54
+38        <activity android:name="com.example.acctu.BasicMapDemoActivity" />
+38-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:23:9-58
+38-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:23:19-55
+39        <activity android:name="com.example.acctu.MapsActivity" />
+39-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:24:9-50
+39-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:24:19-47
+40        <activity android:name="com.example.acctu.HomeActivity" />
+40-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:25:9-50
+40-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:25:19-47
+41        <activity android:name="com.example.acctu.LocationActivity" />
+41-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:26:9-54
+41-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:26:19-51
+42        <activity android:name="com.example.acctu.ScannerActivity" />
+42-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:27:9-53
+42-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:27:19-50
+43        <activity android:name="com.example.acctu.SplashActivity" >
+43-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:28:9-34:20
+43-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:28:19-49
+44            <intent-filter>
+44-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:29:13-33:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:30:17-69
+45-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:30:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:32:17-77
+47-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:32:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity android:name="com.example.acctu.MainActivity" />
+50-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:35:9-50
+50-->C:\Users\santo\AndroidStudioProjects\AccountkitHMS\app\src\main\AndroidManifest.xml:35:19-47
+51
+52        <meta-data
+52-->[com.huawei.hms:scan:1.1.3.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\e00c9a5ce43c2925e63eccbab21335f0\jetified-scan-1.1.3.301\AndroidManifest.xml:12:9-14:39
+53            android:name="huawei_module_scankit_local"
+53-->[com.huawei.hms:scan:1.1.3.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\e00c9a5ce43c2925e63eccbab21335f0\jetified-scan-1.1.3.301\AndroidManifest.xml:13:13-55
+54            android:value="1030100" />
+54-->[com.huawei.hms:scan:1.1.3.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\e00c9a5ce43c2925e63eccbab21335f0\jetified-scan-1.1.3.301\AndroidManifest.xml:14:13-36
+55        <meta-data
+55-->[com.huawei.hms:scan:1.1.3.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\e00c9a5ce43c2925e63eccbab21335f0\jetified-scan-1.1.3.301\AndroidManifest.xml:15:9-17:46
+56            android:name="huawei_module_scankit_sdk_version"
+56-->[com.huawei.hms:scan:1.1.3.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\e00c9a5ce43c2925e63eccbab21335f0\jetified-scan-1.1.3.301\AndroidManifest.xml:16:13-61
+57            android:value="scan:1.1.3.301" />
+57-->[com.huawei.hms:scan:1.1.3.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\e00c9a5ce43c2925e63eccbab21335f0\jetified-scan-1.1.3.301\AndroidManifest.xml:17:13-43
+58        <meta-data
+58-->[com.huawei.hms:scan:1.1.3.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\e00c9a5ce43c2925e63eccbab21335f0\jetified-scan-1.1.3.301\AndroidManifest.xml:18:9-20:46
+59            android:name="com.huawei.hms.client.service.name:scan"
+59-->[com.huawei.hms:scan:1.1.3.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\e00c9a5ce43c2925e63eccbab21335f0\jetified-scan-1.1.3.301\AndroidManifest.xml:19:13-67
+60            android:value="scan:1.1.3.301" />
+60-->[com.huawei.hms:scan:1.1.3.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\e00c9a5ce43c2925e63eccbab21335f0\jetified-scan-1.1.3.301\AndroidManifest.xml:20:13-43
+61        <meta-data
+61-->[com.huawei.hms:scan:1.1.3.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\e00c9a5ce43c2925e63eccbab21335f0\jetified-scan-1.1.3.301\AndroidManifest.xml:21:9-23:33
+62            android:name="com.huawei.hms.min_api_level:scan:huawei_module_scankit"
+62-->[com.huawei.hms:scan:1.1.3.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\e00c9a5ce43c2925e63eccbab21335f0\jetified-scan-1.1.3.301\AndroidManifest.xml:22:13-83
+63            android:value="1" />
+63-->[com.huawei.hms:scan:1.1.3.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\e00c9a5ce43c2925e63eccbab21335f0\jetified-scan-1.1.3.301\AndroidManifest.xml:23:13-30
+64        <meta-data
+64-->[com.huawei.hms:scan:1.1.3.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\e00c9a5ce43c2925e63eccbab21335f0\jetified-scan-1.1.3.301\AndroidManifest.xml:24:9-26:33
+65            android:name="com.huawei.hms.min_api_level:scan:hmscore"
+65-->[com.huawei.hms:scan:1.1.3.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\e00c9a5ce43c2925e63eccbab21335f0\jetified-scan-1.1.3.301\AndroidManifest.xml:25:13-69
+66            android:value="1" />
+66-->[com.huawei.hms:scan:1.1.3.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\e00c9a5ce43c2925e63eccbab21335f0\jetified-scan-1.1.3.301\AndroidManifest.xml:26:13-30
+67
+68        <activity
+68-->[com.huawei.hms:scan:1.1.3.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\e00c9a5ce43c2925e63eccbab21335f0\jetified-scan-1.1.3.301\AndroidManifest.xml:28:9-30:52
+69            android:name="com.huawei.hms.hmsscankit.ScanKitActivity"
+69-->[com.huawei.hms:scan:1.1.3.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\e00c9a5ce43c2925e63eccbab21335f0\jetified-scan-1.1.3.301\AndroidManifest.xml:29:13-69
+70            android:screenOrientation="portrait" />
+70-->[com.huawei.hms:scan:1.1.3.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\e00c9a5ce43c2925e63eccbab21335f0\jetified-scan-1.1.3.301\AndroidManifest.xml:30:13-49
+71        <activity
+71-->[com.huawei.hms:hwid:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\c54bb39378f7b2f0a2f2ea35a04e5f85\jetified-hwid-5.2.0.300\AndroidManifest.xml:10:9-16:20
+72            android:name="com.huawei.hms.hwid.internal.ui.activity.HwIdSignInHubActivity"
+72-->[com.huawei.hms:hwid:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\c54bb39378f7b2f0a2f2ea35a04e5f85\jetified-hwid-5.2.0.300\AndroidManifest.xml:11:13-90
+73            android:configChanges="fontScale|uiMode"
+73-->[com.huawei.hms:hwid:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\c54bb39378f7b2f0a2f2ea35a04e5f85\jetified-hwid-5.2.0.300\AndroidManifest.xml:12:13-53
+74            android:excludeFromRecents="true"
+74-->[com.huawei.hms:hwid:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\c54bb39378f7b2f0a2f2ea35a04e5f85\jetified-hwid-5.2.0.300\AndroidManifest.xml:13:13-46
+75            android:exported="false"
+75-->[com.huawei.hms:hwid:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\c54bb39378f7b2f0a2f2ea35a04e5f85\jetified-hwid-5.2.0.300\AndroidManifest.xml:14:13-37
+76            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+76-->[com.huawei.hms:hwid:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\c54bb39378f7b2f0a2f2ea35a04e5f85\jetified-hwid-5.2.0.300\AndroidManifest.xml:15:13-72
+77        </activity>
+78        <activity
+78-->[com.huawei.hms:hwid:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\c54bb39378f7b2f0a2f2ea35a04e5f85\jetified-hwid-5.2.0.300\AndroidManifest.xml:17:9-22:20
+79            android:name="com.huawei.hms.account.internal.ui.activity.AccountSignInHubActivity"
+79-->[com.huawei.hms:hwid:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\c54bb39378f7b2f0a2f2ea35a04e5f85\jetified-hwid-5.2.0.300\AndroidManifest.xml:18:13-96
+80            android:excludeFromRecents="true"
+80-->[com.huawei.hms:hwid:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\c54bb39378f7b2f0a2f2ea35a04e5f85\jetified-hwid-5.2.0.300\AndroidManifest.xml:19:13-46
+81            android:exported="false"
+81-->[com.huawei.hms:hwid:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\c54bb39378f7b2f0a2f2ea35a04e5f85\jetified-hwid-5.2.0.300\AndroidManifest.xml:20:13-37
+82            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+82-->[com.huawei.hms:hwid:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\c54bb39378f7b2f0a2f2ea35a04e5f85\jetified-hwid-5.2.0.300\AndroidManifest.xml:21:13-72
+83        </activity> <!-- 切记同步修改 HuaweiIdAuthInternalConstant.HMS_SDK_VERSION -->
+84        <meta-data
+84-->[com.huawei.hms:hwid:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\c54bb39378f7b2f0a2f2ea35a04e5f85\jetified-hwid-5.2.0.300\AndroidManifest.xml:25:9-27:46
+85            android:name="com.huawei.hms.client.service.name:hwid"
+85-->[com.huawei.hms:hwid:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\c54bb39378f7b2f0a2f2ea35a04e5f85\jetified-hwid-5.2.0.300\AndroidManifest.xml:26:13-67
+86            android:value="hwid:5.2.0.300" />
+86-->[com.huawei.hms:hwid:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\c54bb39378f7b2f0a2f2ea35a04e5f85\jetified-hwid-5.2.0.300\AndroidManifest.xml:27:13-43
+87        <meta-data
+87-->[com.huawei.hms:hwid:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\c54bb39378f7b2f0a2f2ea35a04e5f85\jetified-hwid-5.2.0.300\AndroidManifest.xml:28:9-30:33
+88            android:name="com.huawei.hms.min_api_level:hwid:hwid"
+88-->[com.huawei.hms:hwid:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\c54bb39378f7b2f0a2f2ea35a04e5f85\jetified-hwid-5.2.0.300\AndroidManifest.xml:29:13-66
+89            android:value="1" /> <!-- 声明Kit SDK的名称和版本号 -->
+89-->[com.huawei.hms:hwid:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\c54bb39378f7b2f0a2f2ea35a04e5f85\jetified-hwid-5.2.0.300\AndroidManifest.xml:30:13-30
+90        <!-- Declare the SDK name and version -->
+91        <meta-data
+91-->[com.huawei.hms:location:5.0.5.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\8249622d1df5c2e11a91fd235c9c43b7\jetified-location-5.0.5.300\AndroidManifest.xml:15:9-17:52
+92            android:name="com.huawei.hms.client.service.name:location"
+92-->[com.huawei.hms:location:5.0.5.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\8249622d1df5c2e11a91fd235c9c43b7\jetified-location-5.0.5.300\AndroidManifest.xml:16:13-71
+93            android:value="location:SDK-VERSION" /> <!-- 声明对Kit服务依赖的最低API Level -->
+93-->[com.huawei.hms:location:5.0.5.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\8249622d1df5c2e11a91fd235c9c43b7\jetified-location-5.0.5.300\AndroidManifest.xml:17:13-49
+94        <!-- Declare minSdkVersion required for using the kit -->
+95        <meta-data
+95-->[com.huawei.hms:location:5.0.5.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\8249622d1df5c2e11a91fd235c9c43b7\jetified-location-5.0.5.300\AndroidManifest.xml:20:9-22:33
+96            android:name="com.huawei.hms.min_api_level:location:location"
+96-->[com.huawei.hms:location:5.0.5.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\8249622d1df5c2e11a91fd235c9c43b7\jetified-location-5.0.5.300\AndroidManifest.xml:21:13-74
+97            android:value="1" /> <!-- 关掉打点上报初始化 -->
+97-->[com.huawei.hms:location:5.0.5.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\8249622d1df5c2e11a91fd235c9c43b7\jetified-location-5.0.5.300\AndroidManifest.xml:22:13-30
+98        <!-- Disable reporting of O&M logs -->
+99        <meta-data
+99-->[com.huawei.hms:location:5.0.5.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\8249622d1df5c2e11a91fd235c9c43b7\jetified-location-5.0.5.300\AndroidManifest.xml:25:9-27:36
+100            android:name="com.huawei.hms.client.bi.setting"
+100-->[com.huawei.hms:location:5.0.5.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\8249622d1df5c2e11a91fd235c9c43b7\jetified-location-5.0.5.300\AndroidManifest.xml:26:13-60
+101            android:value="true" />
+101-->[com.huawei.hms:location:5.0.5.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\8249622d1df5c2e11a91fd235c9c43b7\jetified-location-5.0.5.300\AndroidManifest.xml:27:13-33
+102        <meta-data
+102-->[com.huawei.hms:maps:5.2.0.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\08d730c130268ef067e51361bc557aba\jetified-maps-5.2.0.301\AndroidManifest.xml:12:9-14:41
+103            android:name="com.huawei.hms.map.version"
+103-->[com.huawei.hms:maps:5.2.0.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\08d730c130268ef067e51361bc557aba\jetified-maps-5.2.0.301\AndroidManifest.xml:13:13-54
+104            android:value="5.0.1.300" />
+104-->[com.huawei.hms:maps:5.2.0.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\08d730c130268ef067e51361bc557aba\jetified-maps-5.2.0.301\AndroidManifest.xml:14:13-38
+105        <meta-data
+105-->[com.huawei.hms:maps:5.2.0.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\08d730c130268ef067e51361bc557aba\jetified-maps-5.2.0.301\AndroidManifest.xml:15:9-17:46
+106            android:name="com.huawei.hms.client.service.name:maps"
+106-->[com.huawei.hms:maps:5.2.0.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\08d730c130268ef067e51361bc557aba\jetified-maps-5.2.0.301\AndroidManifest.xml:16:13-67
+107            android:value="maps:5.2.0.301" />
+107-->[com.huawei.hms:maps:5.2.0.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\08d730c130268ef067e51361bc557aba\jetified-maps-5.2.0.301\AndroidManifest.xml:17:13-43
+108        <meta-data
+108-->[com.huawei.hms:maps:5.2.0.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\08d730c130268ef067e51361bc557aba\jetified-maps-5.2.0.301\AndroidManifest.xml:18:9-20:33
+109            android:name="com.huawei.hms.min_api_level:maps:huawei_module_maps"
+109-->[com.huawei.hms:maps:5.2.0.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\08d730c130268ef067e51361bc557aba\jetified-maps-5.2.0.301\AndroidManifest.xml:19:13-80
+110            android:value="7" />
+110-->[com.huawei.hms:maps:5.2.0.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\08d730c130268ef067e51361bc557aba\jetified-maps-5.2.0.301\AndroidManifest.xml:20:13-30
+111        <meta-data
+111-->[com.huawei.hms:maps:5.2.0.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\08d730c130268ef067e51361bc557aba\jetified-maps-5.2.0.301\AndroidManifest.xml:21:9-23:33
+112            android:name="com.huawei.hms.min_api_level:maps:huawei_module_huaweimaps"
+112-->[com.huawei.hms:maps:5.2.0.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\08d730c130268ef067e51361bc557aba\jetified-maps-5.2.0.301\AndroidManifest.xml:22:13-86
+113            android:value="7" />
+113-->[com.huawei.hms:maps:5.2.0.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\08d730c130268ef067e51361bc557aba\jetified-maps-5.2.0.301\AndroidManifest.xml:23:13-30
+114        <meta-data
+114-->[com.huawei.hms:ads-lite:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\f975a0f85ef003df1151965894928f49\jetified-ads-lite-13.4.40.302\AndroidManifest.xml:13:9-15:52
+115            android:name="com.huawei.hms.client.service.name:ads-lite"
+115-->[com.huawei.hms:ads-lite:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\f975a0f85ef003df1151965894928f49\jetified-ads-lite-13.4.40.302\AndroidManifest.xml:14:13-71
+116            android:value="ads-lite:13.4.40.302" />
+116-->[com.huawei.hms:ads-lite:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\f975a0f85ef003df1151965894928f49\jetified-ads-lite-13.4.40.302\AndroidManifest.xml:15:13-49
+117        <meta-data
+117-->[com.huawei.hms:ml-computer-camera-inner:1.0.3.340] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\859a6360f326b6d42c40a7ec6ac332fe\jetified-ml-computer-camera-inner-1.0.3.340\AndroidManifest.xml:12:9-14:66
+118            android:name="com.huawei.hms.client.service.name:ml-computer-camera-inner"
+118-->[com.huawei.hms:ml-computer-camera-inner:1.0.3.340] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\859a6360f326b6d42c40a7ec6ac332fe\jetified-ml-computer-camera-inner-1.0.3.340\AndroidManifest.xml:13:13-87
+119            android:value="ml-computer-camera-inner:1.0.3.340" />
+119-->[com.huawei.hms:ml-computer-camera-inner:1.0.3.340] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\859a6360f326b6d42c40a7ec6ac332fe\jetified-ml-computer-camera-inner-1.0.3.340\AndroidManifest.xml:14:13-63
+120        <meta-data
+120-->[com.huawei.hms:ml-computer-ha-inner:1.0.3.340] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\6ca161ea046fd49656fcabf4413f6de3\jetified-ml-computer-ha-inner-1.0.3.340\AndroidManifest.xml:12:9-14:62
+121            android:name="com.huawei.hms.client.service.name:ml-computer-ha-inner"
+121-->[com.huawei.hms:ml-computer-ha-inner:1.0.3.340] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\6ca161ea046fd49656fcabf4413f6de3\jetified-ml-computer-ha-inner-1.0.3.340\AndroidManifest.xml:13:13-83
+122            android:value="ml-computer-ha-inner:1.0.3.340" /> <!-- 为后续统计第三方app集成了哪些Kit，因此需要Kit在自己的AndroidManifest.xml文件中定义业务标签元数据 -->
+122-->[com.huawei.hms:ml-computer-ha-inner:1.0.3.340] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\6ca161ea046fd49656fcabf4413f6de3\jetified-ml-computer-ha-inner-1.0.3.340\AndroidManifest.xml:14:13-59
+123        <meta-data
+123-->[com.huawei.hms:base:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\dd8e525a186adde594ef79f379730fb6\jetified-base-5.2.0.300\AndroidManifest.xml:15:9-17:46
+124            android:name="com.huawei.hms.client.service.name:base"
+124-->[com.huawei.hms:base:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\dd8e525a186adde594ef79f379730fb6\jetified-base-5.2.0.300\AndroidManifest.xml:16:13-67
+125            android:value="base:5.2.0.300" /> <!-- SDK依赖的HMSCore的最低api level元数据 -->
+125-->[com.huawei.hms:base:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\dd8e525a186adde594ef79f379730fb6\jetified-base-5.2.0.300\AndroidManifest.xml:17:13-43
+126        <meta-data
+126-->[com.huawei.hms:base:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\dd8e525a186adde594ef79f379730fb6\jetified-base-5.2.0.300\AndroidManifest.xml:20:9-22:33
+127            android:name="com.huawei.hms.min_api_level:base:hmscore"
+127-->[com.huawei.hms:base:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\dd8e525a186adde594ef79f379730fb6\jetified-base-5.2.0.300\AndroidManifest.xml:21:13-69
+128            android:value="1" /> <!-- 用于判断是否集成了本lib -->
+128-->[com.huawei.hms:base:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\dd8e525a186adde594ef79f379730fb6\jetified-base-5.2.0.300\AndroidManifest.xml:22:13-30
+129        <meta-data
+129-->[com.huawei.hms:availableupdate:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\d17f67cb64df9d8a145c5b0df170862d\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:21:9-23:35
+130            android:name="availableLoaded"
+130-->[com.huawei.hms:availableupdate:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\d17f67cb64df9d8a145c5b0df170862d\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:22:13-43
+131            android:value="yes" />
+131-->[com.huawei.hms:availableupdate:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\d17f67cb64df9d8a145c5b0df170862d\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:23:13-32
+132
+133        <provider
+133-->[com.huawei.hms:availableupdate:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\d17f67cb64df9d8a145c5b0df170862d\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:25:9-30:20
+134            android:name="com.huawei.hms.update.provider.UpdateProvider"
+134-->[com.huawei.hms:availableupdate:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\d17f67cb64df9d8a145c5b0df170862d\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:26:13-73
+135            android:authorities="com.example.acctu.hms.update.provider"
+135-->[com.huawei.hms:availableupdate:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\d17f67cb64df9d8a145c5b0df170862d\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:27:13-71
+136            android:exported="false"
+136-->[com.huawei.hms:availableupdate:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\d17f67cb64df9d8a145c5b0df170862d\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:28:13-37
+137            android:grantUriPermissions="true" >
+137-->[com.huawei.hms:availableupdate:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\d17f67cb64df9d8a145c5b0df170862d\jetified-availableupdate-5.2.0.300\AndroidManifest.xml:29:13-47
+138        </provider>
+139
+140        <activity
+140-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:21:9-29:20
+141            android:name="com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"
+141-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:22:13-84
+142            android:configChanges="orientation|screenSize"
+142-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:23:13-59
+143            android:exported="false"
+143-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:24:13-37
+144            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+144-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:25:13-72
+145            <meta-data
+145-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:26:13-28:88
+146                android:name="hwc-theme"
+146-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:27:17-41
+147                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+147-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:28:17-85
+148        </activity>
+149        <activity
+149-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:30:9-38:20
+150            android:name="com.huawei.updatesdk.support.pm.PackageInstallerActivity"
+150-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:31:13-84
+151            android:configChanges="orientation|keyboardHidden|screenSize"
+151-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:32:13-74
+152            android:exported="false"
+152-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:33:13-37
+153            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+153-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:34:13-72
+154            <meta-data
+154-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:26:13-28:88
+155                android:name="hwc-theme"
+155-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:27:17-41
+156                android:value="androidhwext:style/Theme.Emui.Translucent" />
+156-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:28:17-85
+157        </activity>
+158
+159        <provider
+159-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:40:9-45:20
+160            android:name="com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider"
+160-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:41:13-83
+161            android:authorities="com.example.acctu.updateSdk.fileProvider"
+161-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:42:13-74
+162            android:exported="false"
+162-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:43:13-37
+163            android:grantUriPermissions="true" >
+163-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:44:13-47
+164        </provider>
+165
+166        <meta-data
+166-->[com.huawei.hms:dynamic-api:1.0.15.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\311744e6bb9984c29e0eeac66ff6133f\jetified-dynamic-api-1.0.15.302\AndroidManifest.xml:12:9-14:54
+167            android:name="com.huawei.hms.client.service.name:dynamic-api"
+167-->[com.huawei.hms:dynamic-api:1.0.15.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\311744e6bb9984c29e0eeac66ff6133f\jetified-dynamic-api-1.0.15.302\AndroidManifest.xml:13:13-74
+168            android:value="dynamic-api:1.0.15.302" />
+168-->[com.huawei.hms:dynamic-api:1.0.15.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\311744e6bb9984c29e0eeac66ff6133f\jetified-dynamic-api-1.0.15.302\AndroidManifest.xml:14:13-51
+169        <meta-data
+169-->[com.huawei.hms:dynamic-api:1.0.15.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\311744e6bb9984c29e0eeac66ff6133f\jetified-dynamic-api-1.0.15.302\AndroidManifest.xml:15:9-17:33
+170            android:name="com.huawei.hms.min_api_level:dynamic-api:huawei_module_dynamicloader"
+170-->[com.huawei.hms:dynamic-api:1.0.15.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\311744e6bb9984c29e0eeac66ff6133f\jetified-dynamic-api-1.0.15.302\AndroidManifest.xml:16:13-96
+171            android:value="4" />
+171-->[com.huawei.hms:dynamic-api:1.0.15.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\311744e6bb9984c29e0eeac66ff6133f\jetified-dynamic-api-1.0.15.302\AndroidManifest.xml:17:13-30
+172
+173        <provider
+173-->[com.huawei.agconnect:agconnect-core:1.4.2.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\e61cf499baf70d68c1618df86c4b712e\jetified-agconnect-core-1.4.2.300\AndroidManifest.xml:11:9-14:40
+174            android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"
+174-->[com.huawei.agconnect:agconnect-core:1.4.2.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\e61cf499baf70d68c1618df86c4b712e\jetified-agconnect-core-1.4.2.300\AndroidManifest.xml:12:13-90
+175            android:authorities="com.example.acctu.AGCInitializeProvider"
+175-->[com.huawei.agconnect:agconnect-core:1.4.2.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\e61cf499baf70d68c1618df86c4b712e\jetified-agconnect-core-1.4.2.300\AndroidManifest.xml:13:13-73
+176            android:exported="false" />
+176-->[com.huawei.agconnect:agconnect-core:1.4.2.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\e61cf499baf70d68c1618df86c4b712e\jetified-agconnect-core-1.4.2.300\AndroidManifest.xml:14:13-37
+177
+178        <service
+178-->[com.huawei.agconnect:agconnect-core:1.4.2.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\e61cf499baf70d68c1618df86c4b712e\jetified-agconnect-core-1.4.2.300\AndroidManifest.xml:16:9-18:40
+179            android:name="com.huawei.agconnect.core.ServiceDiscovery"
+179-->[com.huawei.agconnect:agconnect-core:1.4.2.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\e61cf499baf70d68c1618df86c4b712e\jetified-agconnect-core-1.4.2.300\AndroidManifest.xml:17:13-70
+180            android:exported="false" />
+180-->[com.huawei.agconnect:agconnect-core:1.4.2.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\e61cf499baf70d68c1618df86c4b712e\jetified-agconnect-core-1.4.2.300\AndroidManifest.xml:18:13-37
+181
+182        <meta-data
+182-->[com.huawei.hms:ml-computer-vision-base:1.0.0.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\404f63f86bbfd67a15c1232ef04bae8e\jetified-ml-computer-vision-base-1.0.0.301\AndroidManifest.xml:14:9-16:65
+183            android:name="com.huawei.hms.client.service.name:ml-computer-vision-base"
+183-->[com.huawei.hms:ml-computer-vision-base:1.0.0.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\404f63f86bbfd67a15c1232ef04bae8e\jetified-ml-computer-vision-base-1.0.0.301\AndroidManifest.xml:15:13-86
+184            android:value="ml-computer-vision-base:1.0.0.301" />
+184-->[com.huawei.hms:ml-computer-vision-base:1.0.0.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\404f63f86bbfd67a15c1232ef04bae8e\jetified-ml-computer-vision-base-1.0.0.301\AndroidManifest.xml:16:13-62
+185
+186        <provider
+186-->[com.huawei.hms:ml-computer-vision-base:1.0.0.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\404f63f86bbfd67a15c1232ef04bae8e\jetified-ml-computer-vision-base-1.0.0.301\AndroidManifest.xml:18:9-21:40
+187            android:name="com.huawei.hms.mlsdk.common.Provider.MLInitializerProvider"
+187-->[com.huawei.hms:ml-computer-vision-base:1.0.0.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\404f63f86bbfd67a15c1232ef04bae8e\jetified-ml-computer-vision-base-1.0.0.301\AndroidManifest.xml:19:13-86
+188            android:authorities="com.example.acctu.MLInitializerProvider"
+188-->[com.huawei.hms:ml-computer-vision-base:1.0.0.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\404f63f86bbfd67a15c1232ef04bae8e\jetified-ml-computer-vision-base-1.0.0.301\AndroidManifest.xml:20:13-73
+189            android:exported="false" />
+189-->[com.huawei.hms:ml-computer-vision-base:1.0.0.301] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\404f63f86bbfd67a15c1232ef04bae8e\jetified-ml-computer-vision-base-1.0.0.301\AndroidManifest.xml:21:13-37
+190
+191        <meta-data
+191-->[com.huawei.hms:ads-banner:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\9161e79e293f920217a4354051702f12\jetified-ads-banner-13.4.40.302\AndroidManifest.xml:13:9-15:54
+192            android:name="com.huawei.hms.client.service.name:ads-banner"
+192-->[com.huawei.hms:ads-banner:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\9161e79e293f920217a4354051702f12\jetified-ads-banner-13.4.40.302\AndroidManifest.xml:14:13-73
+193            android:value="ads-banner:13.4.40.302" />
+193-->[com.huawei.hms:ads-banner:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\9161e79e293f920217a4354051702f12\jetified-ads-banner-13.4.40.302\AndroidManifest.xml:15:13-51
+194        <meta-data
+194-->[com.huawei.hms:ads-template:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\aff3be3b195216110b186f6c7eff9636\jetified-ads-template-13.4.40.302\AndroidManifest.xml:13:9-15:56
+195            android:name="com.huawei.hms.client.service.name:ads-template"
+195-->[com.huawei.hms:ads-template:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\aff3be3b195216110b186f6c7eff9636\jetified-ads-template-13.4.40.302\AndroidManifest.xml:14:13-75
+196            android:value="ads-template:13.4.40.302" />
+196-->[com.huawei.hms:ads-template:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\aff3be3b195216110b186f6c7eff9636\jetified-ads-template-13.4.40.302\AndroidManifest.xml:15:13-53
+197        <meta-data
+197-->[com.huawei.hms:ads-native:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\362a6351f3b5edd05252d69bc4fd5f5a\jetified-ads-native-13.4.40.302\AndroidManifest.xml:13:9-15:54
+198            android:name="com.huawei.hms.client.service.name:ads-native"
+198-->[com.huawei.hms:ads-native:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\362a6351f3b5edd05252d69bc4fd5f5a\jetified-ads-native-13.4.40.302\AndroidManifest.xml:14:13-73
+199            android:value="ads-native:13.4.40.302" />
+199-->[com.huawei.hms:ads-native:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\362a6351f3b5edd05252d69bc4fd5f5a\jetified-ads-native-13.4.40.302\AndroidManifest.xml:15:13-51
+200        <meta-data
+200-->[com.huawei.hms:ads-interstitial:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\0739c9fdfb6f7264404cd2ea64e251c8\jetified-ads-interstitial-13.4.40.302\AndroidManifest.xml:13:9-15:60
+201            android:name="com.huawei.hms.client.service.name:ads-interstitial"
+201-->[com.huawei.hms:ads-interstitial:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\0739c9fdfb6f7264404cd2ea64e251c8\jetified-ads-interstitial-13.4.40.302\AndroidManifest.xml:14:13-79
+202            android:value="ads-interstitial:13.4.40.302" />
+202-->[com.huawei.hms:ads-interstitial:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\0739c9fdfb6f7264404cd2ea64e251c8\jetified-ads-interstitial-13.4.40.302\AndroidManifest.xml:15:13-57
+203        <meta-data
+203-->[com.huawei.hms:ads-reward:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\c0c7a3133dd8437f7f97b560959f6cdb\jetified-ads-reward-13.4.40.302\AndroidManifest.xml:13:9-15:54
+204            android:name="com.huawei.hms.client.service.name:ads-reward"
+204-->[com.huawei.hms:ads-reward:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\c0c7a3133dd8437f7f97b560959f6cdb\jetified-ads-reward-13.4.40.302\AndroidManifest.xml:14:13-73
+205            android:value="ads-reward:13.4.40.302" />
+205-->[com.huawei.hms:ads-reward:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\c0c7a3133dd8437f7f97b560959f6cdb\jetified-ads-reward-13.4.40.302\AndroidManifest.xml:15:13-51
+206        <meta-data
+206-->[com.huawei.hms:ads-lang:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\83a3789e58a70016ba22384878a73374\jetified-ads-lang-13.4.40.302\AndroidManifest.xml:13:9-15:52
+207            android:name="com.huawei.hms.client.service.name:ads-lang"
+207-->[com.huawei.hms:ads-lang:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\83a3789e58a70016ba22384878a73374\jetified-ads-lang-13.4.40.302\AndroidManifest.xml:14:13-71
+208            android:value="ads-lang:13.4.40.302" />
+208-->[com.huawei.hms:ads-lang:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\83a3789e58a70016ba22384878a73374\jetified-ads-lang-13.4.40.302\AndroidManifest.xml:15:13-49
+209        <meta-data
+209-->[com.huawei.hms:ads-splash:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\ca992f0fc4aaf83fbd1d48d62fb64a3a\jetified-ads-splash-13.4.40.302\AndroidManifest.xml:15:9-17:54
+210            android:name="com.huawei.hms.client.service.name:ads-splash"
+210-->[com.huawei.hms:ads-splash:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\ca992f0fc4aaf83fbd1d48d62fb64a3a\jetified-ads-splash-13.4.40.302\AndroidManifest.xml:16:13-73
+211            android:value="ads-splash:13.4.40.302" />
+211-->[com.huawei.hms:ads-splash:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\ca992f0fc4aaf83fbd1d48d62fb64a3a\jetified-ads-splash-13.4.40.302\AndroidManifest.xml:17:13-51
+212        <meta-data
+212-->[com.huawei.hms:ads-instream:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\730e45aa3beba709b9253120c7707b3e\jetified-ads-instream-13.4.40.302\AndroidManifest.xml:13:9-15:56
+213            android:name="com.huawei.hms.client.service.name:ads-instream"
+213-->[com.huawei.hms:ads-instream:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\730e45aa3beba709b9253120c7707b3e\jetified-ads-instream-13.4.40.302\AndroidManifest.xml:14:13-75
+214            android:value="ads-instream:13.4.40.302" />
+214-->[com.huawei.hms:ads-instream:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\730e45aa3beba709b9253120c7707b3e\jetified-ads-instream-13.4.40.302\AndroidManifest.xml:15:13-53
+215
+216        <activity
+216-->[com.huawei.hms:ui:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\b552bd3780a1d03b3698c8cf79909ed9\jetified-ui-5.2.0.300\AndroidManifest.xml:10:9-21:20
+217            android:name="com.huawei.hms.activity.BridgeActivity"
+217-->[com.huawei.hms:ui:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\b552bd3780a1d03b3698c8cf79909ed9\jetified-ui-5.2.0.300\AndroidManifest.xml:11:13-66
+218            android:configChanges="orientation|locale|layoutDirection|fontScale|screenSize|smallestScreenSize|screenLayout|uiMode"
+218-->[com.huawei.hms:ui:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\b552bd3780a1d03b3698c8cf79909ed9\jetified-ui-5.2.0.300\AndroidManifest.xml:12:13-131
+219            android:excludeFromRecents="true"
+219-->[com.huawei.hms:ui:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\b552bd3780a1d03b3698c8cf79909ed9\jetified-ui-5.2.0.300\AndroidManifest.xml:13:13-46
+220            android:exported="false"
+220-->[com.huawei.hms:ui:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\b552bd3780a1d03b3698c8cf79909ed9\jetified-ui-5.2.0.300\AndroidManifest.xml:14:13-37
+221            android:hardwareAccelerated="true"
+221-->[com.huawei.hms:ui:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\b552bd3780a1d03b3698c8cf79909ed9\jetified-ui-5.2.0.300\AndroidManifest.xml:15:13-47
+222            android:screenOrientation="behind"
+222-->[com.huawei.hms:ui:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\b552bd3780a1d03b3698c8cf79909ed9\jetified-ui-5.2.0.300\AndroidManifest.xml:16:13-47
+223            android:theme="@android:style/Theme.Translucent" >
+223-->[com.huawei.hms:ui:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\b552bd3780a1d03b3698c8cf79909ed9\jetified-ui-5.2.0.300\AndroidManifest.xml:17:13-61
+224            <meta-data
+224-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:26:13-28:88
+225                android:name="hwc-theme"
+225-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:27:17-41
+226                android:value="androidhwext:style/Theme.Emui.Translucent" />
+226-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:28:17-85
+227        </activity>
+228        <activity
+228-->[com.huawei.hms:ui:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\b552bd3780a1d03b3698c8cf79909ed9\jetified-ui-5.2.0.300\AndroidManifest.xml:22:9-26:20
+229            android:name="com.huawei.hms.activity.EnableServiceActivity"
+229-->[com.huawei.hms:ui:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\b552bd3780a1d03b3698c8cf79909ed9\jetified-ui-5.2.0.300\AndroidManifest.xml:23:13-73
+230            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|screenLayout"
+230-->[com.huawei.hms:ui:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\b552bd3780a1d03b3698c8cf79909ed9\jetified-ui-5.2.0.300\AndroidManifest.xml:24:13-106
+231            android:exported="false" >
+231-->[com.huawei.hms:ui:5.2.0.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\b552bd3780a1d03b3698c8cf79909ed9\jetified-ui-5.2.0.300\AndroidManifest.xml:25:13-37
+232        </activity>
+233
+234        <meta-data
+234-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:17:9-19:52
+235            android:name="com.huawei.hms.client.service.name:ads-base"
+235-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:18:13-71
+236            android:value="ads-base:13.4.40.302" />
+236-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:19:13-49
+237
+238        <activity
+238-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:21:9-39:20
+239            android:name="com.huawei.openalliance.ad.activity.PPSLauncherActivity"
+239-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:22:13-83
+240            android:exported="true"
+240-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:23:13-36
+241            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+241-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:24:13-72
+242            <intent-filter>
+242-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:25:13-34:29
+243                <action android:name="android.intent.action.VIEW" />
+243-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:26:17-69
+243-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:26:25-66
+244
+245                <category android:name="android.intent.category.DEFAULT" />
+245-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:28:17-76
+245-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:28:27-73
+246                <category android:name="android.intent.category.BROWSABLE" />
+246-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:29:17-78
+246-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:29:27-75
+247
+248                <data
+248-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:31:17-33:46
+249                    android:host="com.example.acctu"
+249-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:32:21-52
+250                    android:scheme="hwpps" />
+250-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:33:21-43
+251            </intent-filter>
+252
+253            <meta-data
+253-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:26:13-28:88
+254                android:name="hwc-theme"
+254-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:27:17-41
+255                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+255-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:28:17-85
+256        </activity>
+257        <activity
+257-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:40:9-47:20
+258            android:name="com.huawei.openalliance.ad.activity.PPSBridgeActivity"
+258-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:41:13-81
+259            android:exported="false"
+259-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:42:13-37
+260            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+260-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:43:13-72
+261            <meta-data
+261-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:26:13-28:88
+262                android:name="hwc-theme"
+262-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:27:17-41
+263                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+263-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:28:17-85
+264        </activity>
+265        <activity
+265-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:48:9-55:20
+266            android:name="com.huawei.openalliance.ad.activity.PPSNotificationActivity"
+266-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:49:13-87
+267            android:exported="false"
+267-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:50:13-37
+268            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+268-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:51:13-72
+269            <meta-data
+269-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:26:13-28:88
+270                android:name="hwc-theme"
+270-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:27:17-41
+271                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+271-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:28:17-85
+272        </activity>
+273        <activity
+273-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:56:9-64:20
+274            android:name="com.huawei.openalliance.ad.activity.AgProtocolActivity"
+274-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:57:13-82
+275            android:configChanges="orientation|screenSize"
+275-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:58:13-59
+276            android:exported="false"
+276-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:59:13-37
+277            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+277-->[com.huawei.hms:ads-base:13.4.40.302] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\30729aa149b997bb7c28fdbb35d6a753\jetified-ads-base-13.4.40.302\AndroidManifest.xml:60:13-72
+278            <meta-data
+278-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:26:13-28:88
+279                android:name="hwc-theme"
+279-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:27:17-41
+280                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+280-->[com.huawei.hms:update:3.0.1.300] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\5a0382e4399bb1fa0f848a5fa2a10ade\jetified-update-3.0.1.300\AndroidManifest.xml:28:17-85
+281        </activity>
+282
+283        <uses-library
+283-->[com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\a34047f68efafa5216403b3b987ec3fe\jetified-security-ssl-1.1.5.306\AndroidManifest.xml:10:9-12:40
+284            android:name="org.apache.http.legacy"
+284-->[com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\a34047f68efafa5216403b3b987ec3fe\jetified-security-ssl-1.1.5.306\AndroidManifest.xml:11:13-50
+285            android:required="false" />
+285-->[com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\santo\.gradle\caches\transforms-2\files-2.1\a34047f68efafa5216403b3b987ec3fe\jetified-security-ssl-1.1.5.306\AndroidManifest.xml:12:13-37
+286    </application>
+287
+288</manifest>

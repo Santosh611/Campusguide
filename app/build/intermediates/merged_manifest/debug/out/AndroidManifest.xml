@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.acctu"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="20"
+        android:targetSdkVersion="30" />
+    <!-- check network permissions -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- check wifi state -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Camera permission -->
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- File read permission -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA" />
+
+    <!-- HMS-SDK引导升级HMS功能，访问OTA服务器需要网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 如果是安卓8.0，应用编译配置的targetSdkVersion>=26，请务必添加以下权限 -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+
+    <application
+        android:name="androidx.multidex.MultiDexApplication"
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Campus Guide"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.Acctu"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.example.acctu.MapViewDemoActivity" />
+        <activity android:name="com.example.acctu.BasicMapDemoActivity" />
+        <activity android:name="com.example.acctu.MapsActivity" />
+        <activity android:name="com.example.acctu.HomeActivity" />
+        <activity android:name="com.example.acctu.LocationActivity" />
+        <activity android:name="com.example.acctu.ScannerActivity" />
+        <activity android:name="com.example.acctu.SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.acctu.MainActivity" />
+
+        <meta-data
+            android:name="huawei_module_scankit_local"
+            android:value="1030100" />
+        <meta-data
+            android:name="huawei_module_scankit_sdk_version"
+            android:value="scan:1.1.3.301" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:scan"
+            android:value="scan:1.1.3.301" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:scan:huawei_module_scankit"
+            android:value="1" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:scan:hmscore"
+            android:value="1" />
+
+        <activity
+            android:name="com.huawei.hms.hmsscankit.ScanKitActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huawei.hms.hwid.internal.ui.activity.HwIdSignInHubActivity"
+            android:configChanges="fontScale|uiMode"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.huawei.hms.account.internal.ui.activity.AccountSignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity> <!-- 切记同步修改 HuaweiIdAuthInternalConstant.HMS_SDK_VERSION -->
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:hwid"
+            android:value="hwid:5.2.0.300" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:hwid:hwid"
+            android:value="1" /> <!-- 声明Kit SDK的名称和版本号 -->
+        <!-- Declare the SDK name and version -->
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:location"
+            android:value="location:SDK-VERSION" /> <!-- 声明对Kit服务依赖的最低API Level -->
+        <!-- Declare minSdkVersion required for using the kit -->
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:location:location"
+            android:value="1" /> <!-- 关掉打点上报初始化 -->
+        <!-- Disable reporting of O&M logs -->
+        <meta-data
+            android:name="com.huawei.hms.client.bi.setting"
+            android:value="true" />
+        <meta-data
+            android:name="com.huawei.hms.map.version"
+            android:value="5.0.1.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:maps"
+            android:value="maps:5.2.0.301" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:maps:huawei_module_maps"
+            android:value="7" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:maps:huawei_module_huaweimaps"
+            android:value="7" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ads-lite"
+            android:value="ads-lite:13.4.40.302" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-camera-inner"
+            android:value="ml-computer-camera-inner:1.0.3.340" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-ha-inner"
+            android:value="ml-computer-ha-inner:1.0.3.340" /> <!-- 为后续统计第三方app集成了哪些Kit，因此需要Kit在自己的AndroidManifest.xml文件中定义业务标签元数据 -->
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:base"
+            android:value="base:5.2.0.300" /> <!-- SDK依赖的HMSCore的最低api level元数据 -->
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:base:hmscore"
+            android:value="1" /> <!-- 用于判断是否集成了本lib -->
+        <meta-data
+            android:name="availableLoaded"
+            android:value="yes" />
+
+        <provider
+            android:name="com.huawei.hms.update.provider.UpdateProvider"
+            android:authorities="com.example.acctu.hms.update.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+        </provider>
+
+        <activity
+            android:name="com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+        </activity>
+        <activity
+            android:name="com.huawei.updatesdk.support.pm.PackageInstallerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent" />
+        </activity>
+
+        <provider
+            android:name="com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider"
+            android:authorities="com.example.acctu.updateSdk.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+        </provider>
+
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:dynamic-api"
+            android:value="dynamic-api:1.0.15.302" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:dynamic-api:huawei_module_dynamicloader"
+            android:value="4" />
+
+        <provider
+            android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"
+            android:authorities="com.example.acctu.AGCInitializeProvider"
+            android:exported="false" />
+
+        <service
+            android:name="com.huawei.agconnect.core.ServiceDiscovery"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-base"
+            android:value="ml-computer-vision-base:1.0.0.301" />
+
+        <provider
+            android:name="com.huawei.hms.mlsdk.common.Provider.MLInitializerProvider"
+            android:authorities="com.example.acctu.MLInitializerProvider"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ads-banner"
+            android:value="ads-banner:13.4.40.302" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ads-template"
+            android:value="ads-template:13.4.40.302" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ads-native"
+            android:value="ads-native:13.4.40.302" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ads-interstitial"
+            android:value="ads-interstitial:13.4.40.302" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ads-reward"
+            android:value="ads-reward:13.4.40.302" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ads-lang"
+            android:value="ads-lang:13.4.40.302" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ads-splash"
+            android:value="ads-splash:13.4.40.302" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ads-instream"
+            android:value="ads-instream:13.4.40.302" />
+
+        <activity
+            android:name="com.huawei.hms.activity.BridgeActivity"
+            android:configChanges="orientation|locale|layoutDirection|fontScale|screenSize|smallestScreenSize|screenLayout|uiMode"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="behind"
+            android:theme="@android:style/Theme.Translucent" >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent" />
+        </activity>
+        <activity
+            android:name="com.huawei.hms.activity.EnableServiceActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|screenLayout"
+            android:exported="false" >
+        </activity>
+
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ads-base"
+            android:value="ads-base:13.4.40.302" />
+
+        <activity
+            android:name="com.huawei.openalliance.ad.activity.PPSLauncherActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="com.example.acctu"
+                    android:scheme="hwpps" />
+            </intent-filter>
+
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+        </activity>
+        <activity
+            android:name="com.huawei.openalliance.ad.activity.PPSBridgeActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+        </activity>
+        <activity
+            android:name="com.huawei.openalliance.ad.activity.PPSNotificationActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+        </activity>
+        <activity
+            android:name="com.huawei.openalliance.ad.activity.AgProtocolActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+        </activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>
