@@ -16,12 +16,12 @@
         "source": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\src\\main\\res\\layout\\activity_sliderdata.xml"
     },
     {
-        "merged": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\build\\intermediates\\res\\merged\\debug\\menu_nav_menu.xml.flat",
-        "source": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\src\\main\\res\\menu\\nav_menu.xml"
-    },
-    {
         "merged": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\build\\intermediates\\res\\merged\\debug\\drawable_collegee.png.flat",
         "source": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\src\\main\\res\\drawable\\collegee.png"
+    },
+    {
+        "merged": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\build\\intermediates\\res\\merged\\debug\\menu_nav_menu.xml.flat",
+        "source": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\src\\main\\res\\menu\\nav_menu.xml"
     },
     {
         "merged": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_location.png.flat",
@@ -116,12 +116,20 @@
         "source": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_school.png.flat",
         "source": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_school.png"
     },
     {
         "merged": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_location.png.flat",
         "source": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_location.png"
+    },
+    {
+        "merged": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
@@ -142,6 +150,10 @@
     {
         "merged": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_baseline_qr_code_scanner_24.png.flat",
         "source": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_baseline_qr_code_scanner_24.png"
+    },
+    {
+        "merged": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_adssplash.xml.flat",
@@ -208,6 +220,10 @@
         "source": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_school.png"
     },
     {
+        "merged": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gd.png.flat",
         "source": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\src\\main\\res\\drawable\\gd.png"
     },
@@ -262,6 +278,10 @@
     {
         "merged": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_slideradapter.xml.flat",
         "source": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\src\\main\\res\\layout\\activity_slideradapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_school.xml.flat",
