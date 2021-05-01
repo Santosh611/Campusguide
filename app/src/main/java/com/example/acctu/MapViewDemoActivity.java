@@ -1,5 +1,6 @@
 package com.example.acctu;
 
+
 import android.os.Bundle;
 import android.util.Log;
 
@@ -27,6 +28,7 @@ public class MapViewDemoActivity extends AppCompatActivity implements OnMapReady
         super.onCreate(savedInstanceState);
         MapsInitializer.setApiKey("CgB6e3x9HT8wHBZoFsLF9L5r68jkBWYEZag7AQKBLbT8VObWOtmXjBNdKqdWQbiWNonajAxvNPWh6WoTdnNHmbxv");
         setContentView(R.layout.activity_mapviewdemo);
+//        dynamicPermission();
         mMapView = findViewById(R.id.mapView);
         Bundle mapViewBundle = null;
         if (savedInstanceState != null) {
@@ -79,4 +81,5 @@ public class MapViewDemoActivity extends AppCompatActivity implements OnMapReady
         super.onLowMemory();
         mMapView.onLowMemory();
     }
+
 }

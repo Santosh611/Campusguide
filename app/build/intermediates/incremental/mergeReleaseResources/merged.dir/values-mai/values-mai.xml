@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="hiad_dismiss_dilaog">
+        <item priority="translator" quantity="one">"विंडो %1$s सेकेंड मे बंद भए जायत।"</item>
+        <item priority="translator" quantity="zero">"विंडो %1$s सेकेंड मे बंद भए जायत।"</item>
+        <item priority="translator" quantity="two">"विंडो %1$s सेकेंड मे बंद भए जायत।"</item>
+        <item priority="translator" quantity="few">"विंडो %1$s सेकेंड मे बंद भए जायत।"</item>
+        <item priority="translator" quantity="many">"विंडो %1$s सेकेंड मे बंद भए जायत।"</item>
+        <item priority="translator" quantity="other">"विंडो %1$s सेकेंड मे बंद भए जायत।"</item>
+    </plurals>
+    <plurals name="hiad_no_prompt_in_days">
+        <item priority="Reviewed" quantity="one">"पसिन्न कयल गेल केँ %1$s दिन धरि स्मरण राखू"</item>
+        <item priority="translator" quantity="zero">"पसिन्न कयल गेल केँ %1$s दिन धरि स्मरण राखू"</item>
+        <item priority="Reviewed" quantity="two">"पसिन्न कयल गेल केँ %1$s दिन धरि स्मरण राखू"</item>
+        <item priority="Reviewed" quantity="few">"पसिन्न कयल गेल केँ %1$s दिन धरि स्मरण राखू"</item>
+        <item priority="translator" quantity="many">"पसिन्न कयल गेल केँ %1$s दिन धरि स्मरण राखू"</item>
+        <item priority="Reviewed" quantity="other">"पसिन्न कयल गेल केँ %1$s दिन धरि स्मरण राखू"</item>
+    </plurals>
+    <plurals name="hiad_reward_countdown">
+        <item priority="translator" quantity="one">"%1$d सेकेंड"</item>
+        <item priority="translator" quantity="zero">"%1$d सेकेंड"</item>
+        <item priority="translator" quantity="two">"%1$d सेकेंड"</item>
+        <item priority="translator" quantity="few">"%1$d सेकेंड"</item>
+        <item priority="translator" quantity="many">"%1$d सेकेंड"</item>
+        <item priority="translator" quantity="other">"%1$d सेकेंड"</item>
+    </plurals>
+    <string name="hiad_ad_label" priority="translator">"AD"</string>
+    <string name="hiad_ad_label_new" priority="translator">"विज्ञापन"</string>
+    <string name="hiad_app_installed" priority="LT">"%1$s इंस्टॉल कए देल गेल अछि"</string>
+    <string name="hiad_app_open_notification" priority="translator">"इंस्टॉलेशन भए गेल। खोलबाक लेल छुबू।"</string>
+    <string name="hiad_app_permission" priority="LT">"अनुमति सभ"</string>
+    <string name="hiad_choices_ad_closed" priority="LT">"विज्ञापन नुकाओल गेल"</string>
+    <string name="hiad_choices_ad_no_interest" priority="translator">"कोनो रुचि नहि"</string>
+    <string name="hiad_choices_hide" priority="LT">"विज्ञापन केँ नुकाउ"</string>
+    <string name="hiad_choices_whythisad" priority="LT">"हम किएक ई विज्ञापन देखलहुँ?"</string>
+    <string name="hiad_consume_data_to_play_video" priority="translator">"मोबाइल नेटवर्कक उपयोग कयलासँ %1$s डाटा खर्च होयत। जारी राखू?"</string>
+    <string name="hiad_consume_data_to_play_video_no_data_size" priority="LT">"प्लेबैक मोबाइल डाटाक उपयोग करत. जारी राखू?"</string>
+    <string name="hiad_continue_download" priority="LT">"डाउनलोड करू"</string>
+    <string name="hiad_continue_download_new" priority="LT">"डाउनलोड करू"</string>
+    <string name="hiad_continue_to_play" priority="translator">"जारी राखू"</string>
+    <string name="hiad_copy_link" priority="LT">"लिंक केँ कॉपी करू"</string>
+    <string name="hiad_data_size_prompt" priority="translator">"%1$s MB"</string>
+    <string name="hiad_default_app_name" priority="LT">"एप"</string>
+    <string name="hiad_default_skip_text" priority="translator">"छोड़ू"</string>
+    <string name="hiad_default_skip_text_time" priority="LT">"%d मे छोड़ू"</string>
+    <string name="hiad_detail" priority="translator">"विवरण सब"</string>
+    <string name="hiad_detail_download_now" priority="LT">"डाउनलोड करू"</string>
+    <string name="hiad_dialog_accept" priority="LT">"अनुमति दिअ"</string>
+    <string name="hiad_dialog_allow" priority="LT">"अनुमति दिअ"</string>
+    <string name="hiad_dialog_cancel" priority="LT">"रद्द करू"</string>
+    <string name="hiad_dialog_close" priority="LT">"ठीक अछि"</string>
+    <string name="hiad_dialog_continue" priority="LT">"डाउनलोड करू"</string>
+    <string name="hiad_dialog_dismiss" priority="LT">"बुझलहुँ"</string>
+    <string name="hiad_dialog_install_desc" priority="LT">"%1$s केँ %2$s इंस्टॉल करबाक अनुमति दी?"</string>
+    <string name="hiad_dialog_install_source" priority="LT">"स्रोत: %1$s"</string>
+    <string name="hiad_dialog_ok" priority="LT">"अनुमति दिअ"</string>
+    <string name="hiad_dialog_open" priority="LT">"खोलू"</string>
+    <string name="hiad_dialog_reject" priority="LT">"मना करू"</string>
+    <string name="hiad_dialog_title" priority="LT">"मोबाइल डेटाक उपयोग कए डाउनलोड करू?"</string>
+    <string name="hiad_dialog_title_tip" priority="LT">"नोट करू"</string>
+    <string name="hiad_download_app_via_mobile_data" priority="LT">"मोबाइल डेटाक उपयोग कए डाउनलोड करी?"</string>
+    <string name="hiad_download_download" priority="translator">"स्थापित करू"</string>
+    <string name="hiad_download_download_with_size" priority="LT">"डाउनलोड (%1$s)"</string>
+    <string name="hiad_download_failed_toast_content" priority="LT">"%1$s केँ डाउनलोड करबाक काल मे एकटा त्रुटि आबि गेल।"</string>
+    <string name="hiad_download_file_corrupted" priority="translator">"फाइल करप्ट भए गेल। कृपाकय पुन:डाउनलोड करू।"</string>
+    <string name="hiad_download_file_not_exist" priority="LT">"फाइल अस्तित्व मे नहि अछि। कृपा कए पुन: प्रयास करू।"</string>
+    <string name="hiad_download_install" priority="LT">"स्थापित करू"</string>
+    <string name="hiad_download_installing" priority="LT">"इंस्टॉल कए रहल अछि"</string>
+    <string name="hiad_download_no_space" priority="LT">"अपर्याप्त भंडारण। किछु जगह खाली करू आ पुनः प्रयास करू।"</string>
+    <string name="hiad_download_open" priority="LT">"खोलू"</string>
+    <string name="hiad_download_resume" priority="LT">"जारी राखू"</string>
+    <string name="hiad_download_retry_toast_content" priority="LT">"%1$s केँ डाउनलोड करबाक काल मे एकटा त्रुटि आबि गेल। डाउनलोड पुन: प्रारंभ होयत।"</string>
+    <string name="hiad_download_use_mobile_network" priority="LT">"अहाँ एखन Wi-Fiसँ जुड़ल नहि छी। %1$s मोबाइल डेटाक उपयोग करैत आब डाउनलोड करत। ओहुना सेहो डाउनलोड करू?"</string>
+    <string name="hiad_download_use_mobile_network_zh" priority="LT">"अहाँ एखन WLAN सँ कनेक्ट नहि छी। एखन डाउनलोड करब त’ %1$s मोबाइल डेटाक उपयोग करत। तैयो डाउनलोड करी?"</string>
+    <string name="hiad_install_completed" priority="LT">"कएल गेल"</string>
+    <string name="hiad_landing_page_open_app" priority="LT">"ई पेज %1$s केँ खोलय चाहैत अछि।"</string>
+    <string name="hiad_link_already_copied" priority="LT">"लिंक कॉपी कयल गेल।"</string>
+    <string name="hiad_mobile_download_prompt" priority="LT">"ई डाउनलोड %1$s मोबाइल डेटा उपयोग करत।"</string>
+    <string name="hiad_network_error" priority="translator">"नेटवर्कक संपर्क केर त्रुटि।"</string>
+    <string name="hiad_network_no_available" priority="LT">"कोनो इंटरनेट सम्पर्क नहि। कृपा कए अपन नेटवर्क सेटिंग सभक जाँच करू।"</string>
+    <string name="hiad_no_more_remind" priority="LT">"हमरा फेरसँ याद नहि दिआउ"</string>
+    <string name="hiad_non_wifi_download_prompt" priority="LT">"कोनो Wi-Fi कनेक्शन नहि। अहांक मोबाइल डेटाक उपयोग कए आब डाउनलोड करत। डाउनलोड करी?"</string>
+    <string name="hiad_non_wifi_download_prompt_zh" priority="LT">"कोनो WLAN कनेक्शन नहि। अहांक मोबाइल डेटाक उपयोग कए आब डाउनलोड करत। डाउनलोड करी?"</string>
+    <string name="hiad_open_in_browser" priority="LT">"ब्राउजरमे खोलू"</string>
+    <string name="hiad_page_load_failed" priority="LT">"पेज लोड करबा मे अक्षम। कृपा कए पुन: प्रयास करू।"</string>
+    <string name="hiad_permission_dialog_title" priority="LT">"%1$s केँ निम्नलिखित अनुमति सभक आवश्यकता होइत अछि:"</string>
+    <string name="hiad_prepare_download" priority="LT">"Wi-Fi लेल प्रतीक्षा करू"</string>
+    <string name="hiad_prepare_download_title" priority="LT">"मोबाइल नेटवर्कक माध्यम सँ डाउनलोड करी?"</string>
+    <string name="hiad_prepare_download_zh" priority="LT">"WLAN लेल प्रतीक्षा करू"</string>
+    <string name="hiad_refresh" priority="LT">"ताजा करू"</string>
+    <string name="hiad_reminder_app_over_size" priority="LT">"%1$d MB सँ नम्हर एप"</string>
+    <string name="hiad_reward_close_dialog_close" priority="LT">"छोड़ू"</string>
+    <string name="hiad_reward_close_dialog_continue" priority="LT">"देखैत रहू"</string>
+    <string name="hiad_reward_close_dialog_message" priority="LT">"इनाम अर्जित करबाक लेल एहि विज्ञापन केँ अंत धरि देखू।"</string>
+    <string name="hiad_whether_download" priority="LT">"ई एप डाउनलोड करी?"</string>
+    <string name="hiad_wifi_loaded_already" priority="translator">"Wi-Fi सँ पहिनुका लोड कयल"</string>
+    <string name="hiad_wifi_loaded_already_zh" priority="translator">"पहिने सँ लोड कयल गेल"</string>
+    <string name="hms_abort" priority="translator">"रोकू"</string>
+    <string name="hms_abort_message" priority="translator">"डाउनलोड करब रोकू?"</string>
+    <string name="hms_bindfaildlg_message" priority="translator">"HMS Core सभक उपयोग करबामे %1$s असफल भय गेल। ऑप्टिमाइजर (फोन प्रबंधक) शुरू करू वा सेटिंग्समे जाउ, %2$s क लेल सभटा अनुमति सक्षम करू (स्वतः प्रारंभ आ द्वितीयक प्रारंभ सहित), आ पुनः प्रयास करू।"</string>
+    <string name="hms_cancel" priority="translator">"रद्द करू"</string>
+    <string name="hms_check_failure" priority="translator">"अपडेटक लेल जाँच करबामे असमर्थ।"</string>
+    <string name="hms_checking" priority="translator">"नवीनतमक लेल जाँच करैत अछि…"</string>
+    <string name="hms_confirm" priority="translator">"ठीक"</string>
+    <string name="hms_download_failure" priority="translator">"HMS Core पैकेज डाउनलोड करबामे असफल भय गेल।"</string>
+    <string name="hms_download_no_space" priority="translator">"पर्याप्त खाली जगह नहि। डाउनलोड पूरा नहि भय सकत।"</string>
+    <string name="hms_download_retry" priority="translator">"डाउनलोड असफल भय गेल। पुनः प्रयास करू?"</string>
+    <string name="hms_downloading_loading" priority="LT">"डाउनलोड भ रहल अछि"</string>
+    <string name="hms_install" priority="translator">"स्थापित करू"</string>
+    <string name="hms_install_message" priority="translator">"एहि सुविधाक उपयोग करबाक लेल HMS Coreके स्थापना आवश्यक अछि। स्थापित करू?"</string>
+    <string name="hms_retry" priority="translator">"पुन:प्रयास करू"</string>
+    <string name="hms_update" priority="translator">"अपडेट करू"</string>
+    <string name="hms_update_continue" priority="LT">"डाउनलोड करू"</string>
+    <string name="hms_update_message" priority="translator">"एहि सुविधाक उपयोग करबाक लेल HMS Core कय नवीनतम संस्करणमे बदलू। एखन अपडेट करू?"</string>
+    <string name="hms_update_message_new" priority="translator">"एहि सेवा केर निम्न एप केर नवीनतम संस्करण चाही:\n\n%1$s"</string>
+    <string name="hms_update_nettype" priority="LT">"कोनो Wi-Fi कनेक्शन नहि। मोबाइल डेटाक उपयोग कए डाउनलोड करी?"</string>
+    <string name="hms_update_title" priority="translator">"HMS Core"</string>
+    <string name="hwid_huawei_login_button_text" priority="translator">"HUAWEI ID सँ साइन इन करू"</string>
+    <string name="scankit_confirm">ठीक अछि</string>
+    <string name="scankit_light">आओर प्रकाश लेल छुबू</string>
+    <string name="scankit_light_off">लाइट बंद करू</string>
+    <string name="scankit_no_code_tip">कोनो कोड नहि भेटल।</string>
+    <string name="scankit_scan_tip">कोड केँ फ्रेमक भीतर राखू</string>
+    <string name="scankit_title">स्कैन करू</string>
+    <string name="upsdk_app_download_info_new" priority="translator">"स्थापित करू"</string>
+    <string name="upsdk_app_download_installing" priority="translator">"%s केँ डाउनलोड कए रहल अछि…"</string>
+    <string name="upsdk_app_size" priority="translator">"आकार"</string>
+    <string name="upsdk_app_version" priority="translator">"संस्करण"</string>
+    <string name="upsdk_appstore_install" priority="translator">"एहि एप केँ अपडेट करबाक लेल %sक आवश्यकता अछि। एखन इंस्टॉल करी?"</string>
+    <string name="upsdk_cancel" priority="translator">"रद्द करू"</string>
+    <string name="upsdk_checking_update_prompt" priority="LT">"नवीनतमक लेल जाँच करैत अछि…"</string>
+    <string name="upsdk_choice_update" priority="translator">"अपडेट उपलब्ध अछि। कृपाकय डाउनलोड करू आ नवीनतम संस्करण स्थापित करू।"</string>
+    <string name="upsdk_detail" priority="translator">"विवरण सब"</string>
+    <string name="upsdk_getting_message_fail_prompt_toast" priority="translator">"जानकारी ढूँढयमे असमर्थ अछि। कृपया फेर स बाद में प्रयास करब।"</string>
+    <string name="upsdk_mobile_dld_warn" priority="translator">"अहां वर्तमान मे मोबाइल नेटवर्क सँ कनेक्ट छी। एखन डाउनलोड कयला सँ %1$s डेटा खर्च होयत।"</string>
+    <string name="upsdk_no_available_network_prompt_toast" priority="translator">"कोनो इंटरनेट सम्पर्क नहि। कृपाकय अपन नेटवर्क सेटिंग्स केर जाँच करू।"</string>
+    <string name="upsdk_ota_app_name" priority="translator">"एप"</string>
+    <string name="upsdk_ota_cancel" priority="translator">"बादमे"</string>
+    <string name="upsdk_ota_force_cancel_new" priority="translator">"बाहर जाउ"</string>
+    <string name="upsdk_ota_notify_updatebtn" priority="translator">"अपडेट करू"</string>
+    <string name="upsdk_ota_title" priority="translator">"नवीन संस्करण"</string>
+    <string name="upsdk_storage_utils" priority="LT">"%1$s MB"</string>
+    <string name="upsdk_third_app_dl_cancel_download_prompt_ex" priority="translator">"स्थापना रद्द करू?"</string>
+    <string name="upsdk_third_app_dl_install_failed" priority="translator">"स्थापना करबामे असफल भेल।"</string>
+    <string name="upsdk_third_app_dl_sure_cancel_download" priority="translator">"हँ"</string>
+    <string name="upsdk_update_check_no_new_version" priority="Reviewed">"अहांक वर्जन अप टू डेट अछि।"</string>
+</resources>

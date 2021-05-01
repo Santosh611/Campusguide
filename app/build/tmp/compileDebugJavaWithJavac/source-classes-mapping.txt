@@ -3,12 +3,10 @@ com/example/acctu/SliderAdapter.java
  com.example.acctu.SliderAdapter$SliderAdapterViewHolder
 com/example/acctu/utils/MyItemReader.java
  com.example.acctu.utils.MyItemReader
-com/example/acctu/utils/NetworkRequestManager.java
- com.example.acctu.utils.NetworkRequestManager
- com.example.acctu.utils.NetworkRequestManager$1
- com.example.acctu.utils.NetworkRequestManager$2
- com.example.acctu.utils.NetworkRequestManager$3
- com.example.acctu.utils.NetworkRequestManager$OnNetworkListener
+com/example/acctu/MainActivity.java
+ com.example.acctu.MainActivity
+ com.example.acctu.MainActivity$1
+ com.example.acctu.MainActivity$2
 com/example/acctu/MapsActivity.java
  com.example.acctu.MapsActivity
 com/example/acctu/utils/CheckUtils.java
@@ -27,9 +25,6 @@ com/example/acctu/BuildConfig.java
  com.example.acctu.BuildConfig
 com/example/acctu/HomeActivity.java
  com.example.acctu.HomeActivity
- com.example.acctu.HomeActivity$1
- com.example.acctu.HomeActivity$2
- com.example.acctu.HomeActivity$3
 com/example/acctu/BasicMapDemoActivity.java
  com.example.acctu.BasicMapDemoActivity
  com.example.acctu.BasicMapDemoActivity$1
@@ -42,12 +37,14 @@ com/example/acctu/SliderData.java
  com.example.acctu.SliderData
 com/example/acctu/MapViewDemoActivity.java
  com.example.acctu.MapViewDemoActivity
-com/example/acctu/utils/NetClient.java
- com.example.acctu.utils.NetClient
-com/example/acctu/MainActivity.java
- com.example.acctu.MainActivity
- com.example.acctu.MainActivity$1
- com.example.acctu.MainActivity$2
 com/example/acctu/SplashActivity.java
  com.example.acctu.SplashActivity
  com.example.acctu.SplashActivity$1
+com/example/acctu/utils/NetClient.java
+ com.example.acctu.utils.NetClient
+com/example/acctu/utils/NetworkRequestManager.java
+ com.example.acctu.utils.NetworkRequestManager
+ com.example.acctu.utils.NetworkRequestManager$1
+ com.example.acctu.utils.NetworkRequestManager$2
+ com.example.acctu.utils.NetworkRequestManager$3
+ com.example.acctu.utils.NetworkRequestManager$OnNetworkListener

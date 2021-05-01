@@ -110,6 +110,7 @@ attr autoSizePresetSizes
 attr autoSizeStepGranularity
 attr autoSizeTextType
 attr autoTransition
+attr auto_cycle
 attr background
 attr backgroundColor
 attr backgroundInsetBottom
@@ -297,6 +298,7 @@ attr cornerSizeBottomLeft
 attr cornerSizeBottomRight
 attr cornerSizeTopLeft
 attr cornerSizeTopRight
+attr corner_radius
 attr counterEnabled
 attr counterMaxLength
 attr counterOverflowTextAppearance
@@ -322,6 +324,7 @@ attr dayTodayStyle
 attr defaultDuration
 attr defaultQueryHint
 attr defaultState
+attr delay
 attr deltaPolarAngle
 attr deltaPolarRadius
 attr deriveConstraintsFrom
@@ -372,6 +375,7 @@ attr errorIconTint
 attr errorIconTintMode
 attr errorTextAppearance
 attr errorTextColor
+attr error_image
 attr expandActivityOverflowButtonDrawable
 attr expanded
 attr expandedHintEnabled
@@ -711,6 +715,7 @@ attr percentHeight
 attr percentWidth
 attr percentX
 attr percentY
+attr period
 attr perpendicularPath_percent
 attr piv_animationDuration
 attr piv_animationType
@@ -729,6 +734,7 @@ attr piv_strokeWidth
 attr piv_unselectedColor
 attr piv_viewPager
 attr pivotAnchor
+attr placeholder
 attr placeholderText
 attr placeholderTextAppearance
 attr placeholderTextColor
@@ -789,6 +795,7 @@ attr searchViewStyle
 attr seekBarStyle
 attr selectableItemBackground
 attr selectableItemBackgroundBorderless
+attr selected_dot
 attr selectionRequired
 attr selectorSize
 attr shapeAppearance
@@ -1000,6 +1007,7 @@ attr uiScrollGesturesDuringRotateOrZoom
 attr uiTiltGestures
 attr uiZoomControls
 attr uiZoomGestures
+attr unselected_dot
 attr useCompatPadding
 attr useMaterialThemeColors
 attr useViewLifecycle
@@ -1927,6 +1935,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable background
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1937,13 +1946,17 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable college
 drawable collegee
+drawable default_selected_dot
+drawable default_unselected_dot
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable error
 drawable gd
+drawable gradient
 drawable hiad_app_down_btn_installing
 drawable hiad_app_down_btn_installing_hm
 drawable hiad_app_down_btn_normal
@@ -2003,6 +2016,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_school
+drawable krct
 drawable krct_admin_block
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
@@ -2036,6 +2050,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable placeholder
 drawable scankit_back
 drawable scankit_dialog_bg
 drawable scankit_flash_selected_selector2
@@ -2154,8 +2169,11 @@ id btn_mapView
 id btnstartul
 id btnstopul
 id button
+id button10
+id button11
 id button2
 id button3
+id button9
 id buttonPanel
 id cache_measures
 id cancel_bg
@@ -2353,6 +2371,7 @@ id ignoreRequest
 id image
 id imageView3
 id imageView4
+id image_view
 id img_btn
 id info
 id invisible
@@ -2373,6 +2392,7 @@ id line
 id line1
 id line3
 id linear
+id linear_layout
 id listMode
 id list_item
 id ll_top
@@ -2454,6 +2474,7 @@ id on
 id outline
 id outward
 id packed
+id pager_dots
 id parallax
 id parent
 id parentPanel
@@ -2585,6 +2606,7 @@ id textView5
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
+id text_view
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -2623,6 +2645,7 @@ id version_layout
 id version_textview
 id vertical
 id view_offset_helper
+id view_pager
 id viewfinderView
 id visible
 id window_image_content
@@ -2698,6 +2721,7 @@ layout activity_adssplash
 layout activity_basicmapdemo
 layout activity_endisable_service
 layout activity_home
+layout activity_home1
 layout activity_location
 layout activity_main
 layout activity_maps
@@ -2751,6 +2775,7 @@ layout hiad_view_video
 layout hiad_window_image_layout
 layout hiad_wls_view
 layout hms_download_progress
+layout image_slider
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2799,6 +2824,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout pager_row
 layout scankit_dialog_layout
 layout scankit_layout
 layout scankit_zxl_capture
@@ -2826,6 +2852,7 @@ layout upsdk_ota_update_view
 menu nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap krct
 plurals hiad_dismiss_dilaog
 plurals hiad_no_prompt_in_days
 plurals hiad_reward_countdown
@@ -3889,6 +3916,7 @@ styleable GradientColor android_startColor android_endColor android_type android
 styleable GradientColorItem android_color android_offset
 styleable HuaweiIdAuthButton hwid_button_theme hwid_color_policy hwid_corner_radius
 styleable ImageFilterView altSrc brightness contrast crossfade overlay round roundPercent saturation warmth
+styleable ImageSlider auto_cycle corner_radius delay error_image period placeholder selected_dot unselected_dot
 styleable Insets paddingBottomSystemWindowInsets paddingLeftSystemWindowInsets paddingRightSystemWindowInsets
 styleable KeyAttribute android_alpha android_transformPivotX android_transformPivotY android_translationX android_translationY android_scaleX android_scaleY android_rotation android_rotationX android_rotationY android_translationZ android_elevation curveFit framePosition motionProgress motionTarget transitionEasing transitionPathRotate
 styleable KeyCycle android_alpha android_translationX android_translationY android_scaleX android_scaleY android_rotation android_rotationX android_rotationY android_translationZ android_elevation curveFit framePosition motionProgress motionTarget transitionEasing transitionPathRotate waveOffset wavePeriod waveShape waveVariesBy

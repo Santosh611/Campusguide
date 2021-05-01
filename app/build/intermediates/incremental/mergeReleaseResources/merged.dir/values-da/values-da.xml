@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="hiad_dismiss_dilaog">
+    <item priority="translator" quantity="one">"Vinduet lukkes om %1$s sekund."</item>
+    <item priority="translator" quantity="other">"Vinduet lukkes om %1$s sekunder."</item>
+</plurals>
+    <plurals name="hiad_no_prompt_in_days">
+    <item priority="Reviewed" quantity="one">"Husk valget i %1$s dag"</item>
+    <item priority="Reviewed" quantity="other">"Husk valget i %1$s dage"</item>
+</plurals>
+    <plurals name="hiad_reward_countdown">
+    <item priority="LT" quantity="one">"%1$d sek."</item>
+    <item priority="LT" quantity="other">"%1$d sek."</item>
+</plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d ny notifikation</item>
+    <item quantity="other">%d nye notifikationer</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Find hjem"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Gå op"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Flere valgmuligheder"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Udfør"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Se alle"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Vælg en app"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"FRA"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"TIL"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"slet"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fn+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"mellemrum"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Søg…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Ryd forespørgsel"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Søgeforespørgsel"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Søg"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Indsend forespørgsel"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Talesøgning"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Del med"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Del med <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Skjul"</string>
+    <string name="bottomsheet_action_expand_halfway">Udvid halvdelen</string>
+    <string name="character_counter_content_description">Du har brugt %1$d ud af %2$d tegn</string>
+    <string name="character_counter_overflowed_content_description">Du har brugt %1$d tegn og dermed overskredet tegnbegrænsningen på %2$d.</string>
+    <string name="clear_text_end_icon_content_description">Ryd tekst</string>
+    <string name="error_icon_content_description">Fejl</string>
+    <string name="exposed_dropdown_menu_content_description">Vis rullemenuen</string>
+    <string name="hiad_ad_label" priority="translator">"AD"</string>
+    <string name="hiad_ad_label_new" priority="translator">"Reklame"</string>
+    <string name="hiad_app_installed" priority="LT">"%1$s er blevet installeret"</string>
+    <string name="hiad_app_open_notification" priority="translator">"Installation gennemført. Tryk for at åbne."</string>
+    <string name="hiad_app_permission" priority="LT">"Tilladelser"</string>
+    <string name="hiad_choices_ad_closed" priority="LT">"Reklame skjult"</string>
+    <string name="hiad_choices_ad_no_interest" priority="translator">"Ikke interesseret"</string>
+    <string name="hiad_choices_hide" priority="translator">"Skjul reklame"</string>
+    <string name="hiad_choices_whythisad" priority="translator">"Hvorfor ser jeg denne reklame?"</string>
+    <string name="hiad_consume_data_to_play_video" priority="LT">"Brug af et mobilnetværk vil bruge %1$s data. Fortsæt?"</string>
+    <string name="hiad_consume_data_to_play_video_no_data_size" priority="LT">"Afspilning vil bruge mobildata. Fortsæt?"</string>
+    <string name="hiad_continue_download" priority="LT">"Hent"</string>
+    <string name="hiad_continue_download_new" priority="LT">"HENT"</string>
+    <string name="hiad_continue_to_play" priority="LT">"FORTSÆT"</string>
+    <string name="hiad_copy_link" priority="LT">"Kopier link"</string>
+    <string name="hiad_data_size_prompt" priority="translator">"%1$s MB"</string>
+    <string name="hiad_default_app_name" priority="LT">"App"</string>
+    <string name="hiad_default_skip_text" priority="LT">"Spring over"</string>
+    <string name="hiad_default_skip_text_time" priority="LT">"Spring over om %d"</string>
+    <string name="hiad_detail" priority="LT">"Detaljer"</string>
+    <string name="hiad_detail_download_now" priority="LT">"Hent"</string>
+    <string name="hiad_dialog_accept" priority="LT">"TILLAD"</string>
+    <string name="hiad_dialog_allow" priority="LT">"TILLAD"</string>
+    <string name="hiad_dialog_cancel" priority="LT">"ANNULLER"</string>
+    <string name="hiad_dialog_close" priority="LT">"OK"</string>
+    <string name="hiad_dialog_continue" priority="LT">"HENT"</string>
+    <string name="hiad_dialog_dismiss" priority="LT">"FORSTÅET"</string>
+    <string name="hiad_dialog_install_desc" priority="LT">"Tillad %1$s at installere %2$s?"</string>
+    <string name="hiad_dialog_install_source" priority="LT">"Kilde: %1$s"</string>
+    <string name="hiad_dialog_ok" priority="LT">"TILLAD"</string>
+    <string name="hiad_dialog_open" priority="LT">"ÅBN"</string>
+    <string name="hiad_dialog_reject" priority="LT">"AFVIS"</string>
+    <string name="hiad_dialog_title" priority="LT">"Hent ved brug af mobildata?"</string>
+    <string name="hiad_dialog_title_tip" priority="LT">"Bemærk"</string>
+    <string name="hiad_download_app_via_mobile_data" priority="LT">"Hent ved hjælp af mobildata?"</string>
+    <string name="hiad_download_download" priority="translator">"INSTALLER"</string>
+    <string name="hiad_download_download_with_size" priority="LT">"HENT (%1$s)"</string>
+    <string name="hiad_download_failed_toast_content" priority="LT">"Der opstod en fejl under hentning af %1$s."</string>
+    <string name="hiad_download_file_corrupted" priority="translator">"Fil beskadiget. Hent igen."</string>
+    <string name="hiad_download_file_not_exist" priority="LT">"Fil eksisterer ikke. Prøv igen."</string>
+    <string name="hiad_download_install" priority="LT">"INSTALLER"</string>
+    <string name="hiad_download_installing" priority="LT">"INSTALLERER"</string>
+    <string name="hiad_download_no_space" priority="LT">"Utilstrækkeligt lager. Frigør noget plads og prøv igen."</string>
+    <string name="hiad_download_open" priority="LT">"ÅBN"</string>
+    <string name="hiad_download_resume" priority="LT">"FORTSÆT"</string>
+    <string name="hiad_download_retry_toast_content" priority="LT">"Der opstod en fejl under hentning af %1$s. Hentning vil genstarte."</string>
+    <string name="hiad_download_use_mobile_network" priority="LT">"Du er nuværende ikke tilsluttet til Wi-Fi. Hentes nu, vil det bruge %1$s mobildata. Hent alligevel?"</string>
+    <string name="hiad_download_use_mobile_network_zh" priority="LT">"Du er nuværende ikke tilsluttet til WLAN. Hentes nu, vil det bruge %1$s mobildata. Hent alligevel?"</string>
+    <string name="hiad_install_completed" priority="LT">"Udfør"</string>
+    <string name="hiad_landing_page_open_app" priority="LT">"Denne side vil åbne %1$s."</string>
+    <string name="hiad_link_already_copied" priority="LT">"Link kopieret."</string>
+    <string name="hiad_mobile_download_prompt" priority="LT">"Dette download vil bruge %1$s mobildata."</string>
+    <string name="hiad_network_error" priority="LT">"Fejl under netværkstilslutning."</string>
+    <string name="hiad_network_no_available" priority="LT">"Ingen internetforbindelse. Kontroller dine netværksindstillinger."</string>
+    <string name="hiad_no_more_remind" priority="LT">"Påmind mig ikke igen"</string>
+    <string name="hiad_non_wifi_download_prompt" priority="LT">"Ingen Wi-Fi-forbindelse. Hentning nu vil bruge dine mobildata. Hent?"</string>
+    <string name="hiad_non_wifi_download_prompt_zh" priority="LT">"Ingen WLAN-forbindelse. Hentning nu vil bruge dine mobildata. Hent?"</string>
+    <string name="hiad_open_in_browser" priority="LT">"Åbn i browser"</string>
+    <string name="hiad_page_load_failed" priority="LT">"Ikke i stand til at indlæse siden. Prøv igen."</string>
+    <string name="hiad_permission_dialog_title" priority="LT">"%1$s kræver følgende tilladelser:"</string>
+    <string name="hiad_prepare_download" priority="LT">"Vent på Wi-Fi"</string>
+    <string name="hiad_prepare_download_title" priority="LT">"Hent via mobilnetværk?"</string>
+    <string name="hiad_prepare_download_zh" priority="LT">"Vent på WLAN"</string>
+    <string name="hiad_refresh" priority="LT">"Opdater"</string>
+    <string name="hiad_reminder_app_over_size" priority="LT">"App større end %1$d MB"</string>
+    <string name="hiad_reward_close_dialog_close" priority="LT">"Spring over"</string>
+    <string name="hiad_reward_close_dialog_continue" priority="LT">"Se videre"</string>
+    <string name="hiad_reward_close_dialog_message" priority="LT">"Se denne reklame færdig for at få en belønning."</string>
+    <string name="hiad_whether_download" priority="LT">"Hent denne app?"</string>
+    <string name="hiad_wifi_loaded_already" priority="translator">"Forudindlæst via Wi-Fi"</string>
+    <string name="hiad_wifi_loaded_already_zh" priority="translator">"Forudindlæst"</string>
+    <string name="hms_abort" priority="translator">"Stop"</string>
+    <string name="hms_abort_message" priority="translator">"Vil du stoppe download?"</string>
+    <string name="hms_bindfaildlg_message" priority="translator">"%1$s kan ikke bruge HMS Core. Start Optimizer (Telefon-styring) eller gå til Indstillinger, aktivér alle tilladelser for %2$s (inkl. automatisk start og sekundær start), og prøv igen."</string>
+    <string name="hms_cancel" priority="translator">"Annuller"</string>
+    <string name="hms_check_failure" priority="translator">"Kunne ikke søge efter opdateringer."</string>
+    <string name="hms_checking" priority="translator">"Søger efter opdateringer..."</string>
+    <string name="hms_confirm" priority="translator">"OK"</string>
+    <string name="hms_download_failure" priority="translator">"Kunne ikke downloade HMS Core-pakken."</string>
+    <string name="hms_download_no_space" priority="translator">"Ikke nok ledig plads. Download kan ikke fuldføres."</string>
+    <string name="hms_download_retry" priority="translator">"Download mislykkedes. Vil du prøve igen?"</string>
+    <string name="hms_downloading_loading" priority="LT">"Henter"</string>
+    <string name="hms_install" priority="translator">"Installer"</string>
+    <string name="hms_install_message" priority="translator">"HMS Core skal være installeret for at benytte denne funktion. Installér?"</string>
+    <string name="hms_retry" priority="translator">"Prøv igen"</string>
+    <string name="hms_update" priority="translator">"Opdater"</string>
+    <string name="hms_update_continue" priority="LT">"Hent"</string>
+    <string name="hms_update_message" priority="translator">"Opdatér til den nyeste version af HMS Core for at kunne benytte denne funktion. Opdatér nu?"</string>
+    <string name="hms_update_message_new" priority="LT">"Denne tjeneste kræver den nyeste version af følgende app:\n\n%1$s"</string>
+    <string name="hms_update_nettype" priority="LT">"Ingen Wi-Fi-forbindelse. Hent ved hjælp af mobildata?"</string>
+    <string name="hms_update_title" priority="translator">"HMS Core"</string>
+    <string name="hwid_huawei_login_button_text" priority="translator">"Log ind med HUAWEI-id"</string>
+    <string name="icon_content_description">Ikon for dialogboks</string>
+    <string name="item_view_role_description">Fane</string>
+    <string name="material_clock_toggle_content_description">Vælg AM eller PM</string>
+    <string name="material_hour_selection">Vælg time</string>
+    <string name="material_hour_suffix">klokken %1$s</string>
+    <string name="material_minute_selection">Vælg minutter</string>
+    <string name="material_minute_suffix">%1$s minutter</string>
+    <string name="material_timepicker_am">f.m.</string>
+    <string name="material_timepicker_clock_mode_description">Skift til urtilstand for at angive klokkeslæt.</string>
+    <string name="material_timepicker_hour">Time</string>
+    <string name="material_timepicker_minute">Minut</string>
+    <string name="material_timepicker_pm">e.m.</string>
+    <string name="material_timepicker_select_time">Vælg tidspunkt</string>
+    <string name="material_timepicker_text_input_mode_description">Skift til teksttilstand for at angive klokkeslæt.</string>
+    <string name="mtrl_badge_numberless_content_description">Ny notifikation</string>
+    <string name="mtrl_chip_close_icon_content_description">Fjern %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Flere end %1$d nye notifikationer</string>
+    <string name="mtrl_picker_a11y_next_month">Skift til næste måned</string>
+    <string name="mtrl_picker_a11y_prev_month">Skift til forrige måned</string>
+    <string name="mtrl_picker_announce_current_selection">Aktuelt valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Vælg dato</string>
+    <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
+    <string name="mtrl_picker_day_of_week_column_header">Kolonne med dage: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Ugyldigt format.</string>
+    <string name="mtrl_picker_invalid_format_example">Eksempel: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Brug: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Ugyldigt interval.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Gå til år %1$s</string>
+    <string name="mtrl_picker_out_of_range">Uden for interval: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Startdato – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – slutdato</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Vælg interval</string>
+    <string name="mtrl_picker_range_header_unselected">Startdato – slutdato</string>
+    <string name="mtrl_picker_save">Gem</string>
+    <string name="mtrl_picker_text_input_date_hint">Dato</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Slutdato</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Startdato</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">å</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Skift til input-tilstand for kalender</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tryk for at gå til valg af dag</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Skift til input-tilstand for tekst</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tryk for at gå til valg af år</string>
+    <string name="password_toggle_content_description">Vis adgangskode</string>
+    <string name="scankit_confirm">OK</string>
+    <string name="scankit_light">Tryk for mere lys</string>
+    <string name="scankit_light_off">Slå lys fra</string>
+    <string name="scankit_no_code_tip">Der blev ikke registreret nogen kode.</string>
+    <string name="scankit_scan_tip">Placer koden inden for rammen</string>
+    <string name="scankit_title">Scan</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Søg"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="upsdk_app_download_info_new" priority="translator">"Installer"</string>
+    <string name="upsdk_app_download_installing" priority="translator">"Henter %s…"</string>
+    <string name="upsdk_app_size" priority="translator">"Størrelse"</string>
+    <string name="upsdk_app_version" priority="translator">"Version"</string>
+    <string name="upsdk_appstore_install" priority="translator">"%s kræves for at opdatere denne app. Installer nu?"</string>
+    <string name="upsdk_cancel" priority="translator">"Annuller"</string>
+    <string name="upsdk_checking_update_prompt" priority="LT">"Søger efter opdateringer…"</string>
+    <string name="upsdk_choice_update" priority="LT">"Opdatering tilgængelig. Download og installér den nyeste version."</string>
+    <string name="upsdk_detail" priority="translator">"Detaljer"</string>
+    <string name="upsdk_getting_message_fail_prompt_toast" priority="translator">"Kunne ikke hente information. Prøv igen senere."</string>
+    <string name="upsdk_mobile_dld_warn" priority="translator">"Du er i øjeblikket tilsluttet et mobilnetværk. Hvis du henter nu, bruges der %1$s data."</string>
+    <string name="upsdk_no_available_network_prompt_toast" priority="translator">"Ingen internetforbindelse. Kontrollér netværksindstillingerne."</string>
+    <string name="upsdk_ota_app_name" priority="LT">"App"</string>
+    <string name="upsdk_ota_cancel" priority="translator">"Senere"</string>
+    <string name="upsdk_ota_force_cancel_new" priority="LT">"Afslut"</string>
+    <string name="upsdk_ota_notify_updatebtn" priority="translator">"Opdatér"</string>
+    <string name="upsdk_ota_title" priority="translator">"Ny version"</string>
+    <string name="upsdk_storage_utils" priority="LT">"%1$s MB"</string>
+    <string name="upsdk_third_app_dl_cancel_download_prompt_ex" priority="translator">"Vil du annullere installationen?"</string>
+    <string name="upsdk_third_app_dl_install_failed" priority="translator">"Installationen mislykkedes."</string>
+    <string name="upsdk_third_app_dl_sure_cancel_download" priority="translator">"Ja"</string>
+    <string name="upsdk_update_check_no_new_version" priority="LT">"Din version er opdateret."</string>
+</resources>

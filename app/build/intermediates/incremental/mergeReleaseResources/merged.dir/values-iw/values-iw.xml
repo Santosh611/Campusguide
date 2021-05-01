@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="hiad_dismiss_dilaog">
+        <item priority="translator" quantity="one">"החלון ייסגר בעוד שנייה %1$s."</item>
+        <item priority="translator" quantity="two">"החלון ייסגר בעוד %1$s שניות."</item>
+        <item priority="translator" quantity="many">"החלון ייסגר בעוד %1$s שניות."</item>
+        <item priority="translator" quantity="other">"החלון ייסגר בעוד %1$s שניות."</item>
+    </plurals>
+    <plurals name="hiad_no_prompt_in_days">
+        <item priority="Reviewed" quantity="one">"זכור את הבחירה למשך יום %1$s"</item>
+        <item priority="Reviewed" quantity="two">"זכור את הבחירה למשך %1$s ימים"</item>
+        <item priority="translator" quantity="many">"זכור את הבחירה למשך %1$s ימים"</item>
+        <item priority="Reviewed" quantity="other">"זכור את הבחירה למשך %1$s ימים"</item>
+    </plurals>
+    <plurals name="hiad_reward_countdown">
+        <item priority="LT" quantity="one">"%1$d שניות"</item>
+        <item priority="LT" quantity="two">"%1$d שניות"</item>
+        <item priority="translator" quantity="many">"%1$d שניות"</item>
+        <item priority="LT" quantity="other">"%1$d שניות"</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">התראה חדשה אחת (%d)</item>
+    <item quantity="two">%d התראות חדשות</item>
+    <item quantity="many">%d התראות חדשות</item>
+    <item quantity="other">%d התראות חדשות</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"ניווט לדף הבית"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"ניווט למעלה"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"עוד אפשרויות"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"סיום"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"הצגת הכול"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"בחירת אפליקציה"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"כבוי"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"מופעל"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+‎"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"מחיקה"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"רווח"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"תפריט+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"חיפוש…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"מחיקת השאילתה"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"שאילתת חיפוש"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"חיפוש"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"שליחת שאילתה"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"חיפוש קולי"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"שיתוף עם"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"שיתוף עם <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"כיווץ"</string>
+    <string name="bottomsheet_action_expand_halfway">הרחבה עד האמצע</string>
+    <string name="character_counter_content_description">הוזנו %1$d תווים מתוך %2$d</string>
+    <string name="character_counter_overflowed_content_description">מגבלת התווים חורגת ב-%1$d מתוך %2$d</string>
+    <string name="clear_text_end_icon_content_description">מחיקת הטקסט</string>
+    <string name="error_icon_content_description">שגיאה</string>
+    <string name="exposed_dropdown_menu_content_description">הצגת התפריט הנפתח</string>
+    <string name="hiad_ad_label" priority="translator">"פרסומת"</string>
+    <string name="hiad_ad_label_new" priority="translator">"מודעה"</string>
+    <string name="hiad_app_installed" priority="LT">"%1$s הותקן"</string>
+    <string name="hiad_app_open_notification" priority="translator">"ההתקנה הושלמה. גע כדי לפתוח."</string>
+    <string name="hiad_app_permission" priority="LT">"הרשאות"</string>
+    <string name="hiad_choices_ad_closed" priority="LT">"מודעה מוסתרת"</string>
+    <string name="hiad_choices_ad_no_interest" priority="translator">"לא מעוניין"</string>
+    <string name="hiad_choices_hide" priority="LT">"הסתר מודעה"</string>
+    <string name="hiad_choices_whythisad" priority="LT">"מדוע ראיתי מודעה זו?"</string>
+    <string name="hiad_consume_data_to_play_video" priority="LT">"שימוש ברשת סלולרית יצרוך %1$s נתונים. להמשיך?"</string>
+    <string name="hiad_consume_data_to_play_video_no_data_size" priority="LT">"ההפעלה תשתמש בנתונים סלולריים. להמשיך?"</string>
+    <string name="hiad_continue_download" priority="LT">"הורד"</string>
+    <string name="hiad_continue_download_new" priority="LT">"הורד"</string>
+    <string name="hiad_continue_to_play" priority="LT">"המשך"</string>
+    <string name="hiad_copy_link" priority="LT">"העתק קישור"</string>
+    <string name="hiad_data_size_prompt" priority="translator">"%1$s MB"</string>
+    <string name="hiad_default_app_name" priority="LT">"יישום"</string>
+    <string name="hiad_default_skip_text" priority="LT">"דלג"</string>
+    <string name="hiad_default_skip_text_time" priority="LT">"דלג ב-%d"</string>
+    <string name="hiad_detail" priority="LT">"פרטים"</string>
+    <string name="hiad_detail_download_now" priority="LT">"הורד"</string>
+    <string name="hiad_dialog_accept" priority="LT">"אפשר"</string>
+    <string name="hiad_dialog_allow" priority="LT">"אפשר"</string>
+    <string name="hiad_dialog_cancel" priority="LT">"ביטול"</string>
+    <string name="hiad_dialog_close" priority="LT">"אישור"</string>
+    <string name="hiad_dialog_continue" priority="LT">"הורד"</string>
+    <string name="hiad_dialog_dismiss" priority="LT">"קיבלתי"</string>
+    <string name="hiad_dialog_install_desc" priority="LT">"לאפשר ל-%1$s להתקין את %2$s?"</string>
+    <string name="hiad_dialog_install_source" priority="LT">"מקור: %1$s"</string>
+    <string name="hiad_dialog_ok" priority="LT">"אפשר"</string>
+    <string name="hiad_dialog_open" priority="LT">"פתח"</string>
+    <string name="hiad_dialog_reject" priority="LT">"סרב"</string>
+    <string name="hiad_dialog_title" priority="LT">"להוריד באמצעות נתונים סלולריים?"</string>
+    <string name="hiad_dialog_title_tip" priority="LT">"הערה"</string>
+    <string name="hiad_download_app_via_mobile_data" priority="LT">"להוריד באמצעות נתונים סלולריים?"</string>
+    <string name="hiad_download_download" priority="translator">"התקן"</string>
+    <string name="hiad_download_download_with_size" priority="LT">"הורד (%1$s)"</string>
+    <string name="hiad_download_failed_toast_content" priority="LT">"אירעה שגיאה בעת הורדת %1$s."</string>
+    <string name="hiad_download_file_corrupted" priority="translator">"הקובץ פגום. הורד שוב."</string>
+    <string name="hiad_download_file_not_exist" priority="LT">"הקובץ לא קיים. נסה שוב."</string>
+    <string name="hiad_download_install" priority="LT">"התקן"</string>
+    <string name="hiad_download_installing" priority="LT">"מתקין"</string>
+    <string name="hiad_download_no_space" priority="LT">"אין מספיק אחסון. פנה מקום ונסה שוב."</string>
+    <string name="hiad_download_open" priority="LT">"פתח"</string>
+    <string name="hiad_download_resume" priority="LT">"המשך"</string>
+    <string name="hiad_download_retry_toast_content" priority="LT">"אירעה שגיאה בעת הורדת %1$s. ההורדה תתחיל מחדש."</string>
+    <string name="hiad_download_use_mobile_network" priority="LT">"אינך מחובר כעת ל-Wi-Fi. הורדה עכשיו תשתמש ב-%1$s של נתונים סלולריים. להוריד בכל זאת?"</string>
+    <string name="hiad_download_use_mobile_network_zh" priority="LT">"אינך מחובר כעת ל-WLAN. הורדה עכשיו תשתמש ב-%1$s של נתונים סלולריים. להוריד בכל זאת?"</string>
+    <string name="hiad_install_completed" priority="LT">"בוצע"</string>
+    <string name="hiad_landing_page_open_app" priority="LT">"דף זה רוצה לפתוח את %1$s."</string>
+    <string name="hiad_link_already_copied" priority="LT">"הקישור הועתק."</string>
+    <string name="hiad_mobile_download_prompt" priority="LT">"הורדה זו תצרוך %1$s של נתונים סלולריים."</string>
+    <string name="hiad_network_error" priority="LT">"שגיאת חיבור רשת."</string>
+    <string name="hiad_network_no_available" priority="LT">"אין חיבור לאינטרנט. בדוק את הגדרות הרשת."</string>
+    <string name="hiad_no_more_remind" priority="LT">"אל תזכיר לי שוב"</string>
+    <string name="hiad_non_wifi_download_prompt" priority="LT">"אין חיבור Wi-Fi. ההורדה תשתמש עכשיו בנתונים סלולריים. להוריד?"</string>
+    <string name="hiad_non_wifi_download_prompt_zh" priority="LT">"אין חיבור WLAN. ההורדה תשתמש עכשיו בנתונים סלולריים. להוריד?"</string>
+    <string name="hiad_open_in_browser" priority="LT">"פתח בדפדפן"</string>
+    <string name="hiad_page_load_failed" priority="LT">"אין אפשרות לטעון את הדף. נסה שוב."</string>
+    <string name="hiad_permission_dialog_title" priority="LT">"%1$s זקוק להרשאות הבאות:"</string>
+    <string name="hiad_prepare_download" priority="LT">"המתן ל-Wi-Fi"</string>
+    <string name="hiad_prepare_download_title" priority="LT">"להוריד על גבי רשת סלולרית?"</string>
+    <string name="hiad_prepare_download_zh" priority="LT">"המתן ל-WLAN"</string>
+    <string name="hiad_refresh" priority="LT">"רענן"</string>
+    <string name="hiad_reminder_app_over_size" priority="LT">"היישום גדול מ-‎%1$d MB"</string>
+    <string name="hiad_reward_close_dialog_close" priority="LT">"דלג"</string>
+    <string name="hiad_reward_close_dialog_continue" priority="LT">"המשך בצפייה"</string>
+    <string name="hiad_reward_close_dialog_message" priority="LT">"סיים לצפות במודעה זו כדי לזכות בפרס."</string>
+    <string name="hiad_whether_download" priority="LT">"להוריד יישום זה?"</string>
+    <string name="hiad_wifi_loaded_already" priority="translator">"נטען מראש על גבי Wi-Fi"</string>
+    <string name="hiad_wifi_loaded_already_zh" priority="translator">"טעון מראש"</string>
+    <string name="hms_abort" priority="translator">"עצור"</string>
+    <string name="hms_abort_message" priority="translator">"להפסיק את ההורדה?"</string>
+    <string name="hms_bindfaildlg_message" priority="translator">"%1$s לא יכול להשתמש ב-HMS Core. הפעל את Optimizer (מנהל הטלפון) או עבור אל \'הגדרות\', הפעל את כל ההרשאות עבור %2$s (כולל הפעלה אוטומטית והפעלה משנית), ונסה שוב."</string>
+    <string name="hms_cancel" priority="translator">"ביטול"</string>
+    <string name="hms_check_failure" priority="translator">"חיפוש העדכונים נכשל."</string>
+    <string name="hms_checking" priority="translator">"מחפש עדכונים…"</string>
+    <string name="hms_confirm" priority="translator">"אישור"</string>
+    <string name="hms_download_failure" priority="translator">"נכשלה ההורדה של חבילת HMS Core."</string>
+    <string name="hms_download_no_space" priority="translator">"אין מספיק מקום פנוי. אין אפשרות להשלים את ההורדה."</string>
+    <string name="hms_download_retry" priority="translator">"ההורדה נכשלה. האם לנסות שנית?"</string>
+    <string name="hms_downloading_loading" priority="LT">"מוריד"</string>
+    <string name="hms_install" priority="translator">"התקן"</string>
+    <string name="hms_install_message" priority="translator">"יש להתקין את HMS Core כדי להשתמש בתכונה זו. להתקין?"</string>
+    <string name="hms_retry" priority="translator">"נסה שוב"</string>
+    <string name="hms_update" priority="translator">"עדכון"</string>
+    <string name="hms_update_continue" priority="LT">"הורד"</string>
+    <string name="hms_update_message" priority="translator">"עדכן לגרסה העדכנית ביותר של HMS Core כדי להשתמש בתכונה זו. לעדכן עכשיו?"</string>
+    <string name="hms_update_message_new" priority="LT">"לשירות זה דרושה הגרסה האחרונה של היישום:\n\n%1$s"</string>
+    <string name="hms_update_nettype" priority="LT">"אין חיבור Wi-Fi. להוריד באמצעות נתונים סלולריים?"</string>
+    <string name="hms_update_title" priority="translator">"HMS Core"</string>
+    <string name="hwid_huawei_login_button_text" priority="translator">"היכנס באמצעות מזהה HUAWEI"</string>
+    <string name="icon_content_description">סמל לתיבת דו-שיח</string>
+    <string name="item_view_role_description">מקש Tab</string>
+    <string name="material_clock_toggle_content_description">יש לבחור ב-AM או ב-PM</string>
+    <string name="material_hour_selection">בחר שעה</string>
+    <string name="material_hour_suffix">השעה %1$s</string>
+    <string name="material_minute_selection">בחר דקות</string>
+    <string name="material_minute_suffix">%1$s דקות</string>
+    <string name="material_timepicker_am">לפנה\"צ</string>
+    <string name="material_timepicker_clock_mode_description">העבר למצב שעון לצורך הזנת השעה</string>
+    <string name="material_timepicker_hour">שעה</string>
+    <string name="material_timepicker_minute">דקה</string>
+    <string name="material_timepicker_pm">אחה\"צ</string>
+    <string name="material_timepicker_select_time">בחר שעה</string>
+    <string name="material_timepicker_text_input_mode_description">העבר למצב קלט טקסט לצורך הזנת השעה</string>
+    <string name="mtrl_badge_numberless_content_description">התראה חדשה</string>
+    <string name="mtrl_chip_close_icon_content_description">הסרה של %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">יותר מ-%1$d התראות חדשות</string>
+    <string name="mtrl_picker_a11y_next_month">מעבר לחודש הבא</string>
+    <string name="mtrl_picker_a11y_prev_month">מעבר לחודש הקודם</string>
+    <string name="mtrl_picker_announce_current_selection">הבחירה הנוכחית: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">יש לבחור תאריך</string>
+    <string name="mtrl_picker_date_header_unselected">התאריך הנבחר</string>
+    <string name="mtrl_picker_day_of_week_column_header">עמודה של ימים: %1$s</string>
+    <string name="mtrl_picker_invalid_format">פורמט לא חוקי.</string>
+    <string name="mtrl_picker_invalid_format_example">דוגמה: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">יש להשתמש בפורמט: %1$s</string>
+    <string name="mtrl_picker_invalid_range">טווח לא חוקי.</string>
+    <string name="mtrl_picker_navigate_to_year_description">ניווט לשנת %1$s</string>
+    <string name="mtrl_picker_out_of_range">מחוץ לטווח: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">תאריך התחלה – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – תאריך סיום</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">יש לבחור טווח</string>
+    <string name="mtrl_picker_range_header_unselected">תאריך התחלה - תאריך סיום</string>
+    <string name="mtrl_picker_save">שמירה</string>
+    <string name="mtrl_picker_text_input_date_hint">תאריך</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">תאריך סיום</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">תאריך התחלה</string>
+    <string name="mtrl_picker_text_input_day_abbr">י</string>
+    <string name="mtrl_picker_text_input_month_abbr">ח</string>
+    <string name="mtrl_picker_text_input_year_abbr">ש</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">החלפה לשיטת קלט של יומן</string>
+    <string name="mtrl_picker_toggle_to_day_selection">יש להקיש כדי להחליף לבחירת יום</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">החלפה לשיטת קלט של טקסט</string>
+    <string name="mtrl_picker_toggle_to_year_selection">יש להקיש כדי להחליף לבחירת שנה</string>
+    <string name="password_toggle_content_description">הצגת סיסמה</string>
+    <string name="scankit_confirm">אישור</string>
+    <string name="scankit_light">גע להגברת האור</string>
+    <string name="scankit_light_off">כבה את האור</string>
+    <string name="scankit_no_code_tip">לא זוהה קוד.</string>
+    <string name="scankit_scan_tip">מקם את הקוד בתוך המסגרת</string>
+    <string name="scankit_title">סרוק</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"חיפוש"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="upsdk_app_download_info_new" priority="translator">"התקן"</string>
+    <string name="upsdk_app_download_installing" priority="translator">"מוריד את %s..."</string>
+    <string name="upsdk_app_size" priority="translator">"גודל"</string>
+    <string name="upsdk_app_version" priority="translator">"גרסה"</string>
+    <string name="upsdk_appstore_install" priority="translator">"צורך ב-%s כדי לעדכן יישום זה. להתקין עכשיו?"</string>
+    <string name="upsdk_cancel" priority="translator">"ביטול"</string>
+    <string name="upsdk_checking_update_prompt" priority="LT">"מחפש עדכונים…"</string>
+    <string name="upsdk_choice_update" priority="LT">"קיים עדכון. הורד והתקן את הגרסה העדכנית ביותר."</string>
+    <string name="upsdk_detail" priority="translator">"פרטים"</string>
+    <string name="upsdk_getting_message_fail_prompt_toast" priority="translator">"אין אפשרות לאחזר מידע. נסה שוב מאוחר יותר."</string>
+    <string name="upsdk_mobile_dld_warn" priority="translator">"אתה כרגע מחובר לרשת סלולרית. הורדה עכשיו תשתמש ב-%1$s של נתונים."</string>
+    <string name="upsdk_no_available_network_prompt_toast" priority="translator">"אין חיבור אינטרנט. בדוק את הגדרות הרשת."</string>
+    <string name="upsdk_ota_app_name" priority="LT">"יישום"</string>
+    <string name="upsdk_ota_cancel" priority="translator">"מאוחר יותר"</string>
+    <string name="upsdk_ota_force_cancel_new" priority="LT">"יציאה"</string>
+    <string name="upsdk_ota_notify_updatebtn" priority="translator">"עדכן"</string>
+    <string name="upsdk_ota_title" priority="translator">"גרסה חדשה"</string>
+    <string name="upsdk_storage_utils" priority="LT">"%1$s MB"</string>
+    <string name="upsdk_third_app_dl_cancel_download_prompt_ex" priority="translator">"לבטל את ההתקנה?"</string>
+    <string name="upsdk_third_app_dl_install_failed" priority="translator">"ההתקנה נכשלה."</string>
+    <string name="upsdk_third_app_dl_sure_cancel_download" priority="translator">"כן"</string>
+    <string name="upsdk_update_check_no_new_version" priority="Reviewed">"הגרסה שלך מעודכנת."</string>
+</resources>

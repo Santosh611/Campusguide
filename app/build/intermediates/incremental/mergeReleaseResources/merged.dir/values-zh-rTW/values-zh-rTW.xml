@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="hiad_dismiss_dilaog">
+    <item priority="translator" quantity="other">"%1$s 秒後自動忽略"</item>
+</plurals>
+    <plurals name="hiad_no_prompt_in_days">
+    <item priority="Reviewed" quantity="other">"%1$s 天內不再提示"</item>
+</plurals>
+    <plurals name="hiad_reward_countdown">
+    <item priority="LT" quantity="other">"%1$d 秒"</item>
+</plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d 則新通知</item>
+    <item quantity="other">%d 則新通知</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"瀏覽首頁"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"向上瀏覽"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"更多選項"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"完成"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"選擇應用程式"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"關閉"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"開啟"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete 鍵"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter 鍵"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fn +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"空格鍵"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"搜尋…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"清除查詢"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"搜尋查詢"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"搜尋"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"提交查詢"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"語音搜尋"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"分享對象"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"與「<ns1:g id="APPLICATION_NAME">%s</ns1:g>」分享"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"收合"</string>
+    <string name="bottomsheet_action_expand_halfway">展開一半</string>
+    <string name="character_counter_content_description">已輸入 %1$d 個字元 (上限為 %2$d 個字元)</string>
+    <string name="character_counter_overflowed_content_description">超過字元限制 (共 %1$d 字元，上限 %2$d 字元)</string>
+    <string name="clear_text_end_icon_content_description">清除文字</string>
+    <string name="error_icon_content_description">錯誤</string>
+    <string name="exposed_dropdown_menu_content_description">顯示下拉式選單</string>
+    <string name="hiad_ad_label" priority="translator">"廣告"</string>
+    <string name="hiad_ad_label_new" priority="translator">"廣告"</string>
+    <string name="hiad_app_installed" priority="LT">"%1$s 已安裝成功"</string>
+    <string name="hiad_app_open_notification" priority="translator">"安裝完成，請輕觸將其開啟"</string>
+    <string name="hiad_app_permission" priority="LT">"權限"</string>
+    <string name="hiad_choices_ad_closed" priority="LT">"廣告已關閉"</string>
+    <string name="hiad_choices_ad_no_interest" priority="translator">"不感興趣"</string>
+    <string name="hiad_choices_hide" priority="LT">"隱藏廣告"</string>
+    <string name="hiad_choices_whythisad" priority="LT">"為什麼會看到這則廣告？"</string>
+    <string name="hiad_consume_data_to_play_video" priority="LT">"使用行動網路將消耗 %1$s 流量"</string>
+    <string name="hiad_consume_data_to_play_video_no_data_size" priority="LT">"使用行動網路將消耗數據流量。是否繼續？"</string>
+    <string name="hiad_continue_download" priority="LT">"繼續下載"</string>
+    <string name="hiad_continue_download_new" priority="LT">"繼續下載"</string>
+    <string name="hiad_continue_to_play" priority="LT">"繼續播放"</string>
+    <string name="hiad_copy_link" priority="LT">"複製連結"</string>
+    <string name="hiad_data_size_prompt" priority="translator">"%1$s MB"</string>
+    <string name="hiad_default_app_name" priority="LT">"應用程式"</string>
+    <string name="hiad_default_skip_text" priority="LT">"跳過"</string>
+    <string name="hiad_default_skip_text_time" priority="LT">"跳過 %d"</string>
+    <string name="hiad_detail" priority="LT">"詳細資料"</string>
+    <string name="hiad_detail_download_now" priority="LT">"立即下載"</string>
+    <string name="hiad_dialog_accept" priority="LT">"接受"</string>
+    <string name="hiad_dialog_allow" priority="LT">"允許"</string>
+    <string name="hiad_dialog_cancel" priority="LT">"取消"</string>
+    <string name="hiad_dialog_close" priority="LT">"關閉"</string>
+    <string name="hiad_dialog_continue" priority="LT">"下載"</string>
+    <string name="hiad_dialog_dismiss" priority="LT">"忽略"</string>
+    <string name="hiad_dialog_install_desc" priority="LT">"是否同意%1$s安裝%2$s應用程式？"</string>
+    <string name="hiad_dialog_install_source" priority="LT">"安裝來源：%1$s"</string>
+    <string name="hiad_dialog_ok" priority="LT">"同意"</string>
+    <string name="hiad_dialog_open" priority="LT">"開啟"</string>
+    <string name="hiad_dialog_reject" priority="LT">"拒絕"</string>
+    <string name="hiad_dialog_title" priority="LT">"使用數據流量下載？"</string>
+    <string name="hiad_dialog_title_tip" priority="LT">"提示"</string>
+    <string name="hiad_download_app_via_mobile_data" priority="LT">"是否繼續使用行動數據網路下載？"</string>
+    <string name="hiad_download_download" priority="translator">"下載"</string>
+    <string name="hiad_download_download_with_size" priority="LT">"下載（%1$s）"</string>
+    <string name="hiad_download_failed_toast_content" priority="LT">"因網路發生問題而導致「%1$s」安裝套件下載失敗"</string>
+    <string name="hiad_download_file_corrupted" priority="translator">"檔案已損壞，請重新下載"</string>
+    <string name="hiad_download_file_not_exist" priority="LT">"檔案不存在，請重新下載"</string>
+    <string name="hiad_download_install" priority="translator">"安裝"</string>
+    <string name="hiad_download_installing" priority="LT">"安裝中"</string>
+    <string name="hiad_download_no_space" priority="LT">"儲存空間不足，請清理後再安裝"</string>
+    <string name="hiad_download_open" priority="translator">"開啟"</string>
+    <string name="hiad_download_resume" priority="LT">"繼續"</string>
+    <string name="hiad_download_retry_toast_content" priority="LT">"因網路發生問題而導致「%1$s」安裝套件下載異常，即將重新下載"</string>
+    <string name="hiad_download_use_mobile_network" priority="LT">"目前未連線至 Wi-Fi，下載會耗用 %1$s 的數據流量。是否確定下載？"</string>
+    <string name="hiad_download_use_mobile_network_zh" priority="LT">"目前未連線至 WLAN，下載會耗用 %1$s 的數據流量。是否確定下載？"</string>
+    <string name="hiad_install_completed" priority="LT">"完成"</string>
+    <string name="hiad_landing_page_open_app" priority="LT">"網頁將開啟「%1$s」。是否允許？"</string>
+    <string name="hiad_link_already_copied" priority="LT">"連結已複製"</string>
+    <string name="hiad_mobile_download_prompt" priority="LT">"目前使用行動數據網路，立即下載將會耗用 %1$s 的數據流量。是否立即下載？"</string>
+    <string name="hiad_network_error" priority="LT">"網路連線錯誤"</string>
+    <string name="hiad_network_no_available" priority="LT">"未連線至網路，請檢查網路設定"</string>
+    <string name="hiad_no_more_remind" priority="LT">"不再提醒"</string>
+    <string name="hiad_non_wifi_download_prompt" priority="LT">"目前為非 Wi-Fi 網路環境，下載將耗用數據流量。是否繼續下載？"</string>
+    <string name="hiad_non_wifi_download_prompt_zh" priority="LT">"目前為非 WLAN 網路環境，下載將耗用數據流量。是否繼續下載？"</string>
+    <string name="hiad_open_in_browser" priority="LT">"用瀏覽器開啟"</string>
+    <string name="hiad_page_load_failed" priority="LT">"頁面載入失敗，請輕觸重試"</string>
+    <string name="hiad_permission_dialog_title" priority="LT">"「%1$s」需要以下權限："</string>
+    <string name="hiad_prepare_download" priority="LT">"預約 Wi-Fi 下載"</string>
+    <string name="hiad_prepare_download_title" priority="LT">"數據網路下載提示"</string>
+    <string name="hiad_prepare_download_zh" priority="LT">"預約 WLAN 下載"</string>
+    <string name="hiad_refresh" priority="LT">"重新整理"</string>
+    <string name="hiad_reminder_app_over_size" priority="LT">"超過 %1$d MB 的應用程式"</string>
+    <string name="hiad_reward_close_dialog_close" priority="LT">"關閉廣告"</string>
+    <string name="hiad_reward_close_dialog_continue" priority="LT">"繼續觀看"</string>
+    <string name="hiad_reward_close_dialog_message" priority="LT">"觀看完整影片才可獲得獎勵"</string>
+    <string name="hiad_whether_download" priority="LT">"是否下載該軟體？"</string>
+    <string name="hiad_wifi_loaded_already" priority="translator">"已透過 Wi-Fi 預先載入"</string>
+    <string name="hiad_wifi_loaded_already_zh" priority="translator">"已在 WLAN 下預先載入"</string>
+    <string name="hms_abort" priority="translator">"停止"</string>
+    <string name="hms_abort_message" priority="translator">"停止下載？"</string>
+    <string name="hms_bindfaildlg_message" priority="translator">"%1$s 無法正常使用 HMS Core。請嘗試開啟「手機管理員」或「設定」，啟用 %2$s 的所有權限（「自動啟動」、「關聯啟動」等），並重試。"</string>
+    <string name="hms_cancel" priority="translator">"取消"</string>
+    <string name="hms_check_failure" priority="translator">"檢查 HMS Core 更新失敗。"</string>
+    <string name="hms_checking" priority="translator">"正在偵測新版本…"</string>
+    <string name="hms_confirm" priority="translator">"確定"</string>
+    <string name="hms_download_failure" priority="translator">"下載 HMS Core 安裝套件失敗。"</string>
+    <string name="hms_download_no_space" priority="translator">"可用空間不足。無法完成下載。"</string>
+    <string name="hms_download_retry" priority="translator">"下載 HMS Core 失敗。是否重試？"</string>
+    <string name="hms_downloading_loading" priority="LT">"正在下載"</string>
+    <string name="hms_install" priority="translator">"安裝"</string>
+    <string name="hms_install_message" priority="translator">"您尚未安裝 HMS Core，安裝之後才可使用此功能。是否安裝？"</string>
+    <string name="hms_retry" priority="translator">"重試"</string>
+    <string name="hms_update" priority="translator">"更新"</string>
+    <string name="hms_update_continue" priority="LT">"繼續下載"</string>
+    <string name="hms_update_message" priority="translator">"HMS Core 版本過舊，更新至最新版本才可使用此功能。是否更新？"</string>
+    <string name="hms_update_message_new" priority="LT">"該服務需安裝以下應用程式的最新版本才能使用：\n\n·%1$s"</string>
+    <string name="hms_update_nettype" priority="LT">"目前為非 Wi-Fi 網路。是否繼續下載？"</string>
+    <string name="hms_update_title" priority="translator">"HMS Core"</string>
+    <string name="hwid_huawei_login_button_text" priority="LT">"華為 ID 登入"</string>
+    <string name="icon_content_description">對話方塊圖示</string>
+    <string name="item_view_role_description">分頁標籤</string>
+    <string name="material_clock_toggle_content_description">選取上午或下午</string>
+    <string name="material_hour_selection">請選取時段</string>
+    <string name="material_hour_suffix">%1$s 點</string>
+    <string name="material_minute_selection">選取分鐘數</string>
+    <string name="material_minute_suffix">%1$s 分</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">切換至時鐘模式來輸入時間。</string>
+    <string name="material_timepicker_hour">小時</string>
+    <string name="material_timepicker_minute">分鐘</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">選取時間</string>
+    <string name="material_timepicker_text_input_mode_description">切換至文字輸入模式來輸入時間。</string>
+    <string name="mtrl_badge_numberless_content_description">新通知</string>
+    <string name="mtrl_chip_close_icon_content_description">移除 %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">超過 %1$d 則新通知</string>
+    <string name="mtrl_picker_a11y_next_month">變更至下個月</string>
+    <string name="mtrl_picker_a11y_prev_month">變更至上個月</string>
+    <string name="mtrl_picker_announce_current_selection">目前選取：%1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">選取日期</string>
+    <string name="mtrl_picker_date_header_unselected">所選日期</string>
+    <string name="mtrl_picker_day_of_week_column_header">星期幾資料欄：%1$s</string>
+    <string name="mtrl_picker_invalid_format">格式無效。</string>
+    <string name="mtrl_picker_invalid_format_example">範例：%1$s</string>
+    <string name="mtrl_picker_invalid_format_use">使用：%1$s</string>
+    <string name="mtrl_picker_invalid_range">日期範圍無效。</string>
+    <string name="mtrl_picker_navigate_to_year_description">前往 %1$s 年</string>
+    <string name="mtrl_picker_out_of_range">超出日期範圍：%1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">開始日期 – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – 結束日期</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">選取範圍</string>
+    <string name="mtrl_picker_range_header_unselected">開始日期 - 結束日期</string>
+    <string name="mtrl_picker_save">儲存</string>
+    <string name="mtrl_picker_text_input_date_hint">日期</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">結束日期</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">開始日期</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">切換至日曆輸入模式</string>
+    <string name="mtrl_picker_toggle_to_day_selection">輕觸即可切換為選取星期幾</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">切換至文字輸入模式</string>
+    <string name="mtrl_picker_toggle_to_year_selection">輕觸即可切換為選取年份</string>
+    <string name="password_toggle_content_description">顯示密碼</string>
+    <string name="scankit_confirm">確認</string>
+    <string name="scankit_light">輕觸照亮</string>
+    <string name="scankit_light_off">輕觸關閉</string>
+    <string name="scankit_no_code_tip">圖中未發現條碼</string>
+    <string name="scankit_scan_tip">將條碼移入觀景窗，即可自動掃描</string>
+    <string name="scankit_title">掃描條碼</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"搜尋"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="upsdk_app_download_info_new" priority="translator">"安裝"</string>
+    <string name="upsdk_app_download_installing" priority="translator">"正在下載 %s"</string>
+    <string name="upsdk_app_size" priority="LT">"大小"</string>
+    <string name="upsdk_app_version" priority="LT">"版本"</string>
+    <string name="upsdk_appstore_install" priority="translator">"需要使用 %s 才能升級。是否立即安裝？"</string>
+    <string name="upsdk_cancel" priority="LT">"取消"</string>
+    <string name="upsdk_checking_update_prompt" priority="LT">"正在檢查更新…"</string>
+    <string name="upsdk_choice_update" priority="LT">"有可用更新，快去升級吧。"</string>
+    <string name="upsdk_detail" priority="LT">"詳情"</string>
+    <string name="upsdk_getting_message_fail_prompt_toast" priority="translator">"無法取得資訊，請稍後重試"</string>
+    <string name="upsdk_mobile_dld_warn" priority="translator">"目前使用行動數據網路，立即安裝將耗用 %1$s 的數據流量。"</string>
+    <string name="upsdk_no_available_network_prompt_toast" priority="translator">"沒有網際網路連線。請檢查網路設定。"</string>
+    <string name="upsdk_ota_app_name" priority="LT">"應用程式"</string>
+    <string name="upsdk_ota_cancel" priority="LT">"以後再說"</string>
+    <string name="upsdk_ota_force_cancel_new" priority="LT">"結束應用程式"</string>
+    <string name="upsdk_ota_notify_updatebtn" priority="LT">"立即更新"</string>
+    <string name="upsdk_ota_title" priority="LT">"發現新版本"</string>
+    <string name="upsdk_storage_utils" priority="LT">"%1$s MB"</string>
+    <string name="upsdk_third_app_dl_cancel_download_prompt_ex" priority="translator">"取消安裝？"</string>
+    <string name="upsdk_third_app_dl_install_failed" priority="translator">"安裝失敗"</string>
+    <string name="upsdk_third_app_dl_sure_cancel_download" priority="translator">"是"</string>
+    <string name="upsdk_update_check_no_new_version" priority="LT">"已是最新版本"</string>
+</resources>

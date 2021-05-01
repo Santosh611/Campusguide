@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="hiad_dismiss_dilaog">
+    <item priority="translator" quantity="one">"Цонх %1$s секундын дараа хаагдана."</item>
+    <item priority="translator" quantity="other">"Цонх %1$s секундын дараа хаагдана."</item>
+</plurals>
+    <plurals name="hiad_no_prompt_in_days">
+    <item priority="Reviewed" quantity="one">"Сонголтыг %1$s хоног хадгалах"</item>
+    <item priority="Reviewed" quantity="other">"Сонголтыг %1$s хоног хадгалах"</item>
+</plurals>
+    <plurals name="hiad_reward_countdown">
+    <item priority="LT" quantity="one">"%1$d секунд"</item>
+    <item priority="LT" quantity="other">"%1$d секунд"</item>
+</plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d шинэ мэдэгдэл</item>
+    <item quantity="other">%d шинэ мэдэгдэл</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Нүүр хуудас уруу шилжих"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Дээш шилжих"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Бусад сонголт"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Болсон"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Бүгдийг харах"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Аппыг сонгох"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ИДЭВХГҮЙ"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ИДЭВХТЭЙ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"устгах"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"оруулах"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Функц+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Мета+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Шифт+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"зай"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Цэс+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Хайх…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Асуулга арилгах"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Хайх асуулга"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Хайх"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Асуулга илгээх"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Дуут хайлт"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Дараахтай хуваалцах"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>-тай хуваалцах"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Буулгах"</string>
+    <string name="bottomsheet_action_expand_halfway">Хагас дэлгэнэ үү</string>
+    <string name="character_counter_content_description">%2$d-н %1$d тэмдэгтийг оруулсан</string>
+    <string name="character_counter_overflowed_content_description">Тэмдэгтийн хязгаар %2$d-н %1$d-с хэтэрсэн</string>
+    <string name="clear_text_end_icon_content_description">Текстийг арилгах</string>
+    <string name="error_icon_content_description">Алдаа</string>
+    <string name="exposed_dropdown_menu_content_description">Доош унадаг цэсийг харуулах</string>
+    <string name="hiad_ad_label" priority="translator">"AD"</string>
+    <string name="hiad_ad_label_new" priority="translator">"Зар"</string>
+    <string name="hiad_app_installed" priority="LT">"%1$s суулгагдлаа"</string>
+    <string name="hiad_app_open_notification" priority="translator">"Суулгаж дууслаа. Дараад нээнэ үү."</string>
+    <string name="hiad_app_permission" priority="LT">"Зөвшөөрөл"</string>
+    <string name="hiad_choices_ad_closed" priority="LT">"Зар нуугдсан"</string>
+    <string name="hiad_choices_ad_no_interest" priority="translator">"Сонирхолгүй"</string>
+    <string name="hiad_choices_hide" priority="LT">"Зар нуух"</string>
+    <string name="hiad_choices_whythisad" priority="LT">"Би яагаад энэ зарыг харж байна вэ?"</string>
+    <string name="hiad_consume_data_to_play_video" priority="translator">"Гар утасны сүлжээ ашиглавал датаны %1$s-г хэрэглэнэ. Үргэлжлүүлэх үү?"</string>
+    <string name="hiad_consume_data_to_play_video_no_data_size" priority="LT">"Дахин тоглуулахад гар утасны дата ашиглах болно. Үргэлжлүүлэх үү?"</string>
+    <string name="hiad_continue_download" priority="LT">"Татах"</string>
+    <string name="hiad_continue_download_new" priority="LT">"ТАТАХ"</string>
+    <string name="hiad_continue_to_play" priority="translator">"ҮРГЭЛЖЛҮҮЛЭХ"</string>
+    <string name="hiad_copy_link" priority="LT">"Холбоос хуулах"</string>
+    <string name="hiad_data_size_prompt" priority="translator">"%1$s МБ"</string>
+    <string name="hiad_default_app_name" priority="LT">"Аппликэйшн"</string>
+    <string name="hiad_default_skip_text" priority="translator">"Алгасах"</string>
+    <string name="hiad_default_skip_text_time" priority="LT">"%d дотор алгасах"</string>
+    <string name="hiad_detail" priority="translator">"Дэлгэрэнгүй"</string>
+    <string name="hiad_detail_download_now" priority="LT">"Татах"</string>
+    <string name="hiad_dialog_accept" priority="LT">"ЗӨВШӨӨРӨХ"</string>
+    <string name="hiad_dialog_allow" priority="LT">"ЗӨВШӨӨРӨХ"</string>
+    <string name="hiad_dialog_cancel" priority="LT">"ЦУЦЛАХ"</string>
+    <string name="hiad_dialog_close" priority="LT">"ОК"</string>
+    <string name="hiad_dialog_continue" priority="LT">"ТАТАХ"</string>
+    <string name="hiad_dialog_dismiss" priority="LT">"ОЙЛГОЛОО"</string>
+    <string name="hiad_dialog_install_desc" priority="LT">"%1$s-д %2$s-г суулгахыг зөвшөөрөх үү?"</string>
+    <string name="hiad_dialog_install_source" priority="LT">"Эх сурвалж: %1$s"</string>
+    <string name="hiad_dialog_ok" priority="LT">"ЗӨВШӨӨРӨХ"</string>
+    <string name="hiad_dialog_open" priority="LT">"НЭЭЛТТЭЙ"</string>
+    <string name="hiad_dialog_reject" priority="LT">"ТАТГАЛЗАХ"</string>
+    <string name="hiad_dialog_title" priority="LT">"гар утасны дата ашиглан татах уу?"</string>
+    <string name="hiad_dialog_title_tip" priority="LT">"Нэмэлт мэдээлэл"</string>
+    <string name="hiad_download_app_via_mobile_data" priority="LT">"Гар утасны датаг ашиглан татаж авах уу?"</string>
+    <string name="hiad_download_download" priority="translator">"СУУЛГАХ"</string>
+    <string name="hiad_download_download_with_size" priority="LT">"ТАТАХ (%1$s)"</string>
+    <string name="hiad_download_failed_toast_content" priority="LT">"%1$s-г татах явцад алдаа гарлаа."</string>
+    <string name="hiad_download_file_corrupted" priority="translator">"Файл эвдэрсэн. Дахин татна уу."</string>
+    <string name="hiad_download_file_not_exist" priority="LT">"Файл байхгүй. Дахин оролдоно уу."</string>
+    <string name="hiad_download_install" priority="LT">"СУУЛГАХ"</string>
+    <string name="hiad_download_installing" priority="LT">"СУУЛГАЖ БАЙНА"</string>
+    <string name="hiad_download_no_space" priority="LT">"Багтаамж хангалтгүй. Зай суллаад дахин оролдоно уу."</string>
+    <string name="hiad_download_open" priority="LT">"НЭЭХ"</string>
+    <string name="hiad_download_resume" priority="LT">"ҮРГЭЛЖЛҮҮЛЭХ"</string>
+    <string name="hiad_download_retry_toast_content" priority="LT">"%1$s-г татах явцад алдаа гарлаа. Шинээр татаж эхлэх болно."</string>
+    <string name="hiad_download_use_mobile_network" priority="LT">"Та одоогоор Wi-Fi-д холбогдоогүй байна. Одоо татснаар %1$s гар утасны дата ашиглана. Ямар ч байсан татах уу?"</string>
+    <string name="hiad_download_use_mobile_network_zh" priority="LT">"Та одоогоор WLAN-д холбогдоогүй байна. Одоо татснаар %1$s гар утасны дата ашиглана. Ямар ч байсан татах уу?"</string>
+    <string name="hiad_install_completed" priority="LT">"Боллоо"</string>
+    <string name="hiad_landing_page_open_app" priority="LT">"Энэ хуудас %1$s-г нээхийг хүсэж байна."</string>
+    <string name="hiad_link_already_copied" priority="LT">"Холбоос хуулагдлаа."</string>
+    <string name="hiad_mobile_download_prompt" priority="LT">"Энэ татан авалт %1$s гар утасны дата ашиглах болно."</string>
+    <string name="hiad_network_error" priority="translator">"Сүлжээний холболтын алдаа."</string>
+    <string name="hiad_network_no_available" priority="LT">"Интернет холболт байхгүй байна. Сүлжээнийхээ тохиргоог шалгана уу."</string>
+    <string name="hiad_no_more_remind" priority="LT">"Надад дахин бүү сануул"</string>
+    <string name="hiad_non_wifi_download_prompt" priority="LT">"Wi-Fi холболт байхгүй. Одоо татаж авбал таны гар утасны датаг ашиглах болно. Татах?"</string>
+    <string name="hiad_non_wifi_download_prompt_zh" priority="LT">"WLAN холболт байхгүй. Одоо татаж авбал таны гар утасны датаг ашиглах болно. Татах?"</string>
+    <string name="hiad_open_in_browser" priority="LT">"Хөтөч дотор нээх"</string>
+    <string name="hiad_page_load_failed" priority="LT">"Хуудсыг ачаалах боломжгүй. Дахин оролдоно уу."</string>
+    <string name="hiad_permission_dialog_title" priority="LT">"%1$s-д дараах зөвшөөрлүүд шаардлагатай:"</string>
+    <string name="hiad_prepare_download" priority="LT">"Wi-Fi-г хүлээнэ үү"</string>
+    <string name="hiad_prepare_download_title" priority="LT">"Гар утасны сүлжээгээр татах уу?"</string>
+    <string name="hiad_prepare_download_zh" priority="LT">"WLAN-г хүлээх"</string>
+    <string name="hiad_refresh" priority="LT">"Сэргээх"</string>
+    <string name="hiad_reminder_app_over_size" priority="LT">"%1$d МB-с том аппликэйшн"</string>
+    <string name="hiad_reward_close_dialog_close" priority="LT">"Алгасах"</string>
+    <string name="hiad_reward_close_dialog_continue" priority="LT">"Үзсээр байх"</string>
+    <string name="hiad_reward_close_dialog_message" priority="LT">"Энэ зарыг үзэж дуусгаад шагнал аваарай."</string>
+    <string name="hiad_whether_download" priority="LT">"Энэ аппликэйшнийг татах уу?"</string>
+    <string name="hiad_wifi_loaded_already" priority="translator">"Wi-Fi-аар урьдчилан ачаалсан"</string>
+    <string name="hiad_wifi_loaded_already_zh" priority="translator">"Урьдчилан ачаалсан"</string>
+    <string name="hms_abort" priority="translator">"Зогсоох"</string>
+    <string name="hms_abort_message" priority="translator">"Татан авалтыг зогсоох уу?"</string>
+    <string name="hms_bindfaildlg_message" priority="translator">"%1$s нь HMS Core-г ашиглах боломжгүй байна. Оновчлогч (Утасны менежер)-г нээх эсвэл Тохиргоо руу орж, %2$s-н (автоматаар ажиллуулах болон нэмэлтээр ажиллуулах гэх мэт) бүх зөвшөөрлийг идэвхжүүлээд, дахин оролдоно уу."</string>
+    <string name="hms_cancel" priority="translator">"Цуцлах"</string>
+    <string name="hms_check_failure" priority="translator">"Шинэчлэл шалгах үед алдаа гарлаа."</string>
+    <string name="hms_checking" priority="translator">"Шинэчлэл шалгаж байна…"</string>
+    <string name="hms_confirm" priority="translator">"OK"</string>
+    <string name="hms_download_failure" priority="translator">"HMS Core багцыг татаж авахад алдаа гарлаа."</string>
+    <string name="hms_download_no_space" priority="translator">"Хангалттай зай алга. Татан авалтыг гүйцээх боломжгүй."</string>
+    <string name="hms_download_retry" priority="translator">"Татан авалт амжилтгүй. Дахин оролдох уу?"</string>
+    <string name="hms_downloading_loading" priority="LT">"Татаж байна"</string>
+    <string name="hms_install" priority="translator">"Суулгах"</string>
+    <string name="hms_install_message" priority="translator">"Энэ үйлдлийг ашиглахын тулд HMS Core-г суулгасан байх ёстой. Суулгах уу?"</string>
+    <string name="hms_retry" priority="translator">"Дахин оролдох"</string>
+    <string name="hms_update" priority="translator">"Шинэчлэх"</string>
+    <string name="hms_update_continue" priority="LT">"Татаж авах"</string>
+    <string name="hms_update_message" priority="translator">"Энэ үйлдлийг ашиглахын тулд HMS Core-н хамгийн сүүлийн хувилбар болгож шинэчил. Одоо шинэчлэх үү?"</string>
+    <string name="hms_update_message_new" priority="translator">"Энэхүү үйлчилгээг ажиллуулахын тулд доорх программуудын хамгийн сүүлийн хувилбар шаардлагатай:\n\n%1$s"</string>
+    <string name="hms_update_nettype" priority="LT">"Wi-Fi холболт байхгүй. Гар утасны дата ашиглан татаж авах уу?"</string>
+    <string name="hms_update_title" priority="translator">"HMS Core"</string>
+    <string name="hwid_huawei_login_button_text" priority="translator">"HUAWEI ID-р нэвтрэх"</string>
+    <string name="icon_content_description">Харилцах цонхны дүрс тэмдэг</string>
+    <string name="item_view_role_description">Таб</string>
+    <string name="material_clock_toggle_content_description">ҮӨ эсвэл ҮХ сонгоно уу</string>
+    <string name="material_hour_selection">Цаг сонгох</string>
+    <string name="material_hour_suffix">%1$s цаг</string>
+    <string name="material_minute_selection">Минут сонгоно уу</string>
+    <string name="material_minute_suffix">%1$s минут</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Цагийг оруулахын тулд цагийн горимд шилжүүлнэ үү.</string>
+    <string name="material_timepicker_hour">Цаг</string>
+    <string name="material_timepicker_minute">Минут</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Цаг сонгох</string>
+    <string name="material_timepicker_text_input_mode_description">Цагийг оруулахын тулд текст оруулах горимд шилжүүлнэ үү.</string>
+    <string name="mtrl_badge_numberless_content_description">Шинэ мэдэгдэл</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s-г устгах</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">%1$d-с олон шинэ мэдэгдэл</string>
+    <string name="mtrl_picker_a11y_next_month">Дараагийн сар луу өөрчлөх</string>
+    <string name="mtrl_picker_a11y_prev_month">Өмнөх сар луу өөрчлөх</string>
+    <string name="mtrl_picker_announce_current_selection">Одоогийн сонголт: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Огноо сонгох</string>
+    <string name="mtrl_picker_date_header_unselected">Сонгосон огноо</string>
+    <string name="mtrl_picker_day_of_week_column_header">Өдрийн багана: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Буруу формат байна.</string>
+    <string name="mtrl_picker_invalid_format_example">Жишээ нь: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Ашиглах формат: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Огнооны хязгаар буруу байна.</string>
+    <string name="mtrl_picker_navigate_to_year_description">%1$s он руу шилжих</string>
+    <string name="mtrl_picker_out_of_range">Хязгаараас хэтэрсэн: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Эхлэх огноо – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Дуусах огноо</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Муж сонгох</string>
+    <string name="mtrl_picker_range_header_unselected">Эхлэх огноо – Дуусах огноо</string>
+    <string name="mtrl_picker_save">Хадгалах</string>
+    <string name="mtrl_picker_text_input_date_hint">Огноо</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Дуусах огноо</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Эхлэх огноо</string>
+    <string name="mtrl_picker_text_input_day_abbr">ө</string>
+    <string name="mtrl_picker_text_input_month_abbr">с</string>
+    <string name="mtrl_picker_text_input_year_abbr">ж</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Календарийн орох горим руу сэлгэх</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Өдөр сонгох руу сэлгэхийн тулд товшино уу</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Текстийн орох горим руу сэлгэх</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Он сонгох руу сэлгэхийн тулд товшино уу</string>
+    <string name="password_toggle_content_description">Нууц үгийг харуулах</string>
+    <string name="scankit_confirm">ОК</string>
+    <string name="scankit_light">Гэрэл нэмэх бол дарна уу</string>
+    <string name="scankit_light_off">Гэрэл унтраах</string>
+    <string name="scankit_no_code_tip">Код илэрсэнгүй.</string>
+    <string name="scankit_scan_tip">Кодыг хүрээнд байрлуулна уу</string>
+    <string name="scankit_title">Скан</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Хайх"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="upsdk_app_download_info_new" priority="translator">"Суулгах"</string>
+    <string name="upsdk_app_download_installing" priority="translator">"%s-г татаж байна…"</string>
+    <string name="upsdk_app_size" priority="translator">"Хэмжээ"</string>
+    <string name="upsdk_app_version" priority="translator">"Хувилбар"</string>
+    <string name="upsdk_appstore_install" priority="translator">"Энэ апликэйшнийг шинэчлэхийн тулд %s шаардлагатай. Одоо суулгах уу?"</string>
+    <string name="upsdk_cancel" priority="translator">"Цуцлах"</string>
+    <string name="upsdk_checking_update_prompt" priority="LT">"Шинэчлэл шалгаж байна…"</string>
+    <string name="upsdk_choice_update" priority="translator">"Шинэчлэлт бэлэн байна. Хамгийн сүүлийн хувилбарыг татаж авч, суулгана уу."</string>
+    <string name="upsdk_detail" priority="translator">"Дэлгэрэнгүй"</string>
+    <string name="upsdk_getting_message_fail_prompt_toast" priority="translator">"Мэдээлэл авах боломжгүй байна. Дараа дахин оролдоно уу."</string>
+    <string name="upsdk_mobile_dld_warn" priority="translator">"Та одоогоор гар утасны сүлжээнд холбогдсон байна. Одоо татаж авбал %1$s дата ашиглах болно."</string>
+    <string name="upsdk_no_available_network_prompt_toast" priority="translator">"Интернэт холболт алга. Сүлжээний тохиргоогоо шалгана уу."</string>
+    <string name="upsdk_ota_app_name" priority="translator">"Аппликэйшн"</string>
+    <string name="upsdk_ota_cancel" priority="translator">"Дараа"</string>
+    <string name="upsdk_ota_force_cancel_new" priority="translator">"Гарах"</string>
+    <string name="upsdk_ota_notify_updatebtn" priority="translator">"Шинэчлэх"</string>
+    <string name="upsdk_ota_title" priority="translator">"Шинэ хувилбар"</string>
+    <string name="upsdk_storage_utils" priority="LT">"%1$s МБ"</string>
+    <string name="upsdk_third_app_dl_cancel_download_prompt_ex" priority="translator">"Суулгалтыг цуцлах уу?"</string>
+    <string name="upsdk_third_app_dl_install_failed" priority="translator">"Суурилуулалт амжилтгүй."</string>
+    <string name="upsdk_third_app_dl_sure_cancel_download" priority="translator">"Тийм"</string>
+    <string name="upsdk_update_check_no_new_version" priority="Reviewed">"Таны хувилбар шинэчлэгдсэн байна."</string>
+</resources>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="hiad_dismiss_dilaog">
+    <item priority="translator" quantity="other">"Jendela akan ditutup dalam %1$s detik."</item>
+</plurals>
+    <plurals name="hiad_no_prompt_in_days">
+    <item priority="Reviewed" quantity="other">"Ingat pilihan ini selama %1$s hari"</item>
+</plurals>
+    <plurals name="hiad_reward_countdown">
+    <item priority="LT" quantity="other">"%1$d detik"</item>
+</plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d notifikasi baru</item>
+    <item quantity="other">%d notifikasi baru</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Tunjukkan jalan ke rumah"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Kembali ke atas"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Opsi lain"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Selesai"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Lihat semua"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Pilih aplikasi"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"NONAKTIF"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"AKTIF"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"spasi"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Telusuri..."</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Hapus kueri"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Telusuri kueri"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Telusuri"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Kirim kueri"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Penelusuran suara"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Bagikan dengan"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Bagikan dengan <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Ciutkan"</string>
+    <string name="bottomsheet_action_expand_halfway">Luaskan setengah</string>
+    <string name="character_counter_content_description">Karakter yang dimasukkan %1$d dari %2$d</string>
+    <string name="character_counter_overflowed_content_description">Melebihi batas karakter %1$d dari %2$d</string>
+    <string name="clear_text_end_icon_content_description">Menghapus teks</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="exposed_dropdown_menu_content_description">Tampilkan menu dropdown</string>
+    <string name="hiad_ad_label" priority="translator">"IKLAN"</string>
+    <string name="hiad_ad_label_new" priority="translator">"Iklan"</string>
+    <string name="hiad_app_installed" priority="LT">"%1$s telah dipasang"</string>
+    <string name="hiad_app_open_notification" priority="translator">"Instalasi selesai. Sentuh untuk membuka."</string>
+    <string name="hiad_app_permission" priority="LT">"Izin"</string>
+    <string name="hiad_choices_ad_closed" priority="LT">"Iklan disembunyikan"</string>
+    <string name="hiad_choices_ad_no_interest" priority="translator">"Tidak tertarik"</string>
+    <string name="hiad_choices_hide" priority="translator">"Sembunyikan iklan"</string>
+    <string name="hiad_choices_whythisad" priority="translator">"Mengapa saya melihat iklan ini?"</string>
+    <string name="hiad_consume_data_to_play_video" priority="LT">"Menggunakan jaringan seluler akan mengonsumsi %1$s data. Lanjutkan?"</string>
+    <string name="hiad_consume_data_to_play_video_no_data_size" priority="LT">"Pemutaran akan menggunakan data seluler. Tetap lakukan?"</string>
+    <string name="hiad_continue_download" priority="LT">"Unduh"</string>
+    <string name="hiad_continue_download_new" priority="LT">"UNDUH"</string>
+    <string name="hiad_continue_to_play" priority="LT">"LAKUKAN"</string>
+    <string name="hiad_copy_link" priority="LT">"Salin tautan"</string>
+    <string name="hiad_data_size_prompt" priority="translator">"%1$s MB"</string>
+    <string name="hiad_default_app_name" priority="LT">"aplikasi"</string>
+    <string name="hiad_default_skip_text" priority="LT">"Lewati"</string>
+    <string name="hiad_default_skip_text_time" priority="LT">"Lewati dlm %d"</string>
+    <string name="hiad_detail" priority="LT">"Perincian"</string>
+    <string name="hiad_detail_download_now" priority="LT">"Unduh"</string>
+    <string name="hiad_dialog_accept" priority="LT">"IZINKAN"</string>
+    <string name="hiad_dialog_allow" priority="LT">"IZINKAN"</string>
+    <string name="hiad_dialog_cancel" priority="LT">"BATAL"</string>
+    <string name="hiad_dialog_close" priority="LT">"OK"</string>
+    <string name="hiad_dialog_continue" priority="LT">"UNDUH"</string>
+    <string name="hiad_dialog_dismiss" priority="LT">"MENGERTI"</string>
+    <string name="hiad_dialog_install_desc" priority="LT">"Izinkan %1$s untuk memasang %2$s?"</string>
+    <string name="hiad_dialog_install_source" priority="LT">"Sumber: %1$s"</string>
+    <string name="hiad_dialog_ok" priority="LT">"IZINKAN"</string>
+    <string name="hiad_dialog_open" priority="LT">"BUKA"</string>
+    <string name="hiad_dialog_reject" priority="LT">"TOLAK"</string>
+    <string name="hiad_dialog_title" priority="LT">"Unduh menggunakan data seluler?"</string>
+    <string name="hiad_dialog_title_tip" priority="LT">"Catatan"</string>
+    <string name="hiad_download_app_via_mobile_data" priority="LT">"Unduh menggunakan data seluler?"</string>
+    <string name="hiad_download_download" priority="translator">"PASANG"</string>
+    <string name="hiad_download_download_with_size" priority="LT">"UNDUH (%1$s)"</string>
+    <string name="hiad_download_failed_toast_content" priority="LT">"Kesalahan terjadi saat mengunduh %1$s."</string>
+    <string name="hiad_download_file_corrupted" priority="translator">"File rusak. Harap unduh lagi."</string>
+    <string name="hiad_download_file_not_exist" priority="LT">"File tidak ada. Harap coba lagi."</string>
+    <string name="hiad_download_install" priority="LT">"PASANG"</string>
+    <string name="hiad_download_installing" priority="LT">"MEMASANG"</string>
+    <string name="hiad_download_no_space" priority="LT">"Penyimpanan tidak cukup. Bebaskan sebagian ruang penyimpanan dan coba lagi."</string>
+    <string name="hiad_download_open" priority="LT">"BUKA"</string>
+    <string name="hiad_download_resume" priority="LT">"LANJUT"</string>
+    <string name="hiad_download_retry_toast_content" priority="LT">"Kesalahan terjadi saat mengunduh %1$s. Pengunduhan akan dimulai ulang."</string>
+    <string name="hiad_download_use_mobile_network" priority="LT">"Anda sedang tidak terhubung ke Wi-Fi. Mengunduh sekarang akan menggunakan data seluler sebesar %1$s. Tetap unduh?"</string>
+    <string name="hiad_download_use_mobile_network_zh" priority="LT">"Anda sedang tidak terhubung ke WLAN. Mengunduh sekarang akan menggunakan data seluler sebesar %1$s. Tetap unduh?"</string>
+    <string name="hiad_install_completed" priority="LT">"Selesai"</string>
+    <string name="hiad_landing_page_open_app" priority="LT">"Halaman ini ingin membuka %1$s."</string>
+    <string name="hiad_link_already_copied" priority="LT">"Tautan disalin."</string>
+    <string name="hiad_mobile_download_prompt" priority="LT">"Pengunduhan ini akan menggunakan %1$s data seluler."</string>
+    <string name="hiad_network_error" priority="LT">"Kesalahan pada koneksi jaringan."</string>
+    <string name="hiad_network_no_available" priority="LT">"Tidak ada koneksi Internet. Harap periksa pengaturan jaringan Anda."</string>
+    <string name="hiad_no_more_remind" priority="LT">"Jangan ingatkan saya lagi"</string>
+    <string name="hiad_non_wifi_download_prompt" priority="LT">"Tidak ada koneksi Wi-Fi. Mengunduh sekarang akan menggunakan data seluler Anda. Unduh?"</string>
+    <string name="hiad_non_wifi_download_prompt_zh" priority="LT">"Tidak ada koneksi WLAN. Mengunduh sekarang akan menggunakan data seluler Anda. Unduh?"</string>
+    <string name="hiad_open_in_browser" priority="LT">"Buka di browser"</string>
+    <string name="hiad_page_load_failed" priority="LT">"Tidak dapat memuat halaman. Harap coba lagi."</string>
+    <string name="hiad_permission_dialog_title" priority="LT">"%1$s perlu izin berikut:"</string>
+    <string name="hiad_prepare_download" priority="LT">"Tunggu Wi-Fi"</string>
+    <string name="hiad_prepare_download_title" priority="LT">"Unduh melalui jaringan seluler?"</string>
+    <string name="hiad_prepare_download_zh" priority="LT">"Tunggu WLAN"</string>
+    <string name="hiad_refresh" priority="LT">"Segarkan"</string>
+    <string name="hiad_reminder_app_over_size" priority="LT">"Aplikasi lebih besar dari %1$d MB"</string>
+    <string name="hiad_reward_close_dialog_close" priority="LT">"Lewati"</string>
+    <string name="hiad_reward_close_dialog_continue" priority="LT">"Tetap tonton"</string>
+    <string name="hiad_reward_close_dialog_message" priority="LT">"Tonton iklan ini hingga selesai untuk mendapatkan hadiah."</string>
+    <string name="hiad_whether_download" priority="LT">"Unduh aplikasi ini?"</string>
+    <string name="hiad_wifi_loaded_already" priority="translator">"Dipramuat melalui Wi-Fi"</string>
+    <string name="hiad_wifi_loaded_already_zh" priority="translator">"Dipramuat"</string>
+    <string name="hms_abort" priority="translator">"Hentikan"</string>
+    <string name="hms_abort_message" priority="translator">"Hentikan pengunduhan?"</string>
+    <string name="hms_bindfaildlg_message" priority="translator">"%1$s tidak dapat menggunakan HMS Core. Luncurkan Pengoptimal (Pengelola Telepon) atau buka Pengaturan, aktifkan semua izin untuk %2$s (termasuk peluncuran otomatis dan peluncuran sekunder), dan coba lagi."</string>
+    <string name="hms_cancel" priority="translator">"Batal"</string>
+    <string name="hms_check_failure" priority="translator">"Gagal memeriksa pembaruan."</string>
+    <string name="hms_checking" priority="translator">"Memeriksa pembaruan..."</string>
+    <string name="hms_confirm" priority="translator">"OK"</string>
+    <string name="hms_download_failure" priority="translator">"Gagal mengunduh paket HMS Core."</string>
+    <string name="hms_download_no_space" priority="translator">"Ruang kosong tidak cukup. Pengunduhan tidak dapat diselesaikan."</string>
+    <string name="hms_download_retry" priority="translator">"Pengunduhan gagal. Coba lagi?"</string>
+    <string name="hms_downloading_loading" priority="LT">"Mengunduh"</string>
+    <string name="hms_install" priority="translator">"Pasang"</string>
+    <string name="hms_install_message" priority="translator">"HMS Core harus dipasang untuk dapat menggunakan fitur ini. Pasang?"</string>
+    <string name="hms_retry" priority="translator">"Coba lagi"</string>
+    <string name="hms_update" priority="translator">"Perbarui"</string>
+    <string name="hms_update_continue" priority="LT">"Unduh"</string>
+    <string name="hms_update_message" priority="translator">"Perbarui ke versi terbaru HMS Core untuk menggunakan fitur ini. Perbarui sekarang?"</string>
+    <string name="hms_update_message_new" priority="LT">"Layanan ini memerlukan versi terbaru dari aplikasi berikut ini:\n\n%1$s"</string>
+    <string name="hms_update_nettype" priority="LT">"Tidak ada koneksi Wi-Fi. Unduh menggunakan data seluler?"</string>
+    <string name="hms_update_title" priority="translator">"HMS Core"</string>
+    <string name="hwid_huawei_login_button_text" priority="translator">"Masuk dengan ID HUAWEI"</string>
+    <string name="icon_content_description">Ikon Dialog</string>
+    <string name="item_view_role_description">Tab</string>
+    <string name="material_clock_toggle_content_description">Pilih AM atau PM</string>
+    <string name="material_hour_selection">Pilih jam</string>
+    <string name="material_hour_suffix">Pukul %1$s</string>
+    <string name="material_minute_selection">Pilih menit</string>
+    <string name="material_minute_suffix">%1$s menit</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Beralih ke mode jam untuk masukan waktu.</string>
+    <string name="material_timepicker_hour">Jam</string>
+    <string name="material_timepicker_minute">Menit</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Pilih waktu</string>
+    <string name="material_timepicker_text_input_mode_description">Beralih ke mode masukan teks untuk masukan waktu.</string>
+    <string name="mtrl_badge_numberless_content_description">Notifikasi baru</string>
+    <string name="mtrl_chip_close_icon_content_description">Menghapus %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Lebih dari %1$d notifikasi baru</string>
+    <string name="mtrl_picker_a11y_next_month">Ubah ke bulan berikutnya</string>
+    <string name="mtrl_picker_a11y_prev_month">Ubah ke bulan sebelumnya</string>
+    <string name="mtrl_picker_announce_current_selection">Pilihan saat ini: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Pilih Tanggal</string>
+    <string name="mtrl_picker_date_header_unselected">Tanggal yang dipilih</string>
+    <string name="mtrl_picker_day_of_week_column_header">Kolom hari: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Format tidak valid.</string>
+    <string name="mtrl_picker_invalid_format_example">Contoh: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Gunakan: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Rentang tidak valid.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Buka tahun %1$s</string>
+    <string name="mtrl_picker_out_of_range">Di luar rentang: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Tanggal mulai – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Tanggal akhir</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Pilih Rentang</string>
+    <string name="mtrl_picker_range_header_unselected">Tanggal mulai – Tanggal akhir</string>
+    <string name="mtrl_picker_save">Simpan</string>
+    <string name="mtrl_picker_text_input_date_hint">Tanggal</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Tanggal akhir</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Tanggal mulai</string>
+    <string name="mtrl_picker_text_input_day_abbr">h</string>
+    <string name="mtrl_picker_text_input_month_abbr">b</string>
+    <string name="mtrl_picker_text_input_year_abbr">t</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Beralih ke mode masukan kalender</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Ketuk untuk beralih ke memilih hari</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Beralih ke mode masukan teks</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Ketuk untuk beralih ke memilih tahun</string>
+    <string name="password_toggle_content_description">Tampilkan sandi</string>
+    <string name="scankit_confirm">OK</string>
+    <string name="scankit_light">Sentuh untuk menambah cahaya</string>
+    <string name="scankit_light_off">Matikan cahaya</string>
+    <string name="scankit_no_code_tip">Tidak ada kode yang terdeteksi.</string>
+    <string name="scankit_scan_tip">Tempatkan kode di dalam bingkai</string>
+    <string name="scankit_title">Pindai</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Telusuri"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="upsdk_app_download_info_new" priority="translator">"Pasang"</string>
+    <string name="upsdk_app_download_installing" priority="translator">"Mengunduh %s…"</string>
+    <string name="upsdk_app_size" priority="translator">"Ukuran"</string>
+    <string name="upsdk_app_version" priority="translator">"Versi"</string>
+    <string name="upsdk_appstore_install" priority="translator">"%s diperlukan untuk memperbarui aplikasi ini. Pasang sekarang?"</string>
+    <string name="upsdk_cancel" priority="translator">"Batal"</string>
+    <string name="upsdk_checking_update_prompt" priority="LT">"Memeriksa pembaruan..."</string>
+    <string name="upsdk_choice_update" priority="LT">"Pembaruan tersedia. Unduh dan pasang versi terbaru."</string>
+    <string name="upsdk_detail" priority="translator">"Perincian"</string>
+    <string name="upsdk_getting_message_fail_prompt_toast" priority="translator">"Tidak dapat mengambil data. Coba lagi nanti."</string>
+    <string name="upsdk_mobile_dld_warn" priority="translator">"Anda saat ini terhubung ke jaringan seluler. Mengunduh sekarang akan menggunakan %1$s data."</string>
+    <string name="upsdk_no_available_network_prompt_toast" priority="translator">"Tidak ada koneksi Internet. Periksa pengaturan jaringan Anda."</string>
+    <string name="upsdk_ota_app_name" priority="LT">"Apl"</string>
+    <string name="upsdk_ota_cancel" priority="translator">"Nanti"</string>
+    <string name="upsdk_ota_force_cancel_new" priority="LT">"Keluar"</string>
+    <string name="upsdk_ota_notify_updatebtn" priority="translator">"Perbarui"</string>
+    <string name="upsdk_ota_title" priority="translator">"Versi baru"</string>
+    <string name="upsdk_storage_utils" priority="LT">"%1$s MB"</string>
+    <string name="upsdk_third_app_dl_cancel_download_prompt_ex" priority="translator">"Batalkan instalasi?"</string>
+    <string name="upsdk_third_app_dl_install_failed" priority="translator">"Instalasi gagal."</string>
+    <string name="upsdk_third_app_dl_sure_cancel_download" priority="translator">"Ya"</string>
+    <string name="upsdk_update_check_no_new_version" priority="Reviewed">"Versi Anda sudah yang terbaru."</string>
+</resources>

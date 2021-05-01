@@ -8,6 +8,8 @@
     android:backgroundTint="@color/cardview_dark_background"
     tools:context=".MainActivity">
 
+
+
     <Button
         android:id="@+id/btnAuthMode"
         android:layout_width="wrap_content"

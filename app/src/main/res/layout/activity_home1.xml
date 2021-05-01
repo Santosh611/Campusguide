@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/hiad_80_percent_black"
+    tools:context=".HomeActivity">
+
+    <com.huawei.hms.ads.banner.BannerView
+        android:id="@+id/hw_banner_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:adId="@string/banner_ad_id"
+        app:bannerSize="BANNER_SIZE_360_57" />
+
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:layout_height="210dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/background"
+        app:auto_cycle="true"
+        app:delay="0"
+        app:period="1000"
+        app:corner_radius="5"
+        android:id="@+id/slider">
+
+    </com.denzcoskun.imageslider.ImageSlider>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scanner" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maps" />
+
+
+</LinearLayout>
+
+<!--<androidx.constraintlayout.widget.ConstraintLayout-->
+<!--            android:id="@+id/root_view"-->
+<!--            android:layout_width="415dp"-->
+<!--            android:layout_height="524dp"-->
+<!--            android:background="#050505"-->
+<!--            tools:layout_editor_absoluteX="-5dp"-->
+<!--            tools:layout_editor_absoluteY="280dp">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button3"-->
+<!--                android:layout_width="112dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:text="Location "-->
+<!--                app:backgroundTint="#35DCB4"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintHorizontal_bias="0.883"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:layout_constraintVertical_bias="0.245" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button2"-->
+<!--                android:layout_width="103dp"-->
+<!--                android:layout_height="52dp"-->
+<!--                android:text="Maps"-->
+<!--                app:backgroundTint="#35DCB4"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintHorizontal_bias="0.397"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:layout_constraintVertical_bias="0.245" />-->
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->

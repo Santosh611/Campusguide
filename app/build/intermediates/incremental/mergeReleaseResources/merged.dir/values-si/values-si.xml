@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="hiad_dismiss_dilaog">
+    <item priority="translator" quantity="one">"කවුළුව %1$s තත්පරයකින් වැසෙනු ඇත."</item>
+    <item priority="translator" quantity="other">"කවුළුව තත්පර %1$s කින් වැසෙනු ඇත."</item>
+</plurals>
+    <plurals name="hiad_no_prompt_in_days">
+    <item priority="Reviewed" quantity="one">"තේරීම %1$s දිනකට මතක තබාගන්න"</item>
+    <item priority="Reviewed" quantity="other">"තේරීම දින %1$s කට මතක තබාගන්න"</item>
+</plurals>
+    <plurals name="hiad_reward_countdown">
+    <item priority="LT" quantity="one">"තත් %1$d"</item>
+    <item priority="LT" quantity="other">"තත් %1$d"</item>
+</plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">නව දැනුම්දීම් %dක්</item>
+    <item quantity="other">නව දැනුම්දීම් %dක්</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"මුල් පිටුවට සංචාලනය කරන්න"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"ඉහළට සංචාලනය කරන්න"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"තවත් විකල්ප"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"කළා"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"සියල්ල බලන්න"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"යෙදුමක් තෝරන්න"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ක්‍රියාවිරහිතයි"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ක්‍රියාත්මකයි"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"මකන්න"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"සොයන්න..."</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"විමසුම හිස් කරන්න"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"සෙවුම් විමසුම"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"සෙවීම"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"විමසුම යොමු කරන්න"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"හඬ සෙවීම"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"සමග බෙදා ගන්න"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> සමඟ බෙදා ගන්න"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"හකුළන්න"</string>
+    <string name="bottomsheet_action_expand_halfway">අඩක් දිග හරින්න</string>
+    <string name="character_counter_content_description">අනුලකුණු %2$dන් %1$dක් ඇතුළු කෙරිණි</string>
+    <string name="character_counter_overflowed_content_description">අනුලකුණු සීමාව %2$dකින් %1$d ඉක්ම විය</string>
+    <string name="clear_text_end_icon_content_description">පෙළ හිස් කරන්න</string>
+    <string name="error_icon_content_description">දෝෂය</string>
+    <string name="exposed_dropdown_menu_content_description">පතන මෙනුව පෙන්වන්න</string>
+    <string name="hiad_ad_label" priority="translator">"AD"</string>
+    <string name="hiad_ad_label_new" priority="translator">"වෙළඳ දැන්වීම"</string>
+    <string name="hiad_app_installed" priority="LT">"%1$s ස්ථාපනය කර ඇත"</string>
+    <string name="hiad_app_open_notification" priority="translator">"ස්ථාපනය සම්පූර්ණයි. විවෘත කිරීමට ස්පර්ශ කරන්න."</string>
+    <string name="hiad_app_permission" priority="LT">"අවසර"</string>
+    <string name="hiad_choices_ad_closed" priority="LT">"දැන්වීම සඟවන ලදී"</string>
+    <string name="hiad_choices_ad_no_interest" priority="translator">"කැමැත්තක් නැත"</string>
+    <string name="hiad_choices_hide" priority="LT">"දැන්වීම සඟවන්න"</string>
+    <string name="hiad_choices_whythisad" priority="LT">"මම මෙම වෙළඳ දැන්වීම දුටුවේ ඇයි?"</string>
+    <string name="hiad_consume_data_to_play_video" priority="LT">"ජංගම ජාලයක් භාවිතා කිරීමෙන් දත්ත %1$sක් පරිභෝජනය වේ. ඉදිරියට යන්න ද?"</string>
+    <string name="hiad_consume_data_to_play_video_no_data_size" priority="LT">"ප්‍රතිවාදනය ජංගම දත්ත භාවිතා කරනු ඇත. ඉදිරියට යන්නද?"</string>
+    <string name="hiad_continue_download" priority="LT">"බාගන්න"</string>
+    <string name="hiad_continue_download_new" priority="LT">"බාගන්න"</string>
+    <string name="hiad_continue_to_play" priority="LT">"ඉදිරියට යන්න"</string>
+    <string name="hiad_copy_link" priority="LT">"සබැඳිය පිටපත් කරන්න"</string>
+    <string name="hiad_data_size_prompt" priority="translator">"%1$s MB"</string>
+    <string name="hiad_default_app_name" priority="LT">"යෙදුම"</string>
+    <string name="hiad_default_skip_text" priority="LT">"මග හරින්න"</string>
+    <string name="hiad_default_skip_text_time" priority="LT">"%d තුළ මග හරින්න"</string>
+    <string name="hiad_detail" priority="LT">"විස්තර"</string>
+    <string name="hiad_detail_download_now" priority="LT">"බාගන්න"</string>
+    <string name="hiad_dialog_accept" priority="LT">"ඉඩ දෙන්න"</string>
+    <string name="hiad_dialog_allow" priority="LT">"ඉඩ දෙන්න"</string>
+    <string name="hiad_dialog_cancel" priority="LT">"අවලංගු කරන්න"</string>
+    <string name="hiad_dialog_close" priority="LT">"හරි"</string>
+    <string name="hiad_dialog_continue" priority="LT">"බාගන්න"</string>
+    <string name="hiad_dialog_dismiss" priority="LT">"එය හරි"</string>
+    <string name="hiad_dialog_install_desc" priority="LT">"%1$s හට %2$s ස්ථාපනය කිරීමට ඉඩ දෙන්නද?"</string>
+    <string name="hiad_dialog_install_source" priority="LT">"මූලාශ්‍රය: %1$s"</string>
+    <string name="hiad_dialog_ok" priority="LT">"ඉඩ දෙන්න"</string>
+    <string name="hiad_dialog_open" priority="LT">"විවෘත කරන්න"</string>
+    <string name="hiad_dialog_reject" priority="LT">"ප්‍රතික්ෂේප කරන්න"</string>
+    <string name="hiad_dialog_title" priority="LT">"ජංගම දත්ත භාවිතයෙන් බාගන්නද?"</string>
+    <string name="hiad_dialog_title_tip" priority="LT">"සටහන"</string>
+    <string name="hiad_download_app_via_mobile_data" priority="LT">"ජංගම දත්ත භාවිතයෙන් බාගන්නද?"</string>
+    <string name="hiad_download_download" priority="translator">"ස්ථාපනය කරන්න"</string>
+    <string name="hiad_download_download_with_size" priority="LT">"බාගන්න (%1$s)"</string>
+    <string name="hiad_download_failed_toast_content" priority="LT">"%1$s බාගැනීමේදී දෝෂයක් සිදු විය."</string>
+    <string name="hiad_download_file_corrupted" priority="translator">"ගොනුව දූෂිතයි. කරුණාකර නැවත බාගන්න."</string>
+    <string name="hiad_download_file_not_exist" priority="LT">"ගොනුව නොපවතී. කරුණාකර නැවත උත්සාහ කරන්න."</string>
+    <string name="hiad_download_install" priority="LT">"ස්ථාපනය කරන්න"</string>
+    <string name="hiad_download_installing" priority="LT">"ස්ථාපනය වෙමින්"</string>
+    <string name="hiad_download_no_space" priority="LT">"ප්‍රමාණවත් නොවන ගබඩාව. මදක් ඉඩ නිදහස් කරගෙන නැවත උත්සාහ කරන්න."</string>
+    <string name="hiad_download_open" priority="LT">"විවෘත කරන්න"</string>
+    <string name="hiad_download_resume" priority="LT">"ඉදිරියට යන්න"</string>
+    <string name="hiad_download_retry_toast_content" priority="LT">"%1$s බාගැනීමේදී දෝෂයක් සිදු විය. බාගැනීම නැවත ඇරඹෙනු ඇත."</string>
+    <string name="hiad_download_use_mobile_network" priority="LT">"ඔබ දැන් Wi-Fi වෙත සම්බන්ධ වී නැත. දැන් බාගැනීම ජංගම දත්ත %1$s ක් භාවිතා කරනු ඇත. කෙසේ වුවත් බාගන්නද?"</string>
+    <string name="hiad_download_use_mobile_network_zh" priority="LT">"ඔබ දැන් WLAN වෙත සම්බන්ධ වී නැත. දැන් බාගැනීම ජංගම දත්ත %1$s ක් භාවිතා කරනු ඇත. කෙසේ වුවත් බාගන්නද?"</string>
+    <string name="hiad_install_completed" priority="LT">"නිමයි"</string>
+    <string name="hiad_landing_page_open_app" priority="LT">"මෙම පිටුවට %1$s විවෘත කිරීමට අවශ්‍යයි."</string>
+    <string name="hiad_link_already_copied" priority="LT">"සබැඳිය පිටපත් කළා."</string>
+    <string name="hiad_mobile_download_prompt" priority="LT">"මෙම බාගැනීම ජංගම දත්ත %1$s ක් භාවිතා කරනු ඇත."</string>
+    <string name="hiad_network_error" priority="LT">"ජාල සම්බන්ධතා දෝෂයකි."</string>
+    <string name="hiad_network_no_available" priority="LT">"අන්තර්ජාල සම්බන්ධතාවයක් නැත. කරුණාකර ඔබගේ ජාල සැකසුම් පරීක්ෂා කරන්න."</string>
+    <string name="hiad_no_more_remind" priority="LT">"මට නැවත සිහිපත් නොකරන්න"</string>
+    <string name="hiad_non_wifi_download_prompt" priority="LT">"Wi-Fi සම්බන්ධතාවක් නැත. දැන් බාගැනීම ඔබගේ ජංගම දත්ත භාවිතා කරනු ඇත. බාගන්නද?"</string>
+    <string name="hiad_non_wifi_download_prompt_zh" priority="LT">"WLAN සම්බන්ධතාවක් නැත. දැන් බාගැනීම ඔබගේ ජංගම දත්ත භාවිතා කරනු ඇත. බාගන්නද?"</string>
+    <string name="hiad_open_in_browser" priority="LT">"බ්‍රවුසරයේ විවෘත කරන්න"</string>
+    <string name="hiad_page_load_failed" priority="LT">"පිටුව පැටවීමට නොහැක. කරුණාකර නැවත උත්සාහ කරන්න."</string>
+    <string name="hiad_permission_dialog_title" priority="LT">"%1$s ට පහත සඳහන් අවසරයන් අවශ්‍ය වේ:"</string>
+    <string name="hiad_prepare_download" priority="LT">"Wi-Fi සඳහා රැඳී සිටින්න"</string>
+    <string name="hiad_prepare_download_title" priority="LT">"ජංගම ජාලය ඔස්සේ බාගන්න ද?"</string>
+    <string name="hiad_prepare_download_zh" priority="LT">"WLAN සඳහා රැඳී සිටින්න"</string>
+    <string name="hiad_refresh" priority="LT">"නැවුම් කරන්න"</string>
+    <string name="hiad_reminder_app_over_size" priority="LT">"යෙදුම %1$d MB ට වඩා විශාලය"</string>
+    <string name="hiad_reward_close_dialog_close" priority="LT">"මග හරින්න"</string>
+    <string name="hiad_reward_close_dialog_continue" priority="LT">"දිගටම නරඹන්න"</string>
+    <string name="hiad_reward_close_dialog_message" priority="LT">"තිළිණයක් ඉපයීමට මෙම වෙළඳ දැන්වීම බලා අවසන් කරන්න."</string>
+    <string name="hiad_whether_download" priority="LT">"මෙම යෙදුම බාගන්න ද?"</string>
+    <string name="hiad_wifi_loaded_already" priority="translator">"Wi-Fi ඔස්සේ පෙර-පැටවූ"</string>
+    <string name="hiad_wifi_loaded_already_zh" priority="translator">"පෙර පැටවූ"</string>
+    <string name="hms_abort" priority="translator">"නවත්වන්න"</string>
+    <string name="hms_abort_message" priority="translator">"බාගැනීම නවත්වන්නද?"</string>
+    <string name="hms_bindfaildlg_message" priority="translator">"%1$s ට HMS Core භාවිතා කළ නොහැකිය. %2$s සඳහා වූ සියලු අවසරයන් සක්‍රීය කිරීමට ප්‍රශස්තකාරකය (දුරකථන කලමණාකරු) දියත් කරන්න නැතහොත් සැකසුම් වෙත ගොස් (ස්වයං-දියත්කිරීම සහ ද්විතීය දියත් කිරීම ඇතුළුව) නැවත උත්සාහ කරන්න."</string>
+    <string name="hms_cancel" priority="translator">"අවලංගු කරන්න"</string>
+    <string name="hms_check_failure" priority="translator">"යාවත් කිරීම් පරීක්ෂා කිරීමට අසමත් විය."</string>
+    <string name="hms_checking" priority="translator">"යාවත් කිරීම් පරීක්ෂා කරමින්..."</string>
+    <string name="hms_confirm" priority="translator">"හරි"</string>
+    <string name="hms_download_failure" priority="translator">"HMS Core පැකේජ බාගැනීමට අසමත් විය."</string>
+    <string name="hms_download_no_space" priority="translator">"ප්‍රමාණවත් නිදහස් ඉඩ නැත. බාගැනීම සම්පූර්ණ කළ නොහැක."</string>
+    <string name="hms_download_retry" priority="translator">"බාගැනීම අසමත් විය. නැවත උත්සාහ කරන්නද?"</string>
+    <string name="hms_downloading_loading" priority="LT">"බාගනිමින්"</string>
+    <string name="hms_install" priority="translator">"ස්ථාපනය කරන්න"</string>
+    <string name="hms_install_message" priority="translator">"මෙම විශේෂාංගය භාවිත කිරීමට HMS Core ස්ථාපිත කළ යුතුයි. ස්ථාපනය කරන්න?"</string>
+    <string name="hms_retry" priority="translator">"යළි තැත් කරන්න"</string>
+    <string name="hms_update" priority="translator">"යාවත් කරන්න"</string>
+    <string name="hms_update_continue" priority="LT">"බාගන්න"</string>
+    <string name="hms_update_message" priority="translator">"මෙම විශේෂාංගය භාවිතා කිරීමට HMS Core නවතම අනුවාදය යාවත් කරන්න. දැන් යාවත් කරන්නද?"</string>
+    <string name="hms_update_message_new" priority="LT">"මෙම සේවාව හට පහත යෙදුමේ නවතම අනුවාදය අවශ්‍ය කෙරේ:\n\n%1$s"</string>
+    <string name="hms_update_nettype" priority="LT">"Wi-Fi සම්බන්ධතාව නැත. ජංගම දත්ත භාවිතයෙන් බාගන්නද?"</string>
+    <string name="hms_update_title" priority="translator">"HMS Core"</string>
+    <string name="hwid_huawei_login_button_text" priority="translator">"HUAWEI ID මගින් පුරන්න"</string>
+    <string name="icon_content_description">සංවාද නිරූපකය</string>
+    <string name="item_view_role_description">ටැබය</string>
+    <string name="material_clock_toggle_content_description">පෙරවරු හෝ පස්වරු තෝරන්න</string>
+    <string name="material_hour_selection">පැය තෝරන්න</string>
+    <string name="material_hour_suffix">%1$sයි</string>
+    <string name="material_minute_selection">මිනිත්තු තෝරන්න</string>
+    <string name="material_minute_suffix">මිනිත්තු %1$sයි</string>
+    <string name="material_timepicker_am">පෙව</string>
+    <string name="material_timepicker_clock_mode_description">වේලා ආදානය සඳහා ඔරලෝසු ප්‍රකාරය වෙත මාරු වෙන්න.</string>
+    <string name="material_timepicker_hour">පැය</string>
+    <string name="material_timepicker_minute">මිනිත්තු</string>
+    <string name="material_timepicker_pm">පව</string>
+    <string name="material_timepicker_select_time">වේලාව තෝරන්න</string>
+    <string name="material_timepicker_text_input_mode_description">වේලා ආදානය සඳහා ආදාන ප්‍රකාරය වෙත මාරු වෙන්න.</string>
+    <string name="mtrl_badge_numberless_content_description">නව දැනුම්දීම</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s ඉවත් කරන්න</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">නව දැනුම්දීම් %1$dකට වඩා</string>
+    <string name="mtrl_picker_a11y_next_month">ලබන මාසයට වෙනස් කරන්න</string>
+    <string name="mtrl_picker_a11y_prev_month">කලින් මාසයට වෙනස් කරන්න</string>
+    <string name="mtrl_picker_announce_current_selection">වත්මන් තේරීම: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">දිනය තෝරන්න</string>
+    <string name="mtrl_picker_date_header_unselected">තේරූ දිනය</string>
+    <string name="mtrl_picker_day_of_week_column_header">දින තීරුව: %1$s</string>
+    <string name="mtrl_picker_invalid_format">අවලංගු ආකෘතියකි.</string>
+    <string name="mtrl_picker_invalid_format_example">උදාහරණය: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">භාවිතය: %1$s</string>
+    <string name="mtrl_picker_invalid_range">අවලංගු පරාසයකි.</string>
+    <string name="mtrl_picker_navigate_to_year_description">%1$s වසරට සංචාලනය කරන්න</string>
+    <string name="mtrl_picker_out_of_range">පරාසයෙන් පිටත: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">ආරම්භක දිනය – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – නිමා වන දිනය</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">පරාසය තෝරන්න</string>
+    <string name="mtrl_picker_range_header_unselected">ආරම්භක දිනය – නිමා වන දිනය</string>
+    <string name="mtrl_picker_save">සුරකින්න</string>
+    <string name="mtrl_picker_text_input_date_hint">දිනය</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">නිමා වන දිනය</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">ආරම්භක දිනය</string>
+    <string name="mtrl_picker_text_input_day_abbr">ද</string>
+    <string name="mtrl_picker_text_input_month_abbr">ම</string>
+    <string name="mtrl_picker_text_input_year_abbr">ව</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">දින දර්ශන ආදාන ප්‍රකාරයට මාරු වන්න</string>
+    <string name="mtrl_picker_toggle_to_day_selection">දිනයක් තේරීමට මාරු වීමට තට්ටු කරන්න</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">පෙළ ආදාන ප්‍රකාරයට මාරු වන්න</string>
+    <string name="mtrl_picker_toggle_to_year_selection">වසරක් තේරීමට මාරු වීමට තට්ටු කරන්න</string>
+    <string name="password_toggle_content_description">මුරපදය පෙන්වන්න</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"සෙවීම"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="upsdk_app_download_info_new" priority="translator">"ස්ථාපනය කරන්න"</string>
+    <string name="upsdk_app_download_installing" priority="translator">"%s බාගනිමින්…"</string>
+    <string name="upsdk_app_size" priority="translator">"ප්‍රමාණය"</string>
+    <string name="upsdk_app_version" priority="translator">"අනුවාදය"</string>
+    <string name="upsdk_appstore_install" priority="translator">"මෙම යෙදුම යාවත් කිරීමට %s අවශ්‍ය වේ. දැන් ස්ථාපනය කරන්නද?"</string>
+    <string name="upsdk_cancel" priority="translator">"අවලංගු කරන්න"</string>
+    <string name="upsdk_checking_update_prompt" priority="LT">"යාවත් කිරීම් සඳහා පරීක්ෂා කරමින්…"</string>
+    <string name="upsdk_choice_update" priority="LT">"යාවත් කිරීම ලද හැකිය. කරුණාකර නවතම අනුවාදය බාගෙන ස්ථාපනය කරන්න."</string>
+    <string name="upsdk_detail" priority="translator">"විස්තර"</string>
+    <string name="upsdk_getting_message_fail_prompt_toast" priority="translator">"තොරතුරු නැවත ලබා ගත නොහැක. කරුණාකර පසුව නැවත උත්සාහ කරන්න."</string>
+    <string name="upsdk_mobile_dld_warn" priority="translator">"ඔබ දැනට ජංගම ජාලයකට සම්බන්ධ වී සිටී. දැන් බාගැනීමෙන් %1$s දත්ත භාවිතා කරනු ඇත."</string>
+    <string name="upsdk_no_available_network_prompt_toast" priority="translator">"අන්තර්ජාල සම්බන්ධතාවක් නොමැත. කරුණාකර ඔබේ ජාල සැකසුම් පරීක්ෂා කරන්න."</string>
+    <string name="upsdk_ota_app_name" priority="LT">"යෙදුම"</string>
+    <string name="upsdk_ota_cancel" priority="translator">"පසුව"</string>
+    <string name="upsdk_ota_force_cancel_new" priority="LT">"පිටවන්න"</string>
+    <string name="upsdk_ota_notify_updatebtn" priority="translator">"යාවත් කරන්න"</string>
+    <string name="upsdk_ota_title" priority="translator">"නව අනුවාදය"</string>
+    <string name="upsdk_storage_utils" priority="LT">"%1$s MB"</string>
+    <string name="upsdk_third_app_dl_cancel_download_prompt_ex" priority="translator">"ස්ථාපනය අවලංගු කරන්න ද?"</string>
+    <string name="upsdk_third_app_dl_install_failed" priority="translator">"ස්ථාපනය කිරීම අසාර්ථකයි."</string>
+    <string name="upsdk_third_app_dl_sure_cancel_download" priority="translator">"ඔව්"</string>
+    <string name="upsdk_update_check_no_new_version" priority="Reviewed">"ඔබගේ අනුවාදය යාවත්කාලීනයි."</string>
+</resources>

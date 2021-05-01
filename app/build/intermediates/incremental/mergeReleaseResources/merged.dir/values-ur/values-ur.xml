@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="hiad_dismiss_dilaog">
+    <item priority="translator" quantity="one">"%1$s سیکنڈ میں ونڈو بند ہو جائے گی۔"</item>
+    <item priority="translator" quantity="other">"%1$s سیکنڈ میں ونڈو بند ہو جائے گی۔"</item>
+</plurals>
+    <plurals name="hiad_no_prompt_in_days">
+    <item priority="Reviewed" quantity="one">"\u200f%1$s دن کے لیے اختیار یاد رکھیں"</item>
+    <item priority="Reviewed" quantity="other">"\u200f%1$s دنوں کے لیے اختیار یاد رکھیں"</item>
+</plurals>
+    <plurals name="hiad_reward_countdown">
+    <item priority="LT" quantity="one">"%1$d سیکنڈ"</item>
+    <item priority="LT" quantity="other">"%1$d سیکنڈ"</item>
+</plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d نئی اطلاع</item>
+    <item quantity="other">%d نئی اطلاعات</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"گھر کی طرف نیویگیٹ کریں"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"اوپر نیویگیٹ کریں"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"مزید اختیارات"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"ہو گیا"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"سبھی دیکھیں"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"ایک ایپ منتخب کریں"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"آف"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"آن"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+‎"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+‎"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+‎"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+‎"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+‎"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+‎"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+‎"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"تلاش کریں…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"استفسار صاف کریں"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"تلاش کا استفسار"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"تلاش کریں"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"استفسار جمع کرائیں"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"صوتی تلاش"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"اس کے ساتھ اشتراک کریں"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> کے ساتھ اشتراک کریں"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"سکیڑیں"</string>
+    <string name="bottomsheet_action_expand_halfway">نصف تک پھیلائیں</string>
+    <string name="character_counter_content_description">%2$d میں سے %1$d حروف درج کیے گئے</string>
+    <string name="character_counter_overflowed_content_description">حروف کی تعداد کی حد %2$d سے %1$d پہنچ گئی</string>
+    <string name="clear_text_end_icon_content_description">ٹیکسٹ صاف کریں</string>
+    <string name="error_icon_content_description">خرابی</string>
+    <string name="exposed_dropdown_menu_content_description">ڈراپ ڈاؤن مینو دکھائیں</string>
+    <string name="hiad_ad_label" priority="translator">"AD"</string>
+    <string name="hiad_ad_label_new" priority="translator">"اشتہار"</string>
+    <string name="hiad_app_installed" priority="LT">"%1$s کو انسٹال کر دیا گیا ہے"</string>
+    <string name="hiad_app_open_notification" priority="translator">"انسٹالیشن مکمل ہو گئی۔ کھولنے کے لیے چھوئیں۔"</string>
+    <string name="hiad_app_permission" priority="LT">"اجازتیں"</string>
+    <string name="hiad_choices_ad_closed" priority="LT">"پوشیدہ اشتہار"</string>
+    <string name="hiad_choices_ad_no_interest" priority="translator">"دلچسپی نہیں ہے"</string>
+    <string name="hiad_choices_hide" priority="LT">"اشتہار چھپائیں"</string>
+    <string name="hiad_choices_whythisad" priority="LT">"میں نے یہ اشتہار کیوں دیکھا؟"</string>
+    <string name="hiad_consume_data_to_play_video" priority="LT">"موبائل نیٹ ورک کا استعمال کرنے سے %1$s ڈیٹا کی کھپت ہوگی. جاری رکھیں؟"</string>
+    <string name="hiad_consume_data_to_play_video_no_data_size" priority="LT">"پلے بیک میں موبائل ڈیٹا استعمال ہوگا۔ جاری رکھیں؟"</string>
+    <string name="hiad_continue_download" priority="LT">"ڈاؤن لوڈ کریں"</string>
+    <string name="hiad_continue_download_new" priority="LT">"ڈاؤن لوڈ کریں"</string>
+    <string name="hiad_continue_to_play" priority="LT">"جاری رکھیں"</string>
+    <string name="hiad_copy_link" priority="LT">"لنک کاپی کریں"</string>
+    <string name="hiad_data_size_prompt" priority="translator">"%1$s MB"</string>
+    <string name="hiad_default_app_name" priority="LT">"ایپ"</string>
+    <string name="hiad_default_skip_text" priority="LT">"نظر انداز کریں"</string>
+    <string name="hiad_default_skip_text_time" priority="LT">"%d میں نظر انداز کریں"</string>
+    <string name="hiad_detail" priority="LT">"تفصیلات"</string>
+    <string name="hiad_detail_download_now" priority="LT">"ڈاؤن لوڈ کریں"</string>
+    <string name="hiad_dialog_accept" priority="LT">"اجازت دیں"</string>
+    <string name="hiad_dialog_allow" priority="LT">"اجازت دیں"</string>
+    <string name="hiad_dialog_cancel" priority="LT">"منسوخ کریں"</string>
+    <string name="hiad_dialog_close" priority="LT">"اوکے"</string>
+    <string name="hiad_dialog_continue" priority="LT">"ڈاؤن لوڈ کریں"</string>
+    <string name="hiad_dialog_dismiss" priority="LT">"سمجھ گئے"</string>
+    <string name="hiad_dialog_install_desc" priority="LT">"%2$s انسٹال کرنے کے لیے %1$s اجازت دیں؟"</string>
+    <string name="hiad_dialog_install_source" priority="LT">"ماخذ: %1$s"</string>
+    <string name="hiad_dialog_ok" priority="LT">"اجازت دیں"</string>
+    <string name="hiad_dialog_open" priority="LT">"کھولیں"</string>
+    <string name="hiad_dialog_reject" priority="LT">"منع کریں"</string>
+    <string name="hiad_dialog_title" priority="LT">"موبائل ڈیٹا کا استعمال کرتے ہوئے ڈاؤن لوڈ کریں؟"</string>
+    <string name="hiad_dialog_title_tip" priority="LT">"نوٹ"</string>
+    <string name="hiad_download_app_via_mobile_data" priority="LT">"موبائل ڈیٹا کا استعمال کرتے ہوئے ڈاؤن لوڈ کریں؟"</string>
+    <string name="hiad_download_download" priority="translator">"انسٹال کریں"</string>
+    <string name="hiad_download_download_with_size" priority="LT">"ڈاؤن لوڈ کریں (%1$s)"</string>
+    <string name="hiad_download_failed_toast_content" priority="LT">"‎%1$s کو ڈاؤن لوڈ کرتے وقت ایک خرابی پیش آ گئی۔"</string>
+    <string name="hiad_download_file_corrupted" priority="translator">"فائل خراب ہو گئی ہے۔ براہ کرم دوبارہ ڈاؤن لوڈ کریں۔"</string>
+    <string name="hiad_download_file_not_exist" priority="LT">"فائل موجود نہیں ہے۔ براہ کرم دوبارہ کوشش کریں۔"</string>
+    <string name="hiad_download_install" priority="LT">"انسٹال کریں"</string>
+    <string name="hiad_download_installing" priority="LT">"انسٹال کر رہا ہے"</string>
+    <string name="hiad_download_no_space" priority="LT">"ناکافی اسٹوریج۔ کچھ جگہ خالی کریں اور دوبارہ کوشش کریں۔"</string>
+    <string name="hiad_download_open" priority="LT">"کھولیں"</string>
+    <string name="hiad_download_resume" priority="LT">"جاری رکھیں"</string>
+    <string name="hiad_download_retry_toast_content" priority="LT">"‎%1$s کو ڈاؤن لوڈ کرتے وقت ایک خرابی پیش آ گئی۔ ڈاؤن لوڈ ری اسٹارٹ ہوگا۔"</string>
+    <string name="hiad_download_use_mobile_network" priority="LT">"آپ فی الحال Wi-Fi سے مربوط نہیں ہیں۔ اس ڈاؤن لوڈ میں ‎%1$s‎ موبائل ڈیٹا استعمال ہوگا۔ پھر بھی ڈاؤن لوڈ کریں؟"</string>
+    <string name="hiad_download_use_mobile_network_zh" priority="LT">"آپ فی الحال WLAN سے مربوط نہیں ہیں۔ اس ڈاؤن لوڈ میں ‎%1$s‎ موبائل ڈیٹا استعمال ہوگا۔ پھر بھی ڈاؤن لوڈ کریں؟"</string>
+    <string name="hiad_install_completed" priority="LT">"ہو گیا"</string>
+    <string name="hiad_landing_page_open_app" priority="LT">"یہ صفحہ ‎%1$s کو کھولنا چاہتا ہے۔"</string>
+    <string name="hiad_link_already_copied" priority="LT">"لنک کاپی ہو گئی۔"</string>
+    <string name="hiad_mobile_download_prompt" priority="LT">"یہ ڈاؤن لوڈ موبائل ڈیٹا کا %1$s استعمال کرے گا۔"</string>
+    <string name="hiad_network_error" priority="LT">"نیٹ ورک کنکشن کی خرابی۔"</string>
+    <string name="hiad_network_no_available" priority="LT">"انٹرنیٹ کنکشن نہیں ہے۔ براہِ کرم اپنی نیٹ ورک ترتیبات چیک کریں۔"</string>
+    <string name="hiad_no_more_remind" priority="LT">"مجھے دوبارہ یاد نہ دلائیں"</string>
+    <string name="hiad_non_wifi_download_prompt" priority="LT">"کوئی Wi-Fi کنکشن نہیں۔ ابھی ڈاؤن لوڈ کرنے سے آپ کا موبائل ڈیٹا استعمال ہوگا۔ ڈاؤن لوڈ کریں؟"</string>
+    <string name="hiad_non_wifi_download_prompt_zh" priority="LT">"کوئی WLAN کنکشن نہیں۔ ابھی ڈاؤن لوڈ کرنے سے آپ کا موبائل ڈیٹا استعمال ہوگا۔ ڈاؤن لوڈ کریں؟"</string>
+    <string name="hiad_open_in_browser" priority="LT">"براؤزر میں کھولیں"</string>
+    <string name="hiad_page_load_failed" priority="LT">"صفحہ لوڈ کرنے سے قاصر۔ براہ کرم دوبارہ کوشش کریں۔"</string>
+    <string name="hiad_permission_dialog_title" priority="LT">"%1$s کو مندرجہ ذیل اجازتوں کی ضرورت ہے:"</string>
+    <string name="hiad_prepare_download" priority="LT">"\u200fWi-Fi کا انتظار کریں"</string>
+    <string name="hiad_prepare_download_title" priority="LT">"موبائل نیٹ ورک پر ڈاؤن لوڈ کریں؟"</string>
+    <string name="hiad_prepare_download_zh" priority="LT">"\u200fWLAN کا انتظار کریں"</string>
+    <string name="hiad_refresh" priority="LT">"ریفریش کریں"</string>
+    <string name="hiad_reminder_app_over_size" priority="LT">"%1$d MB سے بڑی ایپ"</string>
+    <string name="hiad_reward_close_dialog_close" priority="LT">"نظر انداز کریں"</string>
+    <string name="hiad_reward_close_dialog_continue" priority="LT">"دیکھتے رہیں"</string>
+    <string name="hiad_reward_close_dialog_message" priority="LT">"انعام حاصل کرنے کے لیے اس اشتہار کو مکمل دیکھیں۔"</string>
+    <string name="hiad_whether_download" priority="LT">"یہ ایپ ڈاؤن لوڈ کریں؟"</string>
+    <string name="hiad_wifi_loaded_already" priority="translator">"\u200fWi-Fi پر پہلے سے ڈاؤن لوڈ شدہ"</string>
+    <string name="hiad_wifi_loaded_already_zh" priority="translator">"پہلے سے لوڈ کیا گیا"</string>
+    <string name="hms_abort" priority="translator">"روکیں"</string>
+    <string name="hms_abort_message" priority="translator">"ڈاؤن لوڈ روکیں؟"</string>
+    <string name="hms_bindfaildlg_message" priority="translator">"‎%1$s HMS Core استعمال کرنے سے قاصر ہے۔ احسن کار (فون مینیجر) شروع کریں یا سیٹنگز پر جائیں، ‎%2$s‎ (بشمول آٹو لانچ اور ثانوی لانچ) کیلئے تمام اجازتیں فعال کریں اور دوبارہ کوشش کریں۔"</string>
+    <string name="hms_cancel" priority="translator">"منسوخ کریں"</string>
+    <string name="hms_check_failure" priority="translator">"اپ ڈیٹس کے لیے چیک کرنے سے قاصر۔"</string>
+    <string name="hms_checking" priority="translator">"اپ ڈیٹس چیک ہو رہی ہیں..."</string>
+    <string name="hms_confirm" priority="translator">"اوکے"</string>
+    <string name="hms_download_failure" priority="translator">"\u200fHMS Core کا پیکیج ڈاؤن لوڈ کرنے سے قاصر۔"</string>
+    <string name="hms_download_no_space" priority="translator">"وافر خالی جگہ نہیں۔ ڈاؤن لوڈ مکمل نہیں کی جا سکتی۔"</string>
+    <string name="hms_download_retry" priority="translator">"ڈاؤن لوڈ ناکام ہو گئی۔ دوبارہ کوشش کریں؟"</string>
+    <string name="hms_downloading_loading" priority="LT">"ڈاؤن لوڈ کر رہا ہے"</string>
+    <string name="hms_install" priority="translator">"انسٹال کریں"</string>
+    <string name="hms_install_message" priority="translator">"یہ فیچر استعمال کرنے کیلئے HMS Core انسٹال کرنا ضروری ہے۔ انسٹال کریں؟"</string>
+    <string name="hms_retry" priority="translator">"دوبارہ کوشش کریں"</string>
+    <string name="hms_update" priority="translator">"اپ ڈیٹ"</string>
+    <string name="hms_update_continue" priority="LT">"ڈاؤن لوڈ کریں"</string>
+    <string name="hms_update_message" priority="translator">"یہ خصوصیت استعمال کرنے کے لیے HMS Core کے تازہ ترین ورژن پر اپ ڈیٹ کریں۔ ابھی اپ ڈیٹ کریں؟"</string>
+    <string name="hms_update_message_new" priority="LT">"اس سروس کو درج ذیل ایپ کا تازہ ترین ورژن مطلوب ہے: ‎\n\n%1$s‎"</string>
+    <string name="hms_update_nettype" priority="LT">"کوئی Wi-Fi کنکشن نہیں۔ موبائل ڈیٹا کا استعمال کرتے ہوئے ڈاؤن لوڈ کریں؟"</string>
+    <string name="hms_update_title" priority="translator">"HMS Core"</string>
+    <string name="hwid_huawei_login_button_text" priority="translator">"‏HUAWEI ID کے ساتھ سائن ان کریں"</string>
+    <string name="icon_content_description">ڈائیلاگ کا آئیکن</string>
+    <string name="item_view_role_description">ٹیب</string>
+    <string name="material_clock_toggle_content_description">AM یا PM منتخب کریں</string>
+    <string name="material_hour_selection">گھنٹہ منتخب کریں</string>
+    <string name="material_hour_suffix">%1$s بجے</string>
+    <string name="material_minute_selection">منٹ منتخب کریں</string>
+    <string name="material_minute_suffix">%1$s منٹ</string>
+    <string name="material_timepicker_am">قبل از دوپہر</string>
+    <string name="material_timepicker_clock_mode_description">وقت ان پٹ کے لیے گھڑی و‏ضع پر سوئچ کریں۔</string>
+    <string name="material_timepicker_hour">گھنٹہ</string>
+    <string name="material_timepicker_minute">منٹ</string>
+    <string name="material_timepicker_pm">رات</string>
+    <string name="material_timepicker_select_time">وقت منتخب کریں</string>
+    <string name="material_timepicker_text_input_mode_description">وقت ان پٹ کے لیے ٹیکسٹ ان پٹ وضع پر سوئچ کریں۔</string>
+    <string name="mtrl_badge_numberless_content_description">نئی اطلاع</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s کو ہٹائیں</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">%1$d سے زیادہ نئی اطلاعات</string>
+    <string name="mtrl_picker_a11y_next_month">اگلے مہینہ میں منتقل کریں</string>
+    <string name="mtrl_picker_a11y_prev_month">گزشتہ ماہ میں منتقل کریں</string>
+    <string name="mtrl_picker_announce_current_selection">موجودہ انتخاب: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">تاریخ منتخب کریں</string>
+    <string name="mtrl_picker_date_header_unselected">منتخب کردہ تاریخ</string>
+    <string name="mtrl_picker_day_of_week_column_header">دنوں کا کالم: %1$s</string>
+    <string name="mtrl_picker_invalid_format">غلط فارمیٹ۔</string>
+    <string name="mtrl_picker_invalid_format_example">مثال: %1$s۔</string>
+    <string name="mtrl_picker_invalid_format_use">%1$s استعمال کریں</string>
+    <string name="mtrl_picker_invalid_range">غلط رینج۔</string>
+    <string name="mtrl_picker_navigate_to_year_description">%1$s سال پر نیویگیٹ کریں</string>
+    <string name="mtrl_picker_out_of_range">حد سے باہر: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">تاریخ آغاز – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – تاریخ اختتام</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">رینج منتخب کریں</string>
+    <string name="mtrl_picker_range_header_unselected">تاریخ آغاز - تاریخ اختتام</string>
+    <string name="mtrl_picker_save">محفوظ کریں</string>
+    <string name="mtrl_picker_text_input_date_hint">تاریخ</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">تاریخ اختتام</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">تاریخ آغاز</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">کیلنڈر ان پٹ وضع پر سوئچ کریں</string>
+    <string name="mtrl_picker_toggle_to_day_selection">دن کو منتخب کرنے کے ليے سوئچ پر تھپتھپائیں</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">متنی ان پٹ وضع پر سوئچ کریں</string>
+    <string name="mtrl_picker_toggle_to_year_selection">سال کو منتخب کرنے کے ليے سوئچ پر تھپتھپائیں</string>
+    <string name="password_toggle_content_description">پاس ورڈ دکھائیں</string>
+    <string name="scankit_confirm">اوکے</string>
+    <string name="scankit_light">مزید روشنی کے لیے چھوئیں</string>
+    <string name="scankit_light_off">روشنی کو آف کریں</string>
+    <string name="scankit_no_code_tip">کسی کوڈ کا پتہ نہیں چلا ہے۔</string>
+    <string name="scankit_scan_tip">کوڈ کو فریم کے اندر رکھیں</string>
+    <string name="scankit_title">اسکین کریں</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"تلاش کریں"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="upsdk_app_download_info_new" priority="translator">"انسٹال کریں"</string>
+    <string name="upsdk_app_download_installing" priority="translator">"%s ڈاؤن لوڈ ہو رہا ہے۔۔۔"</string>
+    <string name="upsdk_app_size" priority="translator">"سائز"</string>
+    <string name="upsdk_app_version" priority="translator">"ورژن"</string>
+    <string name="upsdk_appstore_install" priority="translator">"اس ایپ کو اپ ڈیٹ کرنے کے لئے %s کی ضرورت ہے۔ ابھی انسٹال کریں؟"</string>
+    <string name="upsdk_cancel" priority="translator">"منسوخ کریں"</string>
+    <string name="upsdk_checking_update_prompt" priority="LT">"اپ ڈیٹس کے لیے چیک کیا جا رہا ہے…"</string>
+    <string name="upsdk_choice_update" priority="LT">"اپ ڈیٹ دستیاب ہے۔ براہ کرم تازہ ترین ورژن ڈاؤن لوڈ اور انسٹال کریں۔"</string>
+    <string name="upsdk_detail" priority="translator">"تفصیلات"</string>
+    <string name="upsdk_getting_message_fail_prompt_toast" priority="translator">"معلومات بازیافت کرنے سے قاصر۔ براہ کرم بعد میں دوبارہ کوشش کریں۔"</string>
+    <string name="upsdk_mobile_dld_warn" priority="translator">"فی الوقت آپ موبائل نیٹ ورک سے مربوط ہیں۔ ابھی ڈاؤن لوڈ کرنے سے %1$s ڈیٹا استعمال ہو گا۔"</string>
+    <string name="upsdk_no_available_network_prompt_toast" priority="translator">"انٹرنیٹ کنکشن نہیں ہے۔ براہ کرم اپنے نیٹ ورک کی ترتیبات چیک کریں۔"</string>
+    <string name="upsdk_ota_app_name" priority="LT">"ایپ"</string>
+    <string name="upsdk_ota_cancel" priority="translator">"بعد میں"</string>
+    <string name="upsdk_ota_force_cancel_new" priority="LT">"خارج ہوں"</string>
+    <string name="upsdk_ota_notify_updatebtn" priority="translator">"اپ ڈیٹ کریں"</string>
+    <string name="upsdk_ota_title" priority="translator">"نیا ورژن"</string>
+    <string name="upsdk_storage_utils" priority="LT">"%1$s MB"</string>
+    <string name="upsdk_third_app_dl_cancel_download_prompt_ex" priority="translator">"انسٹالیشن منسوخ کریں؟"</string>
+    <string name="upsdk_third_app_dl_install_failed" priority="translator">"انسٹالیشن ناکام۔"</string>
+    <string name="upsdk_third_app_dl_sure_cancel_download" priority="translator">"ہاں"</string>
+    <string name="upsdk_update_check_no_new_version" priority="Reviewed">"آپ کا ورژن تازہ ترین ہے۔"</string>
+</resources>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="hiad_dismiss_dilaog">
+    <item priority="translator" quantity="one">"Venster sluit over %1$s seconde."</item>
+    <item priority="translator" quantity="other">"Venster sluit over %1$s seconden."</item>
+</plurals>
+    <plurals name="hiad_no_prompt_in_days">
+    <item priority="translator" quantity="one">"Keuze opslaan voor %1$s dag"</item>
+    <item priority="translator" quantity="other">"Keuze opslaan voor %1$s dagen"</item>
+</plurals>
+    <plurals name="hiad_reward_countdown">
+    <item priority="LT" quantity="one">"%1$d sec"</item>
+    <item priority="LT" quantity="other">"%1$d sec"</item>
+</plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d nieuwe melding</item>
+    <item quantity="other">%d nieuwe meldingen</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navigeren naar startpositie"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Omhoog navigeren"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Meer opties"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Gereed"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Alles weergeven"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Een app selecteren"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"UIT"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"AAN"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Functie +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"spatie"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Zoeken…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Zoekopdracht wissen"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Zoekopdracht"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Zoeken"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Zoekopdracht verzenden"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Gesproken zoekopdracht"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Delen met"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Delen met <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Samenvouwen"</string>
+    <string name="bottomsheet_action_expand_halfway">Half uitvouwen</string>
+    <string name="character_counter_content_description">%1$d van %2$d tekens opgegeven</string>
+    <string name="character_counter_overflowed_content_description">Tekenlimiet heeft %1$d van %2$d overschreden</string>
+    <string name="clear_text_end_icon_content_description">Tekst wissen</string>
+    <string name="error_icon_content_description">Fout</string>
+    <string name="exposed_dropdown_menu_content_description">Dropdownmenu weergeven</string>
+    <string name="hiad_ad_label" priority="translator">"ADVERTENTIE"</string>
+    <string name="hiad_ad_label_new" priority="translator">"Advertentie"</string>
+    <string name="hiad_app_installed" priority="LT">"%1$s is geïnstalleerd"</string>
+    <string name="hiad_app_open_notification" priority="translator">"Installatie is voltooid. Tik om te openen."</string>
+    <string name="hiad_app_permission" priority="LT">"Toestemmingen"</string>
+    <string name="hiad_choices_ad_closed" priority="LT">"Advertentie verborgen"</string>
+    <string name="hiad_choices_ad_no_interest" priority="translator">"Niet geïnteresseerd"</string>
+    <string name="hiad_choices_hide" priority="translator">"Advertentie verbergen"</string>
+    <string name="hiad_choices_whythisad" priority="translator">"Waarom zie ik deze advertentie?"</string>
+    <string name="hiad_consume_data_to_play_video" priority="LT">"Het gebruik van een mobiel netwerk zal %1$s aan data verbruiken. Doorgaan?"</string>
+    <string name="hiad_consume_data_to_play_video_no_data_size" priority="LT">"Afspelen zal mobiele data verbruiken. Doorgaan?"</string>
+    <string name="hiad_continue_download" priority="LT">"Downloaden"</string>
+    <string name="hiad_continue_download_new" priority="LT">"DOWNLOADEN"</string>
+    <string name="hiad_continue_to_play" priority="LT">"DOORGAAN"</string>
+    <string name="hiad_copy_link" priority="LT">"Link kopiëren"</string>
+    <string name="hiad_data_size_prompt" priority="translator">"%1$s MB"</string>
+    <string name="hiad_default_app_name" priority="LT">"App"</string>
+    <string name="hiad_default_skip_text" priority="LT">"Overslaan"</string>
+    <string name="hiad_default_skip_text_time" priority="LT">"Overslaan binnen %d"</string>
+    <string name="hiad_detail" priority="LT">"Details"</string>
+    <string name="hiad_detail_download_now" priority="LT">"Downloaden"</string>
+    <string name="hiad_dialog_accept" priority="LT">"TOESTAAN"</string>
+    <string name="hiad_dialog_allow" priority="LT">"TOESTAAN"</string>
+    <string name="hiad_dialog_cancel" priority="LT">"ANNULEREN"</string>
+    <string name="hiad_dialog_close" priority="LT">"OK"</string>
+    <string name="hiad_dialog_continue" priority="LT">"DOWNLOADEN"</string>
+    <string name="hiad_dialog_dismiss" priority="LT">"OK"</string>
+    <string name="hiad_dialog_install_desc" priority="LT">"%1$s toestaan om %2$s te installeren?"</string>
+    <string name="hiad_dialog_install_source" priority="LT">"Bron: %1$s"</string>
+    <string name="hiad_dialog_ok" priority="LT">"TOESTAAN"</string>
+    <string name="hiad_dialog_open" priority="LT">"OPENEN"</string>
+    <string name="hiad_dialog_reject" priority="LT">"WEIGEREN"</string>
+    <string name="hiad_dialog_title" priority="LT">"Downloaden via mobiele data?"</string>
+    <string name="hiad_dialog_title_tip" priority="LT">"Opmerking"</string>
+    <string name="hiad_download_app_via_mobile_data" priority="LT">"Downloaden met mobiele data?"</string>
+    <string name="hiad_download_download" priority="translator">"INSTALLEREN"</string>
+    <string name="hiad_download_download_with_size" priority="LT">"DOWNLOADEN (%1$s)"</string>
+    <string name="hiad_download_failed_toast_content" priority="LT">"Er is een fout opgetreden tijdens het downloaden van %1$s."</string>
+    <string name="hiad_download_file_corrupted" priority="translator">"Bestand beschadigd. Download opnieuw."</string>
+    <string name="hiad_download_file_not_exist" priority="LT">"Het bestand bestaat niet. Probeer het opnieuw."</string>
+    <string name="hiad_download_install" priority="LT">"INSTALLEREN"</string>
+    <string name="hiad_download_installing" priority="LT">"INSTALLEREN"</string>
+    <string name="hiad_download_no_space" priority="LT">"Onvoldoende opslag. Maak wat ruimte vrij en probeer het opnieuw."</string>
+    <string name="hiad_download_open" priority="LT">"OPENEN"</string>
+    <string name="hiad_download_resume" priority="LT">"DOORGAAN"</string>
+    <string name="hiad_download_retry_toast_content" priority="LT">"Er is een fout opgetreden tijdens het downloaden van %1$s. Download zal opnieuw worden opgestart."</string>
+    <string name="hiad_download_use_mobile_network" priority="LT">"U bent momenteel niet verbonden met wifi. Nu downloaden zal %1$s aan mobiele data kosten. Toch downloaden?"</string>
+    <string name="hiad_download_use_mobile_network_zh" priority="LT">"U bent momenteel niet verbonden met WLAN. Nu downloaden zal %1$s aan mobiele data verbruiken. Toch downloaden?"</string>
+    <string name="hiad_install_completed" priority="LT">"Gereed"</string>
+    <string name="hiad_landing_page_open_app" priority="LT">"Deze pagina wil %1$s openen."</string>
+    <string name="hiad_link_already_copied" priority="LT">"Link gekopieerd."</string>
+    <string name="hiad_mobile_download_prompt" priority="LT">"Deze download gebruikt %1$s aan mobiele data."</string>
+    <string name="hiad_network_error" priority="LT">"Netwerkverbindingsfout."</string>
+    <string name="hiad_network_no_available" priority="LT">"Geen internetverbinding. Controleer uw netwerkinstellingen."</string>
+    <string name="hiad_no_more_remind" priority="LT">"Niet opnieuw herinneren"</string>
+    <string name="hiad_non_wifi_download_prompt" priority="LT">"Geen wifiverbinding. Nu downloaden zal gebruik maken van uw mobiele data. Downloaden?"</string>
+    <string name="hiad_non_wifi_download_prompt_zh" priority="LT">"Geen WLAN-verbinding. Nu downloaden zal gebruik maken van uw mobiele data. Downloaden?"</string>
+    <string name="hiad_open_in_browser" priority="LT">"Openen in browser"</string>
+    <string name="hiad_page_load_failed" priority="LT">"Kan pagina niet laden. Probeer het opnieuw."</string>
+    <string name="hiad_permission_dialog_title" priority="LT">"%1$s vereist de volgende toestemmingen:"</string>
+    <string name="hiad_prepare_download" priority="LT">"Wachten op wifi"</string>
+    <string name="hiad_prepare_download_title" priority="LT">"Downloaden via mobiel netwerk?"</string>
+    <string name="hiad_prepare_download_zh" priority="LT">"Wachten op WLAN"</string>
+    <string name="hiad_refresh" priority="LT">"Vernieuwen"</string>
+    <string name="hiad_reminder_app_over_size" priority="LT">"App groter dan %1$d MB"</string>
+    <string name="hiad_reward_close_dialog_close" priority="LT">"Overslaan"</string>
+    <string name="hiad_reward_close_dialog_continue" priority="LT">"Blijf kijken"</string>
+    <string name="hiad_reward_close_dialog_message" priority="LT">"Bekijk deze advertentie helemaal om een beloning te winnen."</string>
+    <string name="hiad_whether_download" priority="LT">"Deze app downloaden?"</string>
+    <string name="hiad_wifi_loaded_already" priority="translator">"Vooraf geladen via wifi"</string>
+    <string name="hiad_wifi_loaded_already_zh" priority="translator">"Vooraf geladen"</string>
+    <string name="hms_abort" priority="translator">"Stoppen"</string>
+    <string name="hms_abort_message" priority="translator">"Download stoppen?"</string>
+    <string name="hms_bindfaildlg_message" priority="translator">"%1$s kan HMS Core niet gebruiken. Start Optimalisatie (Telefoonbeheer) of ga naar Instellingen, schakel alle toestemmingen voor %2$s in (waaronder auto-start en secundaire start) en probeer het opnieuw."</string>
+    <string name="hms_cancel" priority="translator">"Annuleren"</string>
+    <string name="hms_check_failure" priority="translator">"Controleren op updates mislukt."</string>
+    <string name="hms_checking" priority="translator">"Bezig met controleren op updates…"</string>
+    <string name="hms_confirm" priority="translator">"OK"</string>
+    <string name="hms_download_failure" priority="translator">"Kan HMS Core-pakket niet downloaden."</string>
+    <string name="hms_download_no_space" priority="translator">"Onvoldoende vrije ruimte. Download kan niet worden voltooid."</string>
+    <string name="hms_download_retry" priority="translator">"Downloaden mislukt. Opnieuw proberen?"</string>
+    <string name="hms_downloading_loading" priority="LT">"Bezig met downloaden"</string>
+    <string name="hms_install" priority="translator">"Installeren"</string>
+    <string name="hms_install_message" priority="translator">"Voor het gebruik van deze functie moet HMS Core worden geïnstalleerd. Installeren?"</string>
+    <string name="hms_retry" priority="translator">"Opnieuw proberen"</string>
+    <string name="hms_update" priority="translator">"Bijwerken"</string>
+    <string name="hms_update_continue" priority="LT">"Downloaden"</string>
+    <string name="hms_update_message" priority="translator">"Voer een update uit naar de nieuwste versie van HMS Core om deze functie te gebruiken. Nu updaten?"</string>
+    <string name="hms_update_message_new" priority="LT">"Deze dienst heeft de nieuwste versie van de volgende app nodig:\n\n%1$s"</string>
+    <string name="hms_update_nettype" priority="LT">"Geen wifiverbinding. Downloaden met mobiele data?"</string>
+    <string name="hms_update_title" priority="translator">"HMS Core"</string>
+    <string name="hwid_huawei_login_button_text" priority="translator">"Aanmelden bij HUAWEI-id"</string>
+    <string name="icon_content_description">Icoon voor dialoogvenster</string>
+    <string name="item_view_role_description">Tabblad</string>
+    <string name="material_clock_toggle_content_description">Selecteer a.m. of p.m.</string>
+    <string name="material_hour_selection">Selecteer uur</string>
+    <string name="material_hour_suffix">%1$s uur</string>
+    <string name="material_minute_selection">Minuten selecteren</string>
+    <string name="material_minute_suffix">%1$s minuten</string>
+    <string name="material_timepicker_am">a.m.</string>
+    <string name="material_timepicker_clock_mode_description">Schakel naar de klokmodus om de tijd in te voeren.</string>
+    <string name="material_timepicker_hour">Uur</string>
+    <string name="material_timepicker_minute">Minuut</string>
+    <string name="material_timepicker_pm">p.m.</string>
+    <string name="material_timepicker_select_time">Tijd selecteren</string>
+    <string name="material_timepicker_text_input_mode_description">Schakel naar de tekstinvoermodus om de tijd in te voeren.</string>
+    <string name="mtrl_badge_numberless_content_description">Nieuwe melding</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s verwijderen</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Meer dan %1$d nieuwe meldingen</string>
+    <string name="mtrl_picker_a11y_next_month">Naar volgende maand gaan</string>
+    <string name="mtrl_picker_a11y_prev_month">Naar vorige maand gaan</string>
+    <string name="mtrl_picker_announce_current_selection">Huidige selectie: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Selecteer een datum</string>
+    <string name="mtrl_picker_date_header_unselected">Geselecteerde datum</string>
+    <string name="mtrl_picker_day_of_week_column_header">Kolom met dagen: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Ongeldige indeling.</string>
+    <string name="mtrl_picker_invalid_format_example">Voorbeeld: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Gebruik: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Ongeldig bereik.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Naar jaar %1$s navigeren</string>
+    <string name="mtrl_picker_out_of_range">Valt buiten bereik: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Startdatum - %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – einddatum</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Selecteer een periode</string>
+    <string name="mtrl_picker_range_header_unselected">Startdatum - einddatum</string>
+    <string name="mtrl_picker_save">Opslaan</string>
+    <string name="mtrl_picker_text_input_date_hint">Datum</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Einddatum</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Startdatum</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">j</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Overschakelen naar agenda-invoermodus</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tik om naar dagselectie te schakelen</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Overschakelen naar tekstinvoermodus</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tik om naar jaarselectie te schakelen</string>
+    <string name="password_toggle_content_description">Wachtwoord weergeven</string>
+    <string name="scankit_confirm">OK</string>
+    <string name="scankit_light">Tikken voor meer licht</string>
+    <string name="scankit_light_off">Licht uitschakelen</string>
+    <string name="scankit_no_code_tip">Geen code gedetecteerd.</string>
+    <string name="scankit_scan_tip">Plaats de code binnen het frame</string>
+    <string name="scankit_title">Scannen</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Zoeken"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="upsdk_app_download_info_new" priority="translator">"Installeren"</string>
+    <string name="upsdk_app_download_installing" priority="translator">"Bezig met downloaden van %s…"</string>
+    <string name="upsdk_app_size" priority="translator">"Grootte"</string>
+    <string name="upsdk_app_version" priority="translator">"Versie"</string>
+    <string name="upsdk_appstore_install" priority="translator">"%s is vereist om deze app bij te werken. Nu installeren?"</string>
+    <string name="upsdk_cancel" priority="translator">"Annuleren"</string>
+    <string name="upsdk_checking_update_prompt" priority="LT">"Bezig met controleren op updates…"</string>
+    <string name="upsdk_choice_update" priority="LT">"Update beschikbaar. Download en installeer de laatste versie."</string>
+    <string name="upsdk_detail" priority="translator">"Informatie"</string>
+    <string name="upsdk_getting_message_fail_prompt_toast" priority="translator">"Kan informatie niet ophalen. Probeer het later opnieuw."</string>
+    <string name="upsdk_mobile_dld_warn" priority="translator">"U bent momenteel verbonden met een mobiel netwerk. Als u nu downloadt, verbruikt u %1$s aan data."</string>
+    <string name="upsdk_no_available_network_prompt_toast" priority="translator">"Geen internetverbinding. Controleert u uw netwerkinstellingen."</string>
+    <string name="upsdk_ota_app_name" priority="LT">"App"</string>
+    <string name="upsdk_ota_cancel" priority="translator">"Later"</string>
+    <string name="upsdk_ota_force_cancel_new" priority="LT">"Sluiten"</string>
+    <string name="upsdk_ota_notify_updatebtn" priority="translator">"Bijwerken"</string>
+    <string name="upsdk_ota_title" priority="translator">"Nieuwe versie"</string>
+    <string name="upsdk_storage_utils" priority="LT">"%1$s MB"</string>
+    <string name="upsdk_third_app_dl_cancel_download_prompt_ex" priority="translator">"Installatie annuleren?"</string>
+    <string name="upsdk_third_app_dl_install_failed" priority="translator">"Installatie mislukt."</string>
+    <string name="upsdk_third_app_dl_sure_cancel_download" priority="translator">"OK"</string>
+    <string name="upsdk_update_check_no_new_version" priority="Reviewed">"Uw versie is up-to-date."</string>
+</resources>

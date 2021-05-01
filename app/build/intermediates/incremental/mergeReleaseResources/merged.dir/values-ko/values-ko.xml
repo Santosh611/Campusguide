@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="hiad_dismiss_dilaog">
+    <item priority="translator" quantity="other">"%1$s초 후 창이 닫힙니다."</item>
+</plurals>
+    <plurals name="hiad_no_prompt_in_days">
+    <item priority="Reviewed" quantity="other">"%1$s일간 다시 알리지 않음"</item>
+</plurals>
+    <plurals name="hiad_reward_countdown">
+    <item priority="LT" quantity="other">"%1$d초"</item>
+</plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">새 알림 %d개</item>
+    <item quantity="other">새 알림 %d개</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"홈으로 이동"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"위로 이동"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"추가 옵션"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"완료"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"전체 보기"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"앱 선택"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"사용 중지"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"사용"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"스페이스바"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"검색..."</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"검색어 삭제"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"검색어"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"검색"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"검색어 보내기"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"음성 검색"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"공유 대상:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>과(와) 공유"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"접기"</string>
+    <string name="bottomsheet_action_expand_halfway">반만 펼치기</string>
+    <string name="character_counter_content_description">입력된 글자 %1$d/%2$d</string>
+    <string name="character_counter_overflowed_content_description">글자 수 제한이 초과되었습니다(%1$d/%2$d).</string>
+    <string name="clear_text_end_icon_content_description">텍스트 삭제</string>
+    <string name="error_icon_content_description">오류</string>
+    <string name="exposed_dropdown_menu_content_description">드롭다운 메뉴 표시</string>
+    <string name="hiad_ad_label" priority="translator">"광고"</string>
+    <string name="hiad_ad_label_new" priority="translator">"광고"</string>
+    <string name="hiad_app_installed" priority="LT">"%1$s이(가) 설치되었습니다"</string>
+    <string name="hiad_app_open_notification" priority="translator">"설치가 완료되었습니다. 터치하여 여십시오."</string>
+    <string name="hiad_app_permission" priority="LT">"권한"</string>
+    <string name="hiad_choices_ad_closed" priority="LT">"광고 숨김"</string>
+    <string name="hiad_choices_ad_no_interest" priority="translator">"관심 없음"</string>
+    <string name="hiad_choices_hide" priority="LT">"광고 숨기기"</string>
+    <string name="hiad_choices_whythisad" priority="LT">"이 광고를 시청한 이유"</string>
+    <string name="hiad_consume_data_to_play_video" priority="LT">"모바일 네트워크를 이용하면 %1$s 데이터가 소비됩니다. 계속하시겠습니까?"</string>
+    <string name="hiad_consume_data_to_play_video_no_data_size" priority="LT">"재생은 모바일 데이터를 사용합니다. 계속하시겠습니까?"</string>
+    <string name="hiad_continue_download" priority="LT">"다운로드"</string>
+    <string name="hiad_continue_download_new" priority="LT">"다운로드"</string>
+    <string name="hiad_continue_to_play" priority="LT">"계속"</string>
+    <string name="hiad_copy_link" priority="LT">"링크 복사"</string>
+    <string name="hiad_data_size_prompt" priority="translator">"%1$sMB"</string>
+    <string name="hiad_default_app_name" priority="LT">"앱"</string>
+    <string name="hiad_default_skip_text" priority="LT">"건너뛰기"</string>
+    <string name="hiad_default_skip_text_time" priority="LT">"%d에서 건너뛰기"</string>
+    <string name="hiad_detail" priority="LT">"상세정보"</string>
+    <string name="hiad_detail_download_now" priority="LT">"다운로드"</string>
+    <string name="hiad_dialog_accept" priority="translator">"허용"</string>
+    <string name="hiad_dialog_allow" priority="LT">"허용"</string>
+    <string name="hiad_dialog_cancel" priority="LT">"취소"</string>
+    <string name="hiad_dialog_close" priority="translator">"확인"</string>
+    <string name="hiad_dialog_continue" priority="LT">"다운로드"</string>
+    <string name="hiad_dialog_dismiss" priority="LT">"확인"</string>
+    <string name="hiad_dialog_install_desc" priority="LT">"%1$s의 %2$s 설치를 허용하시겠습니까?"</string>
+    <string name="hiad_dialog_install_source" priority="LT">"출처: %1$s"</string>
+    <string name="hiad_dialog_ok" priority="LT">"허용"</string>
+    <string name="hiad_dialog_open" priority="LT">"열기"</string>
+    <string name="hiad_dialog_reject" priority="LT">"거부"</string>
+    <string name="hiad_dialog_title" priority="LT">"모바일 데이터를 사용하여 다운로드하시겠습니까?"</string>
+    <string name="hiad_dialog_title_tip" priority="LT">"참고"</string>
+    <string name="hiad_download_app_via_mobile_data" priority="LT">"모바일 데이터를 사용하여 다운로드하시겠습니까?"</string>
+    <string name="hiad_download_download" priority="translator">"설치"</string>
+    <string name="hiad_download_download_with_size" priority="translator">"다운로드(%1$s)"</string>
+    <string name="hiad_download_failed_toast_content" priority="LT">"%1$s을(를) 다운로드하는 중 오류가 발생했습니다."</string>
+    <string name="hiad_download_file_corrupted" priority="translator">"파일이 손상되었습니다. 다시 다운로드해 주십시오."</string>
+    <string name="hiad_download_file_not_exist" priority="LT">"파일이 존재하지 않습니다. 다시 시도하세요."</string>
+    <string name="hiad_download_install" priority="LT">"설치"</string>
+    <string name="hiad_download_installing" priority="translator">"설치 중"</string>
+    <string name="hiad_download_no_space" priority="LT">"저장 공간이 부족합니다. 일부 공간을 비우고 다시 시도해 주십시오."</string>
+    <string name="hiad_download_open" priority="LT">"열기"</string>
+    <string name="hiad_download_resume" priority="LT">"계속"</string>
+    <string name="hiad_download_retry_toast_content" priority="LT">"%1$s을(를) 다운로드하는 중 오류가 발생했습니다. 다운로드가 다시 시작됩니다."</string>
+    <string name="hiad_download_use_mobile_network" priority="LT">"귀하는 현재 Wi-Fi에 연결되지 않았습니다. 지금 다운로드하면 %1$s의 모바일 데이터를 사용하게 됩니다. 그래도 다운로드하시겠습니까?"</string>
+    <string name="hiad_download_use_mobile_network_zh" priority="LT">"귀하는 현재 WLAN에 연결되지 않았습니다. 지금 다운로드하면 %1$s의 모바일 데이터를 사용하게 됩니다. 그래도 다운로드하시겠습니까?"</string>
+    <string name="hiad_install_completed" priority="LT">"완료"</string>
+    <string name="hiad_landing_page_open_app" priority="LT">"이 페이지에서 %1$s을(를) 열고자 합니다."</string>
+    <string name="hiad_link_already_copied" priority="LT">"링크가 복사되었습니다."</string>
+    <string name="hiad_mobile_download_prompt" priority="LT">"이 다운로드는 %1$s의 모바일 데이터를 사용합니다."</string>
+    <string name="hiad_network_error" priority="LT">"네트워크 연결 오류."</string>
+    <string name="hiad_network_no_available" priority="LT">"인터넷에 연결되지 않았습니다. 네트워크 설정을 확인하세요."</string>
+    <string name="hiad_no_more_remind" priority="LT">"다시 알리지 않음"</string>
+    <string name="hiad_non_wifi_download_prompt" priority="LT">"Wi-Fi 연결 없음. 지금 다운로드하면 모바일 데이터가 사용됩니다. 다운로드하시겠습니까?"</string>
+    <string name="hiad_non_wifi_download_prompt_zh" priority="LT">"WLAN 연결 없음. 지금 다운로드하면 모바일 데이터가 사용됩니다. 다운로드하시겠습니까?"</string>
+    <string name="hiad_open_in_browser" priority="LT">"브라우저에서 열기"</string>
+    <string name="hiad_page_load_failed" priority="LT">"페이지를 로딩할 수 없습니다. 다시 시도하세요."</string>
+    <string name="hiad_permission_dialog_title" priority="translator">"%1$s에는 다음 권한이 필요합니다."</string>
+    <string name="hiad_prepare_download" priority="LT">"Wi-Fi 연결 대기"</string>
+    <string name="hiad_prepare_download_title" priority="LT">"모바일 네트워크로 다운로드하시겠습니까?"</string>
+    <string name="hiad_prepare_download_zh" priority="LT">"WLAN 연결 대기"</string>
+    <string name="hiad_refresh" priority="LT">"새로 고침"</string>
+    <string name="hiad_reminder_app_over_size" priority="LT">"%1$dMB를 초과하는 앱"</string>
+    <string name="hiad_reward_close_dialog_close" priority="LT">"건너뛰기"</string>
+    <string name="hiad_reward_close_dialog_continue" priority="LT">"계속 시청"</string>
+    <string name="hiad_reward_close_dialog_message" priority="LT">"보상을 받으려면 이 광고 재생을 완료하십시오."</string>
+    <string name="hiad_whether_download" priority="LT">"이 앱을 다운로드하시겠습니까?"</string>
+    <string name="hiad_wifi_loaded_already" priority="translator">"Wi-Fi로 사전 로딩됨"</string>
+    <string name="hiad_wifi_loaded_already_zh" priority="translator">"사전 설치 항목"</string>
+    <string name="hms_abort" priority="translator">"중지"</string>
+    <string name="hms_abort_message" priority="translator">"다운로드를 중지할까요?"</string>
+    <string name="hms_bindfaildlg_message" priority="translator">"%1$s는(은) HMS Core를 사용할 수 없습니다. 옵티마이저(휴대폰 관리자)를 실행하거나 설정에서 %2$s(자동 실행 및 2차 실행 포함)에 대한 권한을 켠 후 다시 시도하세요."</string>
+    <string name="hms_cancel" priority="translator">"취소"</string>
+    <string name="hms_check_failure" priority="translator">"업데이트 확인에 실패했습니다."</string>
+    <string name="hms_checking" priority="translator">"업데이트 확인 중…"</string>
+    <string name="hms_confirm" priority="translator">"확인"</string>
+    <string name="hms_download_failure" priority="translator">"HMS Core 패키지 다운로드에 실패했습니다."</string>
+    <string name="hms_download_no_space" priority="translator">"빈 공간이 부족합니다. 다운로드를 완료할 수 없습니다."</string>
+    <string name="hms_download_retry" priority="translator">"다운로드에 실패했습니다. 다시 시도할까요?"</string>
+    <string name="hms_downloading_loading" priority="LT">"다운로드 중"</string>
+    <string name="hms_install" priority="translator">"설치"</string>
+    <string name="hms_install_message" priority="translator">"이 기능을 사용하려면 HMS Core를 설치해야 합니다. 설치할까요?"</string>
+    <string name="hms_retry" priority="translator">"재시도"</string>
+    <string name="hms_update" priority="translator">"업데이트"</string>
+    <string name="hms_update_continue" priority="LT">"다운로드"</string>
+    <string name="hms_update_message" priority="translator">"이 기능을 사용하려면 HMS Core를 최신 버전으로 업데이트해야 합니다. 지금 업데이트할까요?"</string>
+    <string name="hms_update_message_new" priority="LT">"이 서비스는 다음 앱의 최신 버전이 필요합니다.\n\n%1$s"</string>
+    <string name="hms_update_nettype" priority="LT">"Wi-Fi 연결이 없습니다. 모바일 데이터를 사용하여 다운로드하시겠습니까?"</string>
+    <string name="hms_update_title" priority="translator">"HMS Core"</string>
+    <string name="hwid_huawei_login_button_text" priority="translator">"HUAWEI ID로 로그인하기"</string>
+    <string name="icon_content_description">대화상자 아이콘</string>
+    <string name="item_view_role_description">탭</string>
+    <string name="material_clock_toggle_content_description">오전 또는 오후를 선택하세요.</string>
+    <string name="material_hour_selection">시간 선택</string>
+    <string name="material_hour_suffix">%1$s시 정각</string>
+    <string name="material_minute_selection">분 선택</string>
+    <string name="material_minute_suffix">%1$s분</string>
+    <string name="material_timepicker_am">오전</string>
+    <string name="material_timepicker_clock_mode_description">시간 입력을 위해 시계 모드로 전환합니다.</string>
+    <string name="material_timepicker_hour">시간</string>
+    <string name="material_timepicker_minute">분</string>
+    <string name="material_timepicker_pm">오후</string>
+    <string name="material_timepicker_select_time">시간 선택</string>
+    <string name="material_timepicker_text_input_mode_description">시간 입력을 위해 텍스트 입력 모드로 전환합니다.</string>
+    <string name="mtrl_badge_numberless_content_description">새 알림</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s 삭제</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">새 알림 %1$d개 초과</string>
+    <string name="mtrl_picker_a11y_next_month">다음 달로 변경</string>
+    <string name="mtrl_picker_a11y_prev_month">이전 달로 변경</string>
+    <string name="mtrl_picker_announce_current_selection">현재 %1$s 선택됨</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">날짜 선택</string>
+    <string name="mtrl_picker_date_header_unselected">선택한 날짜</string>
+    <string name="mtrl_picker_day_of_week_column_header">요일 열: %1$s</string>
+    <string name="mtrl_picker_invalid_format">형식이 잘못되었습니다.</string>
+    <string name="mtrl_picker_invalid_format_example">예: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">%1$s 사용</string>
+    <string name="mtrl_picker_invalid_range">날짜 범위가 잘못되었습니다.</string>
+    <string name="mtrl_picker_navigate_to_year_description">%1$s년으로 이동</string>
+    <string name="mtrl_picker_out_of_range">%1$s은(는) 범위를 벗어난 날짜입니다.</string>
+    <string name="mtrl_picker_range_header_only_end_selected">시작일~%1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s~종료일</string>
+    <string name="mtrl_picker_range_header_selected">%1$s~%2$s</string>
+    <string name="mtrl_picker_range_header_title">기간 선택</string>
+    <string name="mtrl_picker_range_header_unselected">시작일~종료일</string>
+    <string name="mtrl_picker_save">저장</string>
+    <string name="mtrl_picker_text_input_date_hint">날짜</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">종료일</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">시작일</string>
+    <string name="mtrl_picker_text_input_day_abbr">일</string>
+    <string name="mtrl_picker_text_input_month_abbr">월</string>
+    <string name="mtrl_picker_text_input_year_abbr">년</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">캘린더 입력 모드로 전환</string>
+    <string name="mtrl_picker_toggle_to_day_selection">탭하여 요일 선택으로 전환</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">텍스트 입력 모드로 전환</string>
+    <string name="mtrl_picker_toggle_to_year_selection">탭하여 연도 선택으로 전환</string>
+    <string name="password_toggle_content_description">비밀번호 표시</string>
+    <string name="scankit_confirm">확인</string>
+    <string name="scankit_light">터치하여 조명을 높입니다</string>
+    <string name="scankit_light_off">조명을 끕니다</string>
+    <string name="scankit_no_code_tip">코드가 감지되지 않았습니다.</string>
+    <string name="scankit_scan_tip">프레임 안에 코드를 넣습니다</string>
+    <string name="scankit_title">스캔</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"검색"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="upsdk_app_download_info_new" priority="translator">"설치"</string>
+    <string name="upsdk_app_download_installing" priority="translator">"%s 다운로드 중..."</string>
+    <string name="upsdk_app_size" priority="translator">"크기"</string>
+    <string name="upsdk_app_version" priority="translator">"버전"</string>
+    <string name="upsdk_appstore_install" priority="translator">"%s을(를) 이용하려면 이 앱을 업데이트해야 합니다. 지금 설치하시겠습니까?"</string>
+    <string name="upsdk_cancel" priority="translator">"취소"</string>
+    <string name="upsdk_checking_update_prompt" priority="LT">"업데이트 확인 중…"</string>
+    <string name="upsdk_choice_update" priority="LT">"새로운 업데이트가 있습니다. 최신 버전을 다운로드하여 설치하세요."</string>
+    <string name="upsdk_detail" priority="translator">"상세사항"</string>
+    <string name="upsdk_getting_message_fail_prompt_toast" priority="translator">"정보를 검색할 수 없습니다. 나중에 다시 시도하세요."</string>
+    <string name="upsdk_mobile_dld_warn" priority="translator">"현재 모바일 네트워크에 연결되어 있습니다. 지금 다운로드하면 %1$s의 데이터가 사용됩니다."</string>
+    <string name="upsdk_no_available_network_prompt_toast" priority="translator">"인터넷이 연결되지 않았습니다. 네트워크 설정을 확인해 주세요."</string>
+    <string name="upsdk_ota_app_name" priority="LT">"앱"</string>
+    <string name="upsdk_ota_cancel" priority="translator">"나중에"</string>
+    <string name="upsdk_ota_force_cancel_new" priority="LT">"나가기"</string>
+    <string name="upsdk_ota_notify_updatebtn" priority="translator">"업데이트"</string>
+    <string name="upsdk_ota_title" priority="translator">"새로운 버전"</string>
+    <string name="upsdk_storage_utils" priority="LT">"%1$sMB"</string>
+    <string name="upsdk_third_app_dl_cancel_download_prompt_ex" priority="translator">"설치를 취소할까요?"</string>
+    <string name="upsdk_third_app_dl_install_failed" priority="translator">"설치에 실패했습니다."</string>
+    <string name="upsdk_third_app_dl_sure_cancel_download" priority="translator">"예"</string>
+    <string name="upsdk_update_check_no_new_version" priority="Reviewed">"최신 버전입니다."</string>
+</resources>

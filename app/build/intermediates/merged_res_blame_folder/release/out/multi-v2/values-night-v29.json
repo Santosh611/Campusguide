@@ -1,0 +1,53 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-night-v29\\values-night-v29.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\santo\\.gradle\\caches\\transforms-2\\files-2.1\\83a3789e58a70016ba22384878a73374\\jetified-ads-lang-13.4.40.302\\res\\values-night-v29\\values-night-v29.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,119,179,238",
+                        "endColumns": "63,59,58,56",
+                        "endOffsets": "114,174,233,290"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "212,276,336,395",
+                        "endColumns": "63,59,58,56",
+                        "endOffsets": "271,331,390,447"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\santo\\.gradle\\caches\\transforms-2\\files-2.1\\5a0382e4399bb1fa0f848a5fa2a10ade\\jetified-update-3.0.1.300\\res\\values-night-v29\\values-night-v29.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,108,162",
+                        "endColumns": "52,53,52",
+                        "endOffsets": "103,157,210"
+                    },
+                    "to": {
+                        "startLines": "9,10,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "452,505,559",
+                        "endColumns": "52,53,52",
+                        "endOffsets": "500,554,607"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\santo\\.gradle\\caches\\transforms-2\\files-2.1\\b552bd3780a1d03b3698c8cf79909ed9\\jetified-ui-5.2.0.300\\res\\values-night-v29\\values-night-v29.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,107,160",
+                        "endColumns": "51,52,51",
+                        "endOffsets": "102,155,207"
+                    }
+                }
+            ]
+        }
+    ]
+}

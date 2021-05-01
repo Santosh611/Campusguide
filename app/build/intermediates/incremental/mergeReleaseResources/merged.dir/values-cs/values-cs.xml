@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="hiad_dismiss_dilaog">
+        <item priority="translator" quantity="one">"Okno se zavře za %1$s s."</item>
+        <item priority="translator" quantity="few">"Okno se zavře za %1$s s."</item>
+        <item priority="translator" quantity="many">"Okno se zavře za %1$s s."</item>
+        <item priority="translator" quantity="other">"Okno se zavře za %1$s s."</item>
+    </plurals>
+    <plurals name="hiad_no_prompt_in_days">
+        <item priority="translator" quantity="one">"Zapamatovat volbu po dobu %1$s dne"</item>
+        <item priority="translator" quantity="few">"Zapamatovat volbu po dobu %1$s dní"</item>
+        <item priority="translator" quantity="many">"Zapamatovat volbu po dobu %1$s dní"</item>
+        <item priority="translator" quantity="other">"Zapamatovat volbu po dobu %1$s dní"</item>
+    </plurals>
+    <plurals name="hiad_reward_countdown">
+        <item priority="LT" quantity="one">"%1$d s"</item>
+        <item priority="LT" quantity="few">"%1$d s"</item>
+        <item priority="translator" quantity="many">"%1$d s"</item>
+        <item priority="translator" quantity="other">"%1$d s"</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d nové oznámení</item>
+    <item quantity="few">%d nová oznámení</item>
+    <item quantity="many">%d nového oznámení</item>
+    <item quantity="other">%d nových oznámení</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Přejít na plochu"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Přejít nahoru"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Více možností"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Hotovo"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Zobrazit vše"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Vybrat aplikaci"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"VYP"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ZAP"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fn+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"mezerník"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Vyhledat…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Smazat dotaz"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Dotaz pro vyhledávání"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Hledat"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Odeslat dotaz"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Hlasové vyhledávání"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Sdílet s"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Sdílet s aplikací <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Sbalit"</string>
+    <string name="bottomsheet_action_expand_halfway">Rozbalit napůl</string>
+    <string name="character_counter_content_description">Zadané znaky: %1$d z %2$d</string>
+    <string name="character_counter_overflowed_content_description">Byl překročen povolený počet znaků (%1$d z %2$d)</string>
+    <string name="clear_text_end_icon_content_description">Vymazat text</string>
+    <string name="error_icon_content_description">Chyba</string>
+    <string name="exposed_dropdown_menu_content_description">Zobrazit rozbalovací nabídku</string>
+    <string name="hiad_ad_label" priority="translator">"REKLAMA"</string>
+    <string name="hiad_ad_label_new" priority="translator">"Reklama"</string>
+    <string name="hiad_app_installed" priority="LT">"Aplikace %1$s byla nainstalována"</string>
+    <string name="hiad_app_open_notification" priority="translator">"Instalace byla dokončena. Klepnutím otevřete."</string>
+    <string name="hiad_app_permission" priority="LT">"Oprávnění"</string>
+    <string name="hiad_choices_ad_closed" priority="LT">"Reklama je skryta"</string>
+    <string name="hiad_choices_ad_no_interest" priority="translator">"Nemám zájem"</string>
+    <string name="hiad_choices_hide" priority="translator">"Skrýt reklamu"</string>
+    <string name="hiad_choices_whythisad" priority="translator">"Proč vidím tuto reklamu?"</string>
+    <string name="hiad_consume_data_to_play_video" priority="LT">"Použití mobilní sítě spotřebuje %1$s dat. Pokračovat?"</string>
+    <string name="hiad_consume_data_to_play_video_no_data_size" priority="LT">"Přehrávání využije mobilní data. Pokračovat?"</string>
+    <string name="hiad_continue_download" priority="LT">"Stáhnout"</string>
+    <string name="hiad_continue_download_new" priority="LT">"STÁHNOUT"</string>
+    <string name="hiad_continue_to_play" priority="LT">"POKRAČOVAT"</string>
+    <string name="hiad_copy_link" priority="LT">"Kopírovat odkaz"</string>
+    <string name="hiad_data_size_prompt" priority="translator">"%1$s MB"</string>
+    <string name="hiad_default_app_name" priority="LT">"Aplikace"</string>
+    <string name="hiad_default_skip_text" priority="LT">"Přeskočit"</string>
+    <string name="hiad_default_skip_text_time" priority="LT">"Přeskočit za %d"</string>
+    <string name="hiad_detail" priority="LT">"Detaily"</string>
+    <string name="hiad_detail_download_now" priority="LT">"Stáhnout"</string>
+    <string name="hiad_dialog_accept" priority="LT">"POVOLIT"</string>
+    <string name="hiad_dialog_allow" priority="LT">"POVOLIT"</string>
+    <string name="hiad_dialog_cancel" priority="LT">"ZRUŠIT"</string>
+    <string name="hiad_dialog_close" priority="LT">"OK"</string>
+    <string name="hiad_dialog_continue" priority="LT">"STÁHNOUT"</string>
+    <string name="hiad_dialog_dismiss" priority="LT">"CHÁPU"</string>
+    <string name="hiad_dialog_install_desc" priority="LT">"Povolit aplikaci %1$s instalovat %2$s?"</string>
+    <string name="hiad_dialog_install_source" priority="LT">"Zdroj: %1$s"</string>
+    <string name="hiad_dialog_ok" priority="LT">"POVOLIT"</string>
+    <string name="hiad_dialog_open" priority="LT">"OTEVŘÍT"</string>
+    <string name="hiad_dialog_reject" priority="LT">"ODMÍTNOUT"</string>
+    <string name="hiad_dialog_title" priority="LT">"Stáhnout pomocí mobilních dat?"</string>
+    <string name="hiad_dialog_title_tip" priority="LT">"Poznámka"</string>
+    <string name="hiad_download_app_via_mobile_data" priority="LT">"Stáhnout pomocí mobilních dat?"</string>
+    <string name="hiad_download_download" priority="translator">"INSTALOVAT"</string>
+    <string name="hiad_download_download_with_size" priority="LT">"STAHOVÁNÍ (%1$s)"</string>
+    <string name="hiad_download_failed_toast_content" priority="LT">"Chyba během stahování %1$s."</string>
+    <string name="hiad_download_file_corrupted" priority="translator">"Soubor je poškozen. Stáhněte ho prosím znovu."</string>
+    <string name="hiad_download_file_not_exist" priority="LT">"Soubor neexistuje. Zkuste to prosím znovu."</string>
+    <string name="hiad_download_install" priority="LT">"INSTALOVAT"</string>
+    <string name="hiad_download_installing" priority="LT">"PROBÍHÁ INSTALACE"</string>
+    <string name="hiad_download_no_space" priority="LT">"Nedostatečný prostor. Uvolněte nějaké místo a zkuste to znovu."</string>
+    <string name="hiad_download_open" priority="LT">"OTEVŘÍT"</string>
+    <string name="hiad_download_resume" priority="LT">"POKRAČOVAT"</string>
+    <string name="hiad_download_retry_toast_content" priority="LT">"Během stahování %1$s došlo k chybě. Stahování se restartuje."</string>
+    <string name="hiad_download_use_mobile_network" priority="translator">"Aktuálně nejste připojeni k Wi-Fi. Stažení nyní využije %1$s mobilních dat. Přesto stáhnout?"</string>
+    <string name="hiad_download_use_mobile_network_zh" priority="LT">"Aktuálně nejste připojeni k WLAN. Stažení nyní využije %1$s mobilních dat. Přesto stáhnout?"</string>
+    <string name="hiad_install_completed" priority="LT">"Hotovo"</string>
+    <string name="hiad_landing_page_open_app" priority="LT">"Tato stránka chce otevřít aplikaci %1$s."</string>
+    <string name="hiad_link_already_copied" priority="LT">"Odkaz byl zkopírován."</string>
+    <string name="hiad_mobile_download_prompt" priority="LT">"Pro toto stažení je zapotřebí %1$s mobilních dat."</string>
+    <string name="hiad_network_error" priority="LT">"Chyba připojení sítě."</string>
+    <string name="hiad_network_no_available" priority="LT">"Žádné připojení k internetu. Zkontrolujte prosím nastavení sítě."</string>
+    <string name="hiad_no_more_remind" priority="LT">"Znovu nepřipomínat"</string>
+    <string name="hiad_non_wifi_download_prompt" priority="LT">"Žádné připojení k síti Wi-Fi. Stahováním budete nyní čerpat mobilní data. Stáhnout?"</string>
+    <string name="hiad_non_wifi_download_prompt_zh" priority="LT">"Žádné připojení WLAN. Stahováním budete nyní čerpat mobilní data. Stáhnout?"</string>
+    <string name="hiad_open_in_browser" priority="LT">"Otevřít v prohlížeči"</string>
+    <string name="hiad_page_load_failed" priority="LT">"Nelze načíst stránku. Zkuste to prosím znovu."</string>
+    <string name="hiad_permission_dialog_title" priority="LT">"Aplikace %1$s vyžaduje následující oprávnění:"</string>
+    <string name="hiad_prepare_download" priority="LT">"Počkat na Wi-Fi"</string>
+    <string name="hiad_prepare_download_title" priority="LT">"Stáhnout prostřednictvím mobilní sítě?"</string>
+    <string name="hiad_prepare_download_zh" priority="translator">"Počkat na síť WLAN"</string>
+    <string name="hiad_refresh" priority="LT">"Obnovit"</string>
+    <string name="hiad_reminder_app_over_size" priority="LT">"Aplikace větší než %1$d MB"</string>
+    <string name="hiad_reward_close_dialog_close" priority="LT">"Přeskočit"</string>
+    <string name="hiad_reward_close_dialog_continue" priority="LT">"Sledovat dál"</string>
+    <string name="hiad_reward_close_dialog_message" priority="LT">"Po zhlédnutí této reklamy získáte odměnu."</string>
+    <string name="hiad_whether_download" priority="LT">"Chcete stáhnout tuto aplikaci?"</string>
+    <string name="hiad_wifi_loaded_already" priority="translator">"Předem načteno přes Wi-Fi"</string>
+    <string name="hiad_wifi_loaded_already_zh" priority="translator">"Předem načteno"</string>
+    <string name="hms_abort" priority="translator">"Zastavit"</string>
+    <string name="hms_abort_message" priority="translator">"Zastavit stahování?"</string>
+    <string name="hms_bindfaildlg_message" priority="translator">"%1$s nemůže využívat funkci HMS Core. Zapněte aplikaci Správce (správce telefonu), nebo přejděte do nabídky Nastavení a povolte oprávnění pro %2$s (včetně automatického a sekundárního spuštění). Poté opakujte akci."</string>
+    <string name="hms_cancel" priority="translator">"Zrušit"</string>
+    <string name="hms_check_failure" priority="translator">"Nepodařilo se zkontrolovat dostupnost aktualizací."</string>
+    <string name="hms_checking" priority="translator">"Vyhledávání aktualizací…"</string>
+    <string name="hms_confirm" priority="translator">"OK"</string>
+    <string name="hms_download_failure" priority="translator">"Stahování balíčku HMS Core se nezdařilo."</string>
+    <string name="hms_download_no_space" priority="translator">"Nedostatek volného prostoru. Stažení nelze dokončit."</string>
+    <string name="hms_download_retry" priority="translator">"Stahování se nezdařilo. Zkusit znovu?"</string>
+    <string name="hms_downloading_loading" priority="LT">"Stahování"</string>
+    <string name="hms_install" priority="translator">"Instalovat"</string>
+    <string name="hms_install_message" priority="translator">"Pro využívání této funkce musí být nainstalovány HMS Core. Přejete si je nainstalovat?"</string>
+    <string name="hms_retry" priority="translator">"Zkusit znovu"</string>
+    <string name="hms_update" priority="translator">"Aktualizovat"</string>
+    <string name="hms_update_continue" priority="LT">"Stáhnout"</string>
+    <string name="hms_update_message" priority="translator">"Pro používání této funkce proveďte aktualizaci HMS Core na nejnovější verzi. Aktualizovat nyní?"</string>
+    <string name="hms_update_message_new" priority="LT">"Tato služba vyžaduje nejnovější verzi následující aplikace:\n\n%1$s"</string>
+    <string name="hms_update_nettype" priority="LT">"Žádné připojení k síti Wi-Fi. Stáhnout přes mobilní data?"</string>
+    <string name="hms_update_title" priority="translator">"HMS Core"</string>
+    <string name="hwid_huawei_login_button_text" priority="translator">"Přihlásit se pomocí HUAWEI ID"</string>
+    <string name="icon_content_description">Ikona dialogového okna</string>
+    <string name="item_view_role_description">Karta</string>
+    <string name="material_clock_toggle_content_description">Vyberte AM nebo PM</string>
+    <string name="material_hour_selection">Vyberte hodinu</string>
+    <string name="material_hour_suffix">%1$s</string>
+    <string name="material_minute_selection">Zvolte minuty</string>
+    <string name="material_minute_suffix">%1$s min</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Chcete-li zadat čas, přepněte na režim hodin.</string>
+    <string name="material_timepicker_hour">Hodina</string>
+    <string name="material_timepicker_minute">Minuta</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Vyberte čas</string>
+    <string name="material_timepicker_text_input_mode_description">Chcete-li zadat čas, přepněte na režim textu.</string>
+    <string name="mtrl_badge_numberless_content_description">Nové oznámení</string>
+    <string name="mtrl_chip_close_icon_content_description">Odstranit položku %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Více než %1$d nových oznámení</string>
+    <string name="mtrl_picker_a11y_next_month">Přejít na další měsíc</string>
+    <string name="mtrl_picker_a11y_prev_month">Přejít na předchozí měsíc</string>
+    <string name="mtrl_picker_announce_current_selection">Aktuální výběr: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Vyberte datum</string>
+    <string name="mtrl_picker_date_header_unselected">Vybrané datum</string>
+    <string name="mtrl_picker_day_of_week_column_header">Sloupec dnů: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Neplatný formát.</string>
+    <string name="mtrl_picker_invalid_format_example">Příklad: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Použijte: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Neplatný rozsah.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Přejít na rok %1$s</string>
+    <string name="mtrl_picker_out_of_range">Mimo rozsah: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Datum zahájení – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – datum ukončení</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Vyberte rozsah</string>
+    <string name="mtrl_picker_range_header_unselected">Datum zahájení – datum ukončení</string>
+    <string name="mtrl_picker_save">Uložit</string>
+    <string name="mtrl_picker_text_input_date_hint">Datum</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Datum ukončení</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Datum zahájení</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">r</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Přepnout na režim zadávání do kalendáře</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Klepnutím přepnete na výběr dne</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Přepnout na režim zadávání textu</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Klepnutím přepnete na výběr roku</string>
+    <string name="password_toggle_content_description">Zobrazit heslo</string>
+    <string name="scankit_confirm">OK</string>
+    <string name="scankit_light">Pro více světla klepněte</string>
+    <string name="scankit_light_off">Vypnout světlo</string>
+    <string name="scankit_no_code_tip">Nebyl zjištěn žádný kód.</string>
+    <string name="scankit_scan_tip">Umístěte kód do rámečku</string>
+    <string name="scankit_title">Skenovat</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Hledat"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="upsdk_app_download_info_new" priority="translator">"Instalovat"</string>
+    <string name="upsdk_app_download_installing" priority="translator">"Stahování aplikace %s…"</string>
+    <string name="upsdk_app_size" priority="translator">"Velikost"</string>
+    <string name="upsdk_app_version" priority="translator">"Verze"</string>
+    <string name="upsdk_appstore_install" priority="translator">"Pro aktualizaci této aplikace je vyžadována aplikace %s. Instalovat nyní?"</string>
+    <string name="upsdk_cancel" priority="translator">"Zrušit"</string>
+    <string name="upsdk_checking_update_prompt" priority="LT">"Probíhá kontrola aktualizací…"</string>
+    <string name="upsdk_choice_update" priority="LT">"K dispozici je aktualizace. Stáhněte a nainstalujte nejnovější verzi."</string>
+    <string name="upsdk_detail" priority="translator">"Podrobnosti"</string>
+    <string name="upsdk_getting_message_fail_prompt_toast" priority="translator">"Nelze načíst informace. Zkuste to znovu později."</string>
+    <string name="upsdk_mobile_dld_warn" priority="translator">"Momentálně jste připojeni k mobilní síti. Při stahování teď spotřebujete %1$s dat."</string>
+    <string name="upsdk_no_available_network_prompt_toast" priority="translator">"Připojení k internetu není k dispozici. Zkontrolujte nastavení sítě."</string>
+    <string name="upsdk_ota_app_name" priority="LT">"Aplikace"</string>
+    <string name="upsdk_ota_cancel" priority="translator">"Později"</string>
+    <string name="upsdk_ota_force_cancel_new" priority="LT">"Ukončit"</string>
+    <string name="upsdk_ota_notify_updatebtn" priority="translator">"Aktualizovat"</string>
+    <string name="upsdk_ota_title" priority="translator">"Nová verze"</string>
+    <string name="upsdk_storage_utils" priority="LT">"%1$s MB"</string>
+    <string name="upsdk_third_app_dl_cancel_download_prompt_ex" priority="translator">"Zrušit instalaci?"</string>
+    <string name="upsdk_third_app_dl_install_failed" priority="translator">"Instalace se nezdařila."</string>
+    <string name="upsdk_third_app_dl_sure_cancel_download" priority="translator">"Ano"</string>
+    <string name="upsdk_update_check_no_new_version" priority="Reviewed">"Vaše verze je aktuální."</string>
+</resources>

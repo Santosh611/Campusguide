@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="hiad_dismiss_dilaog">
+    <item priority="translator" quantity="one">"Прозорецот ќе се затвори по %1$s секунда."</item>
+    <item priority="translator" quantity="other">"Прозорецот ќе се затвори по %1$s секунди."</item>
+</plurals>
+    <plurals name="hiad_no_prompt_in_days">
+    <item priority="Reviewed" quantity="one">"Запомни го изборот %1$s ден"</item>
+    <item priority="Reviewed" quantity="other">"Запомни го изборот %1$s дена"</item>
+</plurals>
+    <plurals name="hiad_reward_countdown">
+    <item priority="LT" quantity="one">"%1$d сек."</item>
+    <item priority="LT" quantity="other">"%1$d сек."</item>
+</plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d ново известување</item>
+    <item quantity="other">%d нови известувања</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Движи се кон дома"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Движи се нагоре"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Повеќе опции"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Прикажи ги сите"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Избери апликација"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ИСКЛУЧЕНО"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ВКЛУЧЕНО"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"избриши"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"вселена"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Пребарување…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Исчисти барање"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Пребарај барање"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Пребарај"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Поднеси барање"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Гласовно пребарување"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Сподели со"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Сподели со <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Собери"</string>
+    <string name="bottomsheet_action_expand_halfway">Прошири до половина</string>
+    <string name="character_counter_content_description">Внесени се %1$d од %2$d знаци</string>
+    <string name="character_counter_overflowed_content_description">Ограничувањето на знаците надмина %1$d од %2$d</string>
+    <string name="clear_text_end_icon_content_description">Избриши го текстот</string>
+    <string name="error_icon_content_description">Грешка</string>
+    <string name="exposed_dropdown_menu_content_description">Прикажи паѓачко мени</string>
+    <string name="hiad_ad_label" priority="translator">"РЕКЛАМА"</string>
+    <string name="hiad_ad_label_new" priority="translator">"Реклама"</string>
+    <string name="hiad_app_installed" priority="LT">"%1$s е инсталирана"</string>
+    <string name="hiad_app_open_notification" priority="translator">"Инсталирањето заврши. Допрете за да отворите."</string>
+    <string name="hiad_app_permission" priority="LT">"Дозволи"</string>
+    <string name="hiad_choices_ad_closed" priority="LT">"Рекламата е скриена"</string>
+    <string name="hiad_choices_ad_no_interest" priority="translator">"Не ме интересира"</string>
+    <string name="hiad_choices_hide" priority="LT">"Скриј ја рекламата"</string>
+    <string name="hiad_choices_whythisad" priority="LT">"Зошто ја гледав оваа реклама?"</string>
+    <string name="hiad_consume_data_to_play_video" priority="LT">"Ако користите мобилна мрежа, ќе се потрошат %1$s податоци. Да се продолжи?"</string>
+    <string name="hiad_consume_data_to_play_video_no_data_size" priority="LT">"Репродуцирањето ќе потроши мобилни податоци. Да се продолжи?"</string>
+    <string name="hiad_continue_download" priority="LT">"Преземи"</string>
+    <string name="hiad_continue_download_new" priority="LT">"ПРЕЗЕМИ"</string>
+    <string name="hiad_continue_to_play" priority="LT">"ПРОДОЛЖИ"</string>
+    <string name="hiad_copy_link" priority="LT">"Копирај ја врската"</string>
+    <string name="hiad_data_size_prompt" priority="translator">"%1$s MB"</string>
+    <string name="hiad_default_app_name" priority="LT">"Апликација"</string>
+    <string name="hiad_default_skip_text" priority="LT">"Прескокни"</string>
+    <string name="hiad_default_skip_text_time" priority="LT">"Прескокни за %d"</string>
+    <string name="hiad_detail" priority="LT">"Детали"</string>
+    <string name="hiad_detail_download_now" priority="LT">"Преземи"</string>
+    <string name="hiad_dialog_accept" priority="LT">"ДОЗВОЛИ"</string>
+    <string name="hiad_dialog_allow" priority="LT">"ДОЗВОЛИ"</string>
+    <string name="hiad_dialog_cancel" priority="LT">"ОТКАЖИ"</string>
+    <string name="hiad_dialog_close" priority="LT">"ОК"</string>
+    <string name="hiad_dialog_continue" priority="LT">"ПРЕЗЕМИ"</string>
+    <string name="hiad_dialog_dismiss" priority="LT">"РАЗБРАВ"</string>
+    <string name="hiad_dialog_install_desc" priority="LT">"Да се дозволи %1$s да инсталира %2$s?"</string>
+    <string name="hiad_dialog_install_source" priority="LT">"Извор: %1$s"</string>
+    <string name="hiad_dialog_ok" priority="LT">"ДОЗВОЛИ"</string>
+    <string name="hiad_dialog_open" priority="LT">"ОТВОРИ"</string>
+    <string name="hiad_dialog_reject" priority="LT">"ОДБИЈ"</string>
+    <string name="hiad_dialog_title" priority="LT">"Да се преземе преку користење мобилни податоци?"</string>
+    <string name="hiad_dialog_title_tip" priority="LT">"Белешка"</string>
+    <string name="hiad_download_app_via_mobile_data" priority="LT">"Да се преземе преку користење мобилни податоци?"</string>
+    <string name="hiad_download_download" priority="translator">"ИНСТАЛИРАЈ"</string>
+    <string name="hiad_download_download_with_size" priority="LT">"ПРЕЗЕМИ (%1$s)"</string>
+    <string name="hiad_download_failed_toast_content" priority="LT">"Се случи грешка при преземањето на %1$s."</string>
+    <string name="hiad_download_file_corrupted" priority="translator">"Датотеката е оштетена. Преземете повторно."</string>
+    <string name="hiad_download_file_not_exist" priority="LT">"Датотеката не постои. Обидете се повторно."</string>
+    <string name="hiad_download_install" priority="LT">"ИНСТАЛИРАЈ"</string>
+    <string name="hiad_download_installing" priority="LT">"СЕ ИНСТАЛИРА"</string>
+    <string name="hiad_download_no_space" priority="LT">"Недоволно меморија. Ослободете простор и обидете се повторно."</string>
+    <string name="hiad_download_open" priority="LT">"ОТВОРИ"</string>
+    <string name="hiad_download_resume" priority="LT">"ПРОДОЛЖИ"</string>
+    <string name="hiad_download_retry_toast_content" priority="LT">"Се случи грешка при преземањето на %1$s. Преземањето ќе започне повторно."</string>
+    <string name="hiad_download_use_mobile_network" priority="LT">"Не сте поврзани на Wi-Fi во моментов. Ако преземете сега, ќе се искористат %1$s мобилни податоци. Сепак да се преземе?"</string>
+    <string name="hiad_download_use_mobile_network_zh" priority="LT">"Не сте поврзани на WLAN во моментов. Ако преземете сега, ќе се искористат %1$s мобилни податоци. Сепак да се преземе?"</string>
+    <string name="hiad_install_completed" priority="LT">"Готово"</string>
+    <string name="hiad_landing_page_open_app" priority="LT">"Оваа страница сака да отвори %1$s."</string>
+    <string name="hiad_link_already_copied" priority="LT">"Врската е копирана."</string>
+    <string name="hiad_mobile_download_prompt" priority="LT">"Ова преземање ќе потроши %1$s мобилни податоци."</string>
+    <string name="hiad_network_error" priority="LT">"Грешка во мрежното поврзување."</string>
+    <string name="hiad_network_no_available" priority="LT">"Нема поврзување на интернет. Проверете ги поставките за мрежата."</string>
+    <string name="hiad_no_more_remind" priority="LT">"Не потсетувај ме повторно"</string>
+    <string name="hiad_non_wifi_download_prompt" priority="LT">"Нема поврзување Wi-Fi. Ако преземете сега, ќе се користат мобилни податоци. Да се преземе?"</string>
+    <string name="hiad_non_wifi_download_prompt_zh" priority="LT">"Нема поврзување WLAN. Ако преземете сега, ќе се користат мобилни податоци. Да се преземе?"</string>
+    <string name="hiad_open_in_browser" priority="LT">"Отвори во прелистувач"</string>
+    <string name="hiad_page_load_failed" priority="LT">"Не може да се вчита страницата. Обидете се повторно."</string>
+    <string name="hiad_permission_dialog_title" priority="LT">"За %1$s се потребни следниве дозволи:"</string>
+    <string name="hiad_prepare_download" priority="LT">"Почекај Wi-Fi"</string>
+    <string name="hiad_prepare_download_title" priority="LT">"Да се преземе преку мобилна мрежа?"</string>
+    <string name="hiad_prepare_download_zh" priority="LT">"Почекај WLAN"</string>
+    <string name="hiad_refresh" priority="LT">"Освежи"</string>
+    <string name="hiad_reminder_app_over_size" priority="LT">"Апликацијата е поголема од %1$d MB"</string>
+    <string name="hiad_reward_close_dialog_close" priority="LT">"Прескокни"</string>
+    <string name="hiad_reward_close_dialog_continue" priority="LT">"Продолжи со гледање"</string>
+    <string name="hiad_reward_close_dialog_message" priority="LT">"Догледајте ја оваа реклама за да добиете награда."</string>
+    <string name="hiad_whether_download" priority="LT">"Да се преземе оваа апликација?"</string>
+    <string name="hiad_wifi_loaded_already" priority="translator">"Вчитано претходно преку Wi-Fi"</string>
+    <string name="hiad_wifi_loaded_already_zh" priority="translator">"Претходно вчитано"</string>
+    <string name="hms_abort" priority="translator">"Прекини"</string>
+    <string name="hms_abort_message" priority="translator">"Да се прекине преземањето?"</string>
+    <string name="hms_bindfaildlg_message" priority="translator">"%1$s не може да ја користи HMS Core. Активирајте го Оптимизатор (Администратор на телефон) или одете до Нагодување, овозможете ги сите дозволи за %2$s (вклучувајќи и автоматско активирање и секундарно активирање) и обидете се повторно."</string>
+    <string name="hms_cancel" priority="translator">"Откажи"</string>
+    <string name="hms_check_failure" priority="translator">"Проверката за ажурирања не е успешна."</string>
+    <string name="hms_checking" priority="translator">"Се проверуваат ажурирања..."</string>
+    <string name="hms_confirm" priority="translator">"ОК"</string>
+    <string name="hms_download_failure" priority="translator">"Преземањето на пакетот за HMS Core не успеа."</string>
+    <string name="hms_download_no_space" priority="translator">"Нема доволно слободен простор. Преземањето не може да се заврши."</string>
+    <string name="hms_download_retry" priority="translator">"Преземањето не е успешно. Ќе се обидете повторно?"</string>
+    <string name="hms_downloading_loading" priority="LT">"Се презема"</string>
+    <string name="hms_install" priority="translator">"Инсталирај"</string>
+    <string name="hms_install_message" priority="translator">"Мора да биде инсталирана HMS Core за да се користи оваа функција. Ќе ја инсталирате?"</string>
+    <string name="hms_retry" priority="translator">"Обиди се"</string>
+    <string name="hms_update" priority="translator">"Ажурирај"</string>
+    <string name="hms_update_continue" priority="LT">"Преземи"</string>
+    <string name="hms_update_message" priority="translator">"Ажурирајте на најновата верзија на HMS Core за да ја користите оваа карактеристика. Да се ажурира сега?"</string>
+    <string name="hms_update_message_new" priority="LT">"За оваа услуга потребна е најновата верзија од следнава апликација:\n\n%1$s"</string>
+    <string name="hms_update_nettype" priority="LT">"Нема поврзување Wi-Fi. Да се преземе преку користење мобилни податоци?"</string>
+    <string name="hms_update_title" priority="translator">"HMS Core"</string>
+    <string name="hwid_huawei_login_button_text" priority="translator">"Најавете се со Идентитет на HUAWEI"</string>
+    <string name="icon_content_description">Икона за дијалог</string>
+    <string name="item_view_role_description">Картичка</string>
+    <string name="material_clock_toggle_content_description">Изберете претпладне или попладне</string>
+    <string name="material_hour_selection">Изберете час</string>
+    <string name="material_hour_suffix">%1$s часот</string>
+    <string name="material_minute_selection">Избери минути</string>
+    <string name="material_minute_suffix">%1$s минути</string>
+    <string name="material_timepicker_am">пр.</string>
+    <string name="material_timepicker_clock_mode_description">Префрлете се на режимот за часовник за да внесете време.</string>
+    <string name="material_timepicker_hour">Час</string>
+    <string name="material_timepicker_minute">Минута</string>
+    <string name="material_timepicker_pm">по.</string>
+    <string name="material_timepicker_select_time">Изберете време</string>
+    <string name="material_timepicker_text_input_mode_description">Префрлете се на режимот за внесување текст за да внесете време.</string>
+    <string name="mtrl_badge_numberless_content_description">Ново известување</string>
+    <string name="mtrl_chip_close_icon_content_description">Отстрани %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Над %1$d нови известувања</string>
+    <string name="mtrl_picker_a11y_next_month">Промени на следниот месец</string>
+    <string name="mtrl_picker_a11y_prev_month">Промени на претходниот месец</string>
+    <string name="mtrl_picker_announce_current_selection">Тековен избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Изберете датум</string>
+    <string name="mtrl_picker_date_header_unselected">Избран датум</string>
+    <string name="mtrl_picker_day_of_week_column_header">Колона со денови: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Неважечки формат.</string>
+    <string name="mtrl_picker_invalid_format_example">Пример: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Користете: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Погрешен опсег.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Оди на %1$s година</string>
+    <string name="mtrl_picker_out_of_range">Надвор од опсег: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Почетен датум - %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s - краен датум</string>
+    <string name="mtrl_picker_range_header_selected">%1$s - %2$s</string>
+    <string name="mtrl_picker_range_header_title">Изберете опсег</string>
+    <string name="mtrl_picker_range_header_unselected">Почетен датум - краен датум</string>
+    <string name="mtrl_picker_save">Зачувај</string>
+    <string name="mtrl_picker_text_input_date_hint">Датум</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Краен датум</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Почетен датум</string>
+    <string name="mtrl_picker_text_input_day_abbr">д</string>
+    <string name="mtrl_picker_text_input_month_abbr">м</string>
+    <string name="mtrl_picker_text_input_year_abbr">г</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Префрли на режим за внесување во календарот</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Допрете за да се префрлите на избирање ден</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Префрли на режим за внесување текст</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Допрете за да се префрлите на избирање година</string>
+    <string name="password_toggle_content_description">Прикажи ја лозинката</string>
+    <string name="scankit_confirm">ОК</string>
+    <string name="scankit_light">Допрете за повеќе светлина</string>
+    <string name="scankit_light_off">Исклучете светло</string>
+    <string name="scankit_no_code_tip">Не е откриен код.</string>
+    <string name="scankit_scan_tip">Поставете го кодот во рамката</string>
+    <string name="scankit_title">Скенирање</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Пребарај"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="upsdk_app_download_info_new" priority="translator">"Инсталирај"</string>
+    <string name="upsdk_app_download_installing" priority="translator">"Се презема %s…"</string>
+    <string name="upsdk_app_size" priority="translator">"Големина"</string>
+    <string name="upsdk_app_version" priority="translator">"Верзија"</string>
+    <string name="upsdk_appstore_install" priority="translator">"Потребна е %s за да се ажурира оваа апликација. Да се инсталира сега?"</string>
+    <string name="upsdk_cancel" priority="translator">"Откажи"</string>
+    <string name="upsdk_checking_update_prompt" priority="LT">"Се проверува за ажурирања…"</string>
+    <string name="upsdk_choice_update" priority="LT">"Достапно е ажурирање. Преземете ја и инсталирајте ја најновата верзија."</string>
+    <string name="upsdk_detail" priority="translator">"Детали"</string>
+    <string name="upsdk_getting_message_fail_prompt_toast" priority="translator">"Информациите не можат да се вчитаат. Обидете се повторно подоцна."</string>
+    <string name="upsdk_mobile_dld_warn" priority="translator">"Во моментов сте поврзани на мобилна мрежа. Ако преземете сега, ќе се искористат %1$s податоци."</string>
+    <string name="upsdk_no_available_network_prompt_toast" priority="translator">"Нема поврзување на интернет. Проверете ги поставките за мрежата."</string>
+    <string name="upsdk_ota_app_name" priority="LT">"Апликација"</string>
+    <string name="upsdk_ota_cancel" priority="translator">"Подоцна"</string>
+    <string name="upsdk_ota_force_cancel_new" priority="LT">"Излези"</string>
+    <string name="upsdk_ota_notify_updatebtn" priority="translator">"Ажурирај"</string>
+    <string name="upsdk_ota_title" priority="translator">"Нова верзија"</string>
+    <string name="upsdk_storage_utils" priority="LT">"%1$s MB"</string>
+    <string name="upsdk_third_app_dl_cancel_download_prompt_ex" priority="translator">"Да се откаже инсталацијата?"</string>
+    <string name="upsdk_third_app_dl_install_failed" priority="translator">"Инсталирањето не успеа."</string>
+    <string name="upsdk_third_app_dl_sure_cancel_download" priority="translator">"Да"</string>
+    <string name="upsdk_update_check_no_new_version" priority="Reviewed">"Ја имате најновата верзија."</string>
+</resources>

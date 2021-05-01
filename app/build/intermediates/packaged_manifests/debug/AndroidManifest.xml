@@ -38,14 +38,18 @@
         <activity android:name="com.example.acctu.HomeActivity" />
         <activity android:name="com.example.acctu.LocationActivity" />
         <activity android:name="com.example.acctu.ScannerActivity" />
-        <activity android:name="com.example.acctu.SplashActivity" >
+        <activity
+            android:name="com.example.acctu.SplashActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.acctu.MainActivity" />
+        <activity
+            android:name="com.example.acctu.MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
 
         <meta-data
             android:name="huawei_module_scankit_local"
@@ -108,6 +112,12 @@
         <meta-data
             android:name="com.huawei.hms.client.service.name:ads-lite"
             android:value="ads-lite:13.4.40.302" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.acctu.com.squareup.picasso"
+            android:exported="false" />
+
         <meta-data
             android:name="com.huawei.hms.client.service.name:ml-computer-camera-inner"
             android:value="ml-computer-camera-inner:1.0.3.340" />

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="emui_color_gray_1">#262626</color>
+    <color name="emui_color_gray_10">#E6E6E6</color>
+    <color name="emui_color_gray_7">#808080</color>
+    <color name="hiad_activie_app_desc_color">#80FFFFFF</color>
+    <color name="hiad_open_btn_normal_bg">#1AFFFFFF</color>
+    <color name="hiad_open_btn_pressed_bg">#2E2E2E</color>
+    <color name="hiad_whythisad_root_bg">#FFFFFF</color>
+    <color name="upsdk_color_gray_1">#262626</color>
+    <color name="upsdk_color_gray_10">#E6E6E6</color>
+    <color name="upsdk_color_gray_7">#808080</color>
+</resources>
