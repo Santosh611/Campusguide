@@ -3,6 +3,16 @@
 
 library {
   maven_library {
+    groupId: "com.github.dmytrodanylyk"
+    artifactId: "android-morphing-button"
+    version: "98a4986e56"
+  }
+  digests {
+    sha256: "\354\354\023Il\rz\347\263\345\255\263\005u\275i\223\375N\312\350E\205f\034\360$\253\235\337\314,"
+  }
+}
+library {
+  maven_library {
     groupId: "androidx.appcompat"
     artifactId: "appcompat"
     version: "1.2.0"
@@ -243,6 +253,26 @@ library {
 }
 library {
   maven_library {
+    groupId: "com.github.iammert"
+    artifactId: "MaterialIntroView"
+    version: "1.6.0"
+  }
+  digests {
+    sha256: "\230\234\211&\362n\232\250@\017\222\256^\326\270u\220_z&rK\206$\354b\273\245\355\376\3634"
+  }
+}
+library {
+  maven_library {
+    groupId: "androidx.cardview"
+    artifactId: "cardview"
+    version: "1.0.0"
+  }
+  digests {
+    sha256: "\021\223\300L\"\243\326\265\224m\256\237N\214Y\326\255\336jq\266\275]\207\373\231\330-\332\032\376\307"
+  }
+}
+library {
+  maven_library {
     groupId: "com.github.smarteist"
     artifactId: "autoimageslider"
     version: "1.3.9"
@@ -429,16 +459,6 @@ library {
   }
   digests {
     sha256: "\313\361\347\326\237\3026\315\255\313\321\354_l\n\032A\254\246\255\036\367\370H\020X\225bp\253\037\n"
-  }
-}
-library {
-  maven_library {
-    groupId: "androidx.cardview"
-    artifactId: "cardview"
-    version: "1.0.0"
-  }
-  digests {
-    sha256: "\021\223\300L\"\243\326\265\224m\256\237N\214Y\326\255\336jq\266\275]\207\373\231\330-\332\032\376\307"
   }
 }
 library {
@@ -835,369 +855,520 @@ library {
   maven_library {
     groupId: "com.squareup.okhttp3"
     artifactId: "okhttp"
-    version: "3.5.0"
+    version: "4.7.2"
   }
   digests {
-    sha256: "\356\315\203K\t\321,<\325h\270\021R+\227\001&\031\367\360\003x\303\307\031\241\225\177\254dX\357"
+    sha256: "kd\312\035 iu\022B\230E7\325\336,\276bz\340\000C\017Q\027\304}\214\263\322r\372\315"
   }
 }
 library {
   maven_library {
     groupId: "com.squareup.okio"
     artifactId: "okio"
-    version: "1.11.0"
+    version: "2.6.0"
   }
   digests {
-    sha256: "\214T6\312\337\2536\273\331}\265\365\304;{\375\265\277/_\211N\310p\233\031)\361K\335\001\f"
+    sha256: "M\204\357hbw\265\216\260V\221\254\031\315;\357\243B\232\'\'I\202\356e\352\017\a\004K\314\000"
+  }
+}
+library {
+  maven_library {
+    groupId: "org.jetbrains.kotlin"
+    artifactId: "kotlin-stdlib"
+    version: "1.3.71"
+  }
+  digests {
+    sha256: "Z\316\"\261\002\251d%\344\254D\340U\213\222\1778W\265j3\313\302\211\317\033p\256\346E\346\247"
+  }
+}
+library {
+  maven_library {
+    groupId: "org.jetbrains.kotlin"
+    artifactId: "kotlin-stdlib-common"
+    version: "1.3.71"
+  }
+  digests {
+    sha256: "\227O\212\233{\374\343\3270\250n\376\016\253!\232rb\036\2050\371\0360\310\237@\v\251\200\222\354"
+  }
+}
+library {
+  maven_library {
+    groupId: "org.jetbrains"
+    artifactId: "annotations"
+    version: "13.0"
+  }
+  digests {
+    sha256: "\254\342\241\r\310\342\325\3754\222^\312\300>I\210\262\300\370Qe\f\224\270\316\364\233\241\275\021\024x"
+  }
+}
+library {
+  maven_library {
+    groupId: "com.squareup.retrofit2"
+    artifactId: "retrofit"
+    version: "2.5.0"
+  }
+  digests {
+    sha256: "\270\244\300\r&\331\226\376\002>\200\306\263:M-R\322\307\2725\356\362s&\317\035\227\355\245V\305"
+  }
+}
+library {
+  maven_library {
+    groupId: "com.squareup.retrofit2"
+    artifactId: "converter-gson"
+    version: "2.4.0"
+  }
+  digests {
+    sha256: "|\366_F\036\243\006\273\"\275\320;+d\301F\335\254\203\330t]\233\252F\"\214\030!\025\255m"
+  }
+}
+library {
+  maven_library {
+    groupId: "com.google.code.gson"
+    artifactId: "gson"
+    version: "2.8.2"
+  }
+  digests {
+    sha256: "\267\023I)\367\314|\004\002\036\301\314\'\357c\253\220~A\f\360X\2169{\210Q\030\036\271\020\222"
+  }
+}
+library {
+  maven_library {
+    groupId: "com.squareup.retrofit2"
+    artifactId: "adapter-rxjava2"
+    version: "2.4.0"
+  }
+  digests {
+    sha256: ":\b\371\352+l\035CD\354\226\321$Y\027\220<\\+\002\307\n\302\321\001\227\211\373+\241\300\022"
+  }
+}
+library {
+  maven_library {
+    groupId: "io.reactivex.rxjava2"
+    artifactId: "rxjava"
+    version: "2.1.10"
+  }
+  digests {
+    sha256: "\272\370\017\267\271\002h\371\231\236z\345\336\004\343 \303,t}%\002\246\357\250\305\321\001\303\331qo"
+  }
+}
+library {
+  maven_library {
+    groupId: "org.reactivestreams"
+    artifactId: "reactive-streams"
+    version: "1.0.2"
+  }
+  digests {
+    sha256: "\314\t\253\v\024\016\r\004\226\302\026]K2\316$\364\326Dl\n&\305\334w\260k\337\231\356\217\256"
+  }
+}
+library {
+  maven_library {
+    groupId: "com.huawei.hms"
+    artifactId: "awareness"
+    version: "1.0.7.301"
+  }
+  digests {
+    sha256: ";\341\215w\207XLC\215\241\205db\177\237w\004\356W\307\327\253oE[\030\250\370)\304\274\206"
+  }
+}
+library {
+  maven_library {
+    groupId: "com.huawei.hms"
+    artifactId: "awareness-common"
+    version: "1.0.7.301"
+  }
+  digests {
+    sha256: "o8+\352\333\342\377\222Pt\000\177\203\217\255\347\246Y\264\027\000A\230\352\202\275b\030=\032\021\253"
+  }
+}
+library {
+  maven_library {
+    groupId: "io.reactivex.rxjava2"
+    artifactId: "rxandroid"
+    version: "2.0.1"
+  }
+  digests {
+    sha256: "\370\033\302\262U<\347{\334\332\333\313(\347H4O\234\376WQ\033\374/H\214\273\306\327x/>"
+  }
+}
+library {
+  maven_library {
+    groupId: "com.github.denzcoskun"
+    artifactId: "ImageSlideshow"
+    version: "0.0.6"
+  }
+  digests {
+    sha256: "\241W\373!\221{\312f\352\332\204\033\222\035WvQ\031{\363\325l\205\037\023V]^t\346\272\375"
+  }
+}
+library {
+  maven_library {
+    groupId: "org.jetbrains.kotlin"
+    artifactId: "kotlin-stdlib-jdk7"
+    version: "1.2.71"
+  }
+  digests {
+    sha256: "\2616\275a\262@\340}M\222\316\000\323\275\035\277XD\000\247\277_\"\f/<\322$F\205\200\202"
+  }
+}
+library {
+  maven_library {
+    groupId: "com.squareup.picasso"
+    artifactId: "picasso"
+    version: "2.71828"
+  }
+  digests {
+    sha256: "\351\346\263,dW>\331\340\233\205\310\3372\005\260)\337\fo?\017x:\230K\263\373\374\006\350;"
   }
 }
 library_dependencies {
   library_dep_index: 1
+}
+library_dependencies {
+  library_index: 1
   library_dep_index: 2
   library_dep_index: 3
   library_dep_index: 4
   library_dep_index: 5
   library_dep_index: 6
   library_dep_index: 7
-}
-library_dependencies {
-  library_index: 2
-  library_dep_index: 1
   library_dep_index: 8
-  library_dep_index: 9
-  library_dep_index: 7
-}
-library_dependencies {
-  library_index: 8
-  library_dep_index: 10
-  library_dep_index: 11
-  library_dep_index: 1
-}
-library_dependencies {
-  library_index: 10
-  library_dep_index: 1
-}
-library_dependencies {
-  library_index: 11
-  library_dep_index: 1
-}
-library_dependencies {
-  library_index: 9
-  library_dep_index: 1
-  library_dep_index: 7
-}
-library_dependencies {
-  library_index: 7
-  library_dep_index: 1
 }
 library_dependencies {
   library_index: 3
-  library_dep_index: 1
+  library_dep_index: 2
+  library_dep_index: 9
+  library_dep_index: 10
+  library_dep_index: 8
 }
 library_dependencies {
-  library_index: 4
-  library_dep_index: 1
-  library_dep_index: 2
-  library_dep_index: 7
+  library_index: 9
+  library_dep_index: 11
   library_dep_index: 12
-  library_dep_index: 13
-  library_dep_index: 14
-  library_dep_index: 15
+  library_dep_index: 2
+}
+library_dependencies {
+  library_index: 11
+  library_dep_index: 2
 }
 library_dependencies {
   library_index: 12
-  library_dep_index: 1
-  library_dep_index: 2
-  library_dep_index: 16
-}
-library_dependencies {
-  library_index: 16
-  library_dep_index: 1
   library_dep_index: 2
 }
 library_dependencies {
-  library_index: 13
-  library_dep_index: 1
-  library_dep_index: 2
-  library_dep_index: 17
-  library_dep_index: 15
-}
-library_dependencies {
-  library_index: 17
-  library_dep_index: 18
-  library_dep_index: 19
-  library_dep_index: 11
-}
-library_dependencies {
-  library_index: 18
-  library_dep_index: 1
-  library_dep_index: 11
-}
-library_dependencies {
-  library_index: 19
-  library_dep_index: 10
-  library_dep_index: 11
-  library_dep_index: 18
-}
-library_dependencies {
-  library_index: 15
-  library_dep_index: 1
-}
-library_dependencies {
-  library_index: 14
-  library_dep_index: 1
+  library_index: 10
   library_dep_index: 2
   library_dep_index: 8
-  library_dep_index: 15
-  library_dep_index: 20
 }
 library_dependencies {
-  library_index: 20
-  library_dep_index: 1
-  library_dep_index: 11
-  library_dep_index: 10
+  library_index: 8
+  library_dep_index: 2
+}
+library_dependencies {
+  library_index: 4
+  library_dep_index: 2
 }
 library_dependencies {
   library_index: 5
-  library_dep_index: 7
-  library_dep_index: 1
   library_dep_index: 2
-  library_dep_index: 21
-  library_dep_index: 22
-}
-library_dependencies {
-  library_index: 21
-  library_dep_index: 1
-  library_dep_index: 2
-  library_dep_index: 7
-}
-library_dependencies {
-  library_index: 22
-  library_dep_index: 21
-  library_dep_index: 23
-  library_dep_index: 7
-}
-library_dependencies {
-  library_index: 23
-  library_dep_index: 1
-}
-library_dependencies {
-  library_index: 6
-  library_dep_index: 1
-  library_dep_index: 2
+  library_dep_index: 3
+  library_dep_index: 8
+  library_dep_index: 13
+  library_dep_index: 14
+  library_dep_index: 15
   library_dep_index: 16
 }
 library_dependencies {
-  library_index: 25
-  library_dep_index: 26
-  library_dep_index: 27
-  library_dep_index: 28
-  library_dep_index: 4
+  library_index: 13
+  library_dep_index: 2
+  library_dep_index: 3
+  library_dep_index: 17
+}
+library_dependencies {
+  library_index: 17
+  library_dep_index: 2
+  library_dep_index: 3
+}
+library_dependencies {
+  library_index: 14
+  library_dep_index: 2
+  library_dep_index: 3
+  library_dep_index: 18
+  library_dep_index: 16
+}
+library_dependencies {
+  library_index: 18
+  library_dep_index: 19
+  library_dep_index: 20
+  library_dep_index: 12
+}
+library_dependencies {
+  library_index: 19
+  library_dep_index: 2
+  library_dep_index: 12
+}
+library_dependencies {
+  library_index: 20
+  library_dep_index: 11
+  library_dep_index: 12
+  library_dep_index: 19
+}
+library_dependencies {
+  library_index: 16
+  library_dep_index: 2
+}
+library_dependencies {
+  library_index: 15
+  library_dep_index: 2
+  library_dep_index: 3
+  library_dep_index: 9
+  library_dep_index: 16
+  library_dep_index: 21
+}
+library_dependencies {
+  library_index: 21
+  library_dep_index: 2
+  library_dep_index: 12
+  library_dep_index: 11
+}
+library_dependencies {
+  library_index: 6
+  library_dep_index: 8
+  library_dep_index: 2
+  library_dep_index: 3
   library_dep_index: 22
-  library_dep_index: 29
+  library_dep_index: 23
+}
+library_dependencies {
+  library_index: 22
+  library_dep_index: 2
+  library_dep_index: 3
+  library_dep_index: 8
+}
+library_dependencies {
+  library_index: 23
+  library_dep_index: 22
+  library_dep_index: 24
+  library_dep_index: 8
+}
+library_dependencies {
+  library_index: 24
+  library_dep_index: 2
+}
+library_dependencies {
+  library_index: 7
+  library_dep_index: 2
+  library_dep_index: 3
+  library_dep_index: 17
+}
+library_dependencies {
+  library_index: 25
+  library_dep_index: 1
+  library_dep_index: 26
 }
 library_dependencies {
   library_index: 26
-  library_dep_index: 1
+  library_dep_index: 2
+}
+library_dependencies {
+  library_index: 28
+  library_dep_index: 29
+  library_dep_index: 30
+  library_dep_index: 31
+  library_dep_index: 5
+  library_dep_index: 23
+  library_dep_index: 32
 }
 library_dependencies {
   library_index: 29
-  library_dep_index: 1
+  library_dep_index: 2
 }
 library_dependencies {
-  library_index: 31
-  library_dep_index: 32
-  library_dep_index: 33
-  library_dep_index: 34
+  library_index: 32
+  library_dep_index: 2
+}
+library_dependencies {
+  library_index: 34
   library_dep_index: 35
   library_dep_index: 36
   library_dep_index: 37
   library_dep_index: 38
-}
-library_dependencies {
-  library_index: 32
   library_dep_index: 39
   library_dep_index: 40
   library_dep_index: 41
 }
 library_dependencies {
-  library_index: 40
-  library_dep_index: 39
-}
-library_dependencies {
-  library_index: 36
-  library_dep_index: 34
-}
-library_dependencies {
-  library_index: 37
-  library_dep_index: 38
-}
-library_dependencies {
-  library_index: 38
-  library_dep_index: 32
-}
-library_dependencies {
-  library_index: 42
-  library_dep_index: 1
-  library_dep_index: 0
+  library_index: 35
+  library_dep_index: 42
   library_dep_index: 43
   library_dep_index: 44
-  library_dep_index: 45
-  library_dep_index: 2
-  library_dep_index: 46
-  library_dep_index: 47
-  library_dep_index: 4
-  library_dep_index: 8
-  library_dep_index: 48
-  library_dep_index: 49
-  library_dep_index: 21
-  library_dep_index: 50
 }
 library_dependencies {
   library_index: 43
-  library_dep_index: 1
+  library_dep_index: 42
 }
 library_dependencies {
-  library_index: 44
-  library_dep_index: 1
-  library_dep_index: 2
-  library_dep_index: 16
-  library_dep_index: 7
+  library_index: 39
+  library_dep_index: 37
+}
+library_dependencies {
+  library_index: 40
+  library_dep_index: 41
+}
+library_dependencies {
+  library_index: 41
+  library_dep_index: 35
 }
 library_dependencies {
   library_index: 45
-  library_dep_index: 0
   library_dep_index: 2
+  library_dep_index: 1
+  library_dep_index: 26
+  library_dep_index: 46
+  library_dep_index: 47
+  library_dep_index: 3
+  library_dep_index: 48
+  library_dep_index: 49
+  library_dep_index: 5
+  library_dep_index: 9
+  library_dep_index: 50
   library_dep_index: 51
+  library_dep_index: 22
+  library_dep_index: 52
 }
 library_dependencies {
   library_index: 46
   library_dep_index: 2
-  library_dep_index: 7
-  library_dep_index: 52
+  library_dep_index: 3
+  library_dep_index: 17
+  library_dep_index: 8
 }
 library_dependencies {
-  library_index: 52
+  library_index: 47
   library_dep_index: 1
-  library_dep_index: 2
+  library_dep_index: 3
   library_dep_index: 53
-  library_dep_index: 13
-  library_dep_index: 54
-  library_dep_index: 55
-}
-library_dependencies {
-  library_index: 53
-  library_dep_index: 1
-}
-library_dependencies {
-  library_index: 54
-  library_dep_index: 1
-}
-library_dependencies {
-  library_index: 55
-  library_dep_index: 1
 }
 library_dependencies {
   library_index: 48
-  library_dep_index: 1
-  library_dep_index: 2
-  library_dep_index: 16
-  library_dep_index: 7
+  library_dep_index: 3
+  library_dep_index: 8
+  library_dep_index: 54
 }
 library_dependencies {
-  library_index: 49
-  library_dep_index: 1
+  library_index: 54
   library_dep_index: 2
-  library_dep_index: 7
+  library_dep_index: 3
+  library_dep_index: 55
+  library_dep_index: 14
+  library_dep_index: 56
+  library_dep_index: 57
 }
 library_dependencies {
-  library_index: 50
-  library_dep_index: 1
-  library_dep_index: 4
-  library_dep_index: 48
+  library_index: 55
   library_dep_index: 2
-  library_dep_index: 7
 }
 library_dependencies {
   library_index: 56
-  library_dep_index: 57
-  library_dep_index: 58
+  library_dep_index: 2
 }
 library_dependencies {
   library_index: 57
+  library_dep_index: 2
+}
+library_dependencies {
+  library_index: 50
+  library_dep_index: 2
+  library_dep_index: 3
+  library_dep_index: 17
+  library_dep_index: 8
+}
+library_dependencies {
+  library_index: 51
+  library_dep_index: 2
+  library_dep_index: 3
+  library_dep_index: 8
+}
+library_dependencies {
+  library_index: 52
+  library_dep_index: 2
+  library_dep_index: 5
+  library_dep_index: 50
+  library_dep_index: 3
+  library_dep_index: 8
+}
+library_dependencies {
+  library_index: 58
   library_dep_index: 59
   library_dep_index: 60
-  library_dep_index: 61
-  library_dep_index: 62
-  library_dep_index: 63
-  library_dep_index: 34
 }
 library_dependencies {
   library_index: 59
   library_dep_index: 61
-  library_dep_index: 60
   library_dep_index: 62
   library_dep_index: 63
   library_dep_index: 64
+  library_dep_index: 65
+  library_dep_index: 37
 }
 library_dependencies {
   library_index: 61
   library_dep_index: 63
+  library_dep_index: 62
+  library_dep_index: 64
+  library_dep_index: 65
+  library_dep_index: 66
 }
 library_dependencies {
-  library_index: 60
-  library_dep_index: 32
-  library_dep_index: 63
+  library_index: 63
   library_dep_index: 65
 }
 library_dependencies {
-  library_index: 65
-  library_dep_index: 66
-  library_dep_index: 41
-}
-library_dependencies {
   library_index: 62
-  library_dep_index: 63
-  library_dep_index: 36
-  library_dep_index: 41
-}
-library_dependencies {
-  library_index: 64
-  library_dep_index: 32
-  library_dep_index: 41
+  library_dep_index: 35
+  library_dep_index: 65
   library_dep_index: 67
 }
 library_dependencies {
-  library_index: 68
-  library_dep_index: 57
+  library_index: 67
+  library_dep_index: 68
+  library_dep_index: 44
 }
 library_dependencies {
-  library_index: 69
-  library_dep_index: 57
-  library_dep_index: 33
+  library_index: 64
+  library_dep_index: 65
+  library_dep_index: 39
+  library_dep_index: 44
+}
+library_dependencies {
+  library_index: 66
+  library_dep_index: 35
+  library_dep_index: 44
+  library_dep_index: 69
 }
 library_dependencies {
   library_index: 70
-  library_dep_index: 71
-  library_dep_index: 72
+  library_dep_index: 59
+}
+library_dependencies {
+  library_index: 71
+  library_dep_index: 59
+  library_dep_index: 36
+}
+library_dependencies {
+  library_index: 72
   library_dep_index: 73
   library_dep_index: 74
   library_dep_index: 75
   library_dep_index: 76
   library_dep_index: 77
   library_dep_index: 78
-}
-library_dependencies {
-  library_index: 71
   library_dep_index: 79
-}
-library_dependencies {
-  library_index: 72
-  library_dep_index: 71
+  library_dep_index: 80
 }
 library_dependencies {
   library_index: 73
-  library_dep_index: 79
+  library_dep_index: 81
 }
 library_dependencies {
   library_index: 74
@@ -1205,15 +1376,19 @@ library_dependencies {
 }
 library_dependencies {
   library_index: 75
-  library_dep_index: 71
+  library_dep_index: 81
+}
+library_dependencies {
+  library_index: 76
+  library_dep_index: 75
 }
 library_dependencies {
   library_index: 77
-  library_dep_index: 79
+  library_dep_index: 73
 }
 library_dependencies {
-  library_index: 78
-  library_dep_index: 79
+  library_index: 79
+  library_dep_index: 81
 }
 library_dependencies {
   library_index: 80
@@ -1221,26 +1396,100 @@ library_dependencies {
 }
 library_dependencies {
   library_index: 82
-  library_dep_index: 81
+  library_dep_index: 83
 }
 library_dependencies {
-  library_index: 83
-  library_dep_index: 84
+  library_index: 84
+  library_dep_index: 83
+}
+library_dependencies {
+  library_index: 85
+  library_dep_index: 86
+  library_dep_index: 87
+}
+library_dependencies {
+  library_index: 86
+  library_dep_index: 87
+  library_dep_index: 88
+}
+library_dependencies {
+  library_index: 87
+  library_dep_index: 88
+  library_dep_index: 89
+}
+library_dependencies {
+  library_index: 90
+  library_dep_index: 85
+}
+library_dependencies {
+  library_index: 91
+  library_dep_index: 90
+  library_dep_index: 92
+}
+library_dependencies {
+  library_index: 93
+  library_dep_index: 90
+  library_dep_index: 94
+}
+library_dependencies {
+  library_index: 94
+  library_dep_index: 95
+}
+library_dependencies {
+  library_index: 96
+  library_dep_index: 59
+  library_dep_index: 37
+  library_dep_index: 2
+  library_dep_index: 97
+}
+library_dependencies {
+  library_index: 97
+  library_dep_index: 2
+  library_dep_index: 54
+}
+library_dependencies {
+  library_index: 98
+  library_dep_index: 94
+}
+library_dependencies {
+  library_index: 99
+  library_dep_index: 100
+  library_dep_index: 101
+  library_dep_index: 1
+}
+library_dependencies {
+  library_index: 100
+  library_dep_index: 87
+}
+library_dependencies {
+  library_index: 101
+  library_dep_index: 85
+  library_dep_index: 2
+  library_dep_index: 32
 }
 module_dependencies {
   module_name: "base"
   dependency_index: 0
-  dependency_index: 68
-  dependency_index: 69
+  dependency_index: 96
+  dependency_index: 1
+  dependency_index: 33
+  dependency_index: 34
+  dependency_index: 98
+  dependency_index: 99
   dependency_index: 70
-  dependency_index: 42
+  dependency_index: 71
+  dependency_index: 72
   dependency_index: 45
-  dependency_index: 80
+  dependency_index: 47
   dependency_index: 82
-  dependency_index: 83
-  dependency_index: 24
-  dependency_index: 56
+  dependency_index: 84
+  dependency_index: 85
   dependency_index: 25
-  dependency_index: 30
-  dependency_index: 31
+  dependency_index: 58
+  dependency_index: 90
+  dependency_index: 27
+  dependency_index: 91
+  dependency_index: 28
+  dependency_index: 93
+  dependency_index: 94
 }

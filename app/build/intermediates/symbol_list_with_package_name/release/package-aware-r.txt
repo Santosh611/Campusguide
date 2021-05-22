@@ -110,6 +110,7 @@ attr autoSizePresetSizes
 attr autoSizeStepGranularity
 attr autoSizeTextType
 attr autoTransition
+attr auto_cycle
 attr background
 attr backgroundColor
 attr backgroundInsetBottom
@@ -297,6 +298,7 @@ attr cornerSizeBottomLeft
 attr cornerSizeBottomRight
 attr cornerSizeTopLeft
 attr cornerSizeTopRight
+attr corner_radius
 attr counterEnabled
 attr counterMaxLength
 attr counterOverflowTextAppearance
@@ -322,6 +324,7 @@ attr dayTodayStyle
 attr defaultDuration
 attr defaultQueryHint
 attr defaultState
+attr delay
 attr deltaPolarAngle
 attr deltaPolarRadius
 attr deriveConstraintsFrom
@@ -372,6 +375,7 @@ attr errorIconTint
 attr errorIconTintMode
 attr errorTextAppearance
 attr errorTextColor
+attr error_image
 attr expandActivityOverflowButtonDrawable
 attr expanded
 attr expandedHintEnabled
@@ -711,6 +715,7 @@ attr percentHeight
 attr percentWidth
 attr percentX
 attr percentY
+attr period
 attr perpendicularPath_percent
 attr piv_animationDuration
 attr piv_animationType
@@ -729,6 +734,7 @@ attr piv_strokeWidth
 attr piv_unselectedColor
 attr piv_viewPager
 attr pivotAnchor
+attr placeholder
 attr placeholderText
 attr placeholderTextAppearance
 attr placeholderTextColor
@@ -789,6 +795,7 @@ attr searchViewStyle
 attr seekBarStyle
 attr selectableItemBackground
 attr selectableItemBackgroundBorderless
+attr selected_dot
 attr selectionRequired
 attr selectorSize
 attr shapeAppearance
@@ -1000,6 +1007,7 @@ attr uiScrollGesturesDuringRotateOrZoom
 attr uiTiltGestures
 attr uiZoomControls
 attr uiZoomGestures
+attr unselected_dot
 attr useCompatPadding
 attr useMaterialThemeColors
 attr useViewLifecycle
@@ -1128,6 +1136,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color greenTransparent
 color hiad_0_percent_black
 color hiad_10_percent_black
 color hiad_10_percent_white
@@ -1232,6 +1241,7 @@ color hwid_auth_button_color_red
 color hwid_auth_button_color_text_black
 color hwid_auth_button_color_text_white
 color hwid_auth_button_color_white
+color ic_launcher_background
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -1266,6 +1276,9 @@ color material_timepicker_button_stroke
 color material_timepicker_clock_text_color
 color material_timepicker_clockface
 color material_timepicker_modebutton_tint
+color mb_blue
+color mb_blue_dark
+color mb_gray
 color mtrl_bottom_nav_colored_item_tint
 color mtrl_bottom_nav_colored_ripple_color
 color mtrl_bottom_nav_item_tint
@@ -1442,6 +1455,7 @@ dimen appcompat_dialog_background_inset
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
+dimen cardview_margin
 dimen clock_face_margin_start
 dimen compat_button_inset_horizontal_material
 dimen compat_button_inset_vertical_material
@@ -1594,6 +1608,7 @@ dimen hint_alpha_material_dark
 dimen hint_alpha_material_light
 dimen hint_pressed_alpha_material_dark
 dimen hint_pressed_alpha_material_light
+dimen info_text_size
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
@@ -1626,6 +1641,7 @@ dimen material_input_text_to_prefix_suffix_padding
 dimen material_text_view_test_line_height
 dimen material_text_view_test_line_height_override
 dimen material_timepicker_dialog_buttons_margin_top
+dimen mb_corner_radius_2
 dimen mtrl_alert_dialog_background_inset_bottom
 dimen mtrl_alert_dialog_background_inset_end
 dimen mtrl_alert_dialog_background_inset_start
@@ -1927,6 +1943,9 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable bac1
+drawable back
+drawable background
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1935,15 +1954,23 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable call
+drawable circle
 drawable college
 drawable collegee
+drawable contact_phone
+drawable default_selected_dot
+drawable default_unselected_dot
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable directions
+drawable error
 drawable gd
+drawable gradient
 drawable hiad_app_down_btn_installing
 drawable hiad_app_down_btn_installing_hm
 drawable hiad_app_down_btn_normal
@@ -1990,6 +2017,10 @@ drawable hwid_auth_button_round_black
 drawable hwid_auth_button_round_normal
 drawable hwid_auth_button_round_white
 drawable hwid_auth_button_white
+drawable ic_baseline_account_tree_24
+drawable ic_baseline_call_24
+drawable ic_baseline_contact_phone_24
+drawable ic_baseline_people_outline_24
 drawable ic_baseline_qr_code_scanner_24
 drawable ic_clock_black_24dp
 drawable ic_icon_delete
@@ -2003,7 +2034,15 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_school
+drawable icon_dotview
+drawable icon_question
+drawable krct
 drawable krct_admin_block
+drawable locateme
+drawable logokrct1
+drawable marker
+drawable marker1
+drawable marker2
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -2014,6 +2053,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable matteblack
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -2036,12 +2076,15 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable placeholder
+drawable ppl1
 drawable scankit_back
 drawable scankit_dialog_bg
 drawable scankit_flash_selected_selector2
 drawable scankit_flashlight_off
 drawable scankit_flashlight_on
 drawable scankit_photo
+drawable scanner
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -2051,10 +2094,10 @@ drawable upsdk_cancel_normal
 drawable upsdk_cancel_pressed_bg
 drawable upsdk_third_download_bg
 drawable user_image
+drawable vision
 id ALT
 id BOTTOM_END
 id BOTTOM_START
-id BasicMap
 id CTRL
 id FUNCTION
 id META
@@ -2122,6 +2165,8 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addPolyline
+id aibtn
 id alertTitle
 id aligned
 id all
@@ -2149,18 +2194,19 @@ id bottom
 id bounce
 id btnAuthMode
 id btnFindNumber
+id btnIdToken
+id btnNext
 id btnWatchAdd
 id btn_mapView
 id btnstartul
 id btnstopul
 id button
-id button2
-id button3
 id buttonPanel
 id cache_measures
 id cancel_bg
 id cancel_button
 id cancel_imageview
+id card_view
 id center
 id center_horizontal
 id center_vertical
@@ -2175,6 +2221,7 @@ id chip3
 id chip_group
 id chronometer
 id circle_center
+id civilbtn
 id clear_text
 id clip_horizontal
 id clip_vertical
@@ -2183,6 +2230,7 @@ id collapseActionView
 id color
 id confirm_button
 id consLytBanner
+id contactbtn
 id container
 id content
 id contentPanel
@@ -2192,6 +2240,7 @@ id contiguous
 id coordinator
 id cos
 id counterclockwise
+id csebtn1
 id custom
 id customPanel
 id cut
@@ -2201,6 +2250,7 @@ id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
 id deltaRelative
+id depbtn
 id dependency_ordering
 id design_bottom_sheet
 id design_menu_item_action_area
@@ -2217,6 +2267,7 @@ id disablePostScroll
 id disableScroll
 id disjoint
 id divider
+id dotView
 id download_info_progress
 id dragDown
 id dragEnd
@@ -2229,17 +2280,21 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
+id ecebtn
 id edit_query
 id edtNmbrFindNumber
+id eeebtn
 id elastic
 id enable_service_text
 id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id esbtn
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id facultybtn
 id fade
 id fill
 id fill_horizontal
@@ -2344,17 +2399,20 @@ id hwid_corner_radius_large
 id hwid_corner_radius_medium
 id hwid_corner_radius_small
 id hybrid
-id ibutton
 id icon
 id icon_group
 id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id imageView3
 id imageView4
+id image_view
+id imageview_icon
 id img_btn
 id info
+id info_layout
 id invisible
 id inward
 id italic
@@ -2367,16 +2425,20 @@ id labelGroup
 id labeled
 id largeLabel
 id layout
+id layout_info_main
 id left
 id leftToRight
 id line
 id line1
 id line3
 id linear
+id linear_layout
 id listMode
 id list_item
 id ll_top
 id loading_progress
+id locatebtn
+id mapInPolyline
 id mapView
 id masked
 id material_clock_display
@@ -2398,6 +2460,7 @@ id material_timepicker_mode_button
 id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
+id mechbtn
 id message
 id middle
 id mini
@@ -2451,9 +2514,12 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id oneLatitude
+id oneLongtitude
 id outline
 id outward
 id packed
+id pager_dots
 id parallax
 id parent
 id parentPanel
@@ -2462,9 +2528,13 @@ id parent_matrix
 id password_toggle
 id path
 id pathRelative
+id pebtn
 id peekHeight
 id percent
 id pin
+id polylineShown
+id polylineStokeWidth
+id polylineTag
 id position
 id postLayout
 id progressBar
@@ -2473,13 +2543,13 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id removePolyline
 id reverseSawtooth
 id right
 id rightToLeft
 id right_icon
 id right_side
 id rl_splash_container
-id root_view
 id rounded
 id row_index_key
 id satellite
@@ -2489,6 +2559,7 @@ id sawtooth
 id scale
 id scale_down
 id scan_title
+id scanbtn
 id scankit_decode
 id scankit_decode_failed
 id scankit_decode_succeeded
@@ -2580,17 +2651,20 @@ id textTop
 id textView
 id textView2
 id textView3
-id textView4
 id textView5
+id textView6
+id textView7
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
+id text_view
 id textinput_counter
 id textinput_error
 id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id textview_info
 id thinWorm
 id third_app_dl_progress_text
 id third_app_dl_progressbar
@@ -2623,8 +2697,10 @@ id version_layout
 id version_textview
 id vertical
 id view_offset_helper
+id view_pager
 id viewfinderView
 id visible
+id vsbtn
 id window_image_content
 id window_image_progress
 id withText
@@ -2633,6 +2709,8 @@ id worm
 id wrap
 id wrap_content
 id zero_corner_chip
+integer HMS_FWK_MINI_VERSION
+integer KIT_MINI_VERSION
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration
@@ -2696,13 +2774,18 @@ layout abc_tooltip
 layout activity_ads
 layout activity_adssplash
 layout activity_basicmapdemo
+layout activity_departments
+layout activity_directions
 layout activity_endisable_service
-layout activity_home
+layout activity_guest
+layout activity_home2
 layout activity_location
+layout activity_location1
 layout activity_main
+layout activity_main2
 layout activity_maps
 layout activity_mapviewdemo
-layout activity_scannerinfo
+layout activity_polyline_demo
 layout activity_slideradapter
 layout activity_sliderdata
 layout activity_splash
@@ -2722,6 +2805,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout dotview
 layout empty_layout
 layout hiad_ar_view
 layout hiad_choices_feedback
@@ -2751,6 +2835,7 @@ layout hiad_view_video
 layout hiad_window_image_layout
 layout hiad_wls_view
 layout hms_download_progress
+layout image_slider
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2758,6 +2843,7 @@ layout material_clock_period_toggle
 layout material_clock_period_toggle_land
 layout material_clockface_textview
 layout material_clockface_view
+layout material_intro_card
 layout material_radial_view_group
 layout material_textinput_timepicker
 layout material_time_chip
@@ -2799,6 +2885,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout pager_row
 layout scankit_dialog_layout
 layout scankit_layout
 layout scankit_zxl_capture
@@ -2825,7 +2912,9 @@ layout upsdk_app_dl_progress_dialog
 layout upsdk_ota_update_view
 menu nav_menu
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
+mipmap krct
 plurals hiad_dismiss_dilaog
 plurals hiad_no_prompt_in_days
 plurals hiad_reward_countdown
@@ -2868,14 +2957,17 @@ string agc_42CFA4FE0F87541B3B3F9793F5D829BE381703BB99853CCC25D018996F251536
 string agc_432BA784B7D2E3A6C73AB69659D3300DC6258E318543A10B50EA4B770C67DAB3
 string agc_4A1001369614B0D938752C6AB4967DE352A3ADD13CAE741A7DF78EE728F74136
 string agc_4D79CE1E9E81D44FFC3CBFEC80D073F18409AAC96E2DAFB11951005E99B02EDB
+string agc_4E59F3D37D339A997CACA4A0C457DAA94A1F044555D950F1F9835B0B6F600D38
 string agc_52C6C717F2BEA9936D7DEDC27E412B9E7AC9A6642A6D0AEE353B2B14737100F5
 string agc_5B5AF298A58B98DB86A04DB0E3B1924F7EAC7A14CA781F042E5F999BD413CC9E
 string agc_63F3255D837430EC4C799B2B5A8091A554A101C6FAC114907463E723AF33B544
+string agc_66412D70318648FA3BDD00A3CB2E73EE439F788EBA8010232B3B145A1ADE18F4
 string agc_69589FA8E5257AA8E3C477503B5586F4B4981C77F69B612318E3FC7AF1B00890
 string agc_6D239E4C2FF1354F6DBB62ED715B0B2A4058A2C1B368EB9F5FAF8B457ED28FA6
 string agc_6DC2F1E7B3508CE97B8A34B184EAD19FADAAC83160422DE0BA2F78B0438C6A98
 string agc_7946AE46AB6C7F8CBDCAF61B99109C7C5309E95125FEA7458FBF603EC34F79F0
 string agc_836CE23119A6E21FA622B66B25341D1D32735FAA2839B33D60C4D59B7AD62151
+string agc_840FE2348B9312C51373EFB2E2F030D10C43688DDE98467C8DD63AC7DC1855AB
 string agc_864E57EAF6D5DB70BE861700AFF6C17A93A9D202732BCB4048B0CDBB6EBF578F
 string agc_8CBEB54DD45F5D2D07C517A93D2C07AC37E088876F07FDDF2D74CEFF5500AE68
 string agc_8EC943399EB9730C69A7B8E4E46D24911E8F900AC2F52A3DF251327694CD8EFA
@@ -2889,7 +2981,9 @@ string agc_C5B898FED8EB426373F5B7236223347292A472BFE8B3AF180298BA6A87272CB5
 string agc_C614C7C98C4CAB19398311B2C2FE838A2E7F3C715B230710A5E58E3E578F45BB
 string agc_C84FA3884427F8CBBA6C61F1A49F27195E388EEB48D06EBE4BF55B847BA24A19
 string agc_D96112F0F656550C8068DE16CF313478D253DDAF4E18EEE01F6D94CA6DD5013F
+string agc_EB3381D0A0BF05A68A3A3BB3A0A5F32CA98503EC69D0CA217FC3A1403801B633
 string agc_F56D9E20C47154729D3F411FD73FA2BDDF0330EB0A9873ACC352CC371FC5A767
+string ai_and_data_science
 string app_name
 string appbar_scrolling_view_behavior
 string banner_ad_id
@@ -2899,10 +2993,15 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
+string civil
 string clear_text_end_icon_content_description
 string closeNavDrawer
 string copyright_info
 string createmapview
+string cse
+string ece
+string eee
+string embedded_systems
 string error_icon_content_description
 string explore
 string exposed_dropdown_menu_content_description
@@ -3022,6 +3121,7 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string mech
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_content_description
@@ -3065,6 +3165,8 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string pg_courses
+string power_electroincs
 string result
 string scankit_confirm
 string scankit_light
@@ -3081,6 +3183,7 @@ string status_load_ad_fail
 string status_load_ad_success
 string stop_update_location
 string txt_enter_number
+string ug_courses
 string upsdk_app_download_info_new
 string upsdk_app_download_installing
 string upsdk_app_size
@@ -3105,6 +3208,7 @@ string upsdk_third_app_dl_cancel_download_prompt_ex
 string upsdk_third_app_dl_install_failed
 string upsdk_third_app_dl_sure_cancel_download
 string upsdk_update_check_no_new_version
+string vlsi_design
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AlertDialogLight
@@ -3889,6 +3993,7 @@ styleable GradientColor android_startColor android_endColor android_type android
 styleable GradientColorItem android_color android_offset
 styleable HuaweiIdAuthButton hwid_button_theme hwid_color_policy hwid_corner_radius
 styleable ImageFilterView altSrc brightness contrast crossfade overlay round roundPercent saturation warmth
+styleable ImageSlider auto_cycle corner_radius delay error_image period placeholder selected_dot unselected_dot
 styleable Insets paddingBottomSystemWindowInsets paddingLeftSystemWindowInsets paddingRightSystemWindowInsets
 styleable KeyAttribute android_alpha android_transformPivotX android_transformPivotY android_translationX android_translationY android_scaleX android_scaleY android_rotation android_rotationX android_rotationY android_translationZ android_elevation curveFit framePosition motionProgress motionTarget transitionEasing transitionPathRotate
 styleable KeyCycle android_alpha android_translationX android_translationY android_scaleX android_scaleY android_rotation android_rotationX android_rotationY android_translationZ android_elevation curveFit framePosition motionProgress motionTarget transitionEasing transitionPathRotate waveOffset wavePeriod waveShape waveVariesBy

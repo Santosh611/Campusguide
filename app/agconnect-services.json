@@ -25,6 +25,14 @@
 		"api_key":"CgB6e3x9HT8wHBZoFsLF9L5r68jkBWYEZag7AQKBLbT8VObWOtmXjBNdKqdWQbiWNonajAxvNPWh6WoTdnNHmbxv",
 		"package_name":"com.example.acctu"
 	},
+	"oauth_client":{
+		"client_id":"103971363",
+		"client_type":1
+	},
+	"app_info":{
+		"app_id":"103971363",
+		"package_name":"com.example.acctu"
+	},
 	"service":{
 		"analytics":{
 			"collector_url":"datacollector-dra.dt.hicloud.com,datacollector-dra.dt.dbankcloud.cn",
@@ -42,11 +50,21 @@
 		}
 	},
 	"region":"SG",
-	"configuration_version":"2.0",
+	"configuration_version":"3.0",
 	"appInfos":[
 		{
 			"package_name":"com.example.acctu",
-			"app_id":"103971363"
+			"client":{
+				"app_id":"103971363"
+			},
+			"app_info":{
+				"package_name":"com.example.acctu",
+				"app_id":"103971363"
+			},
+			"oauth_client":{
+				"client_type":1,
+				"client_id":"103971363"
+			}
 		}
 	]
 }

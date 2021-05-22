@@ -4,16 +4,27 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        debug {
+            storeFile file('C:\\Users\\santo\\.android\\debug.keystore')
+            storePassword 'android'
+            keyAlias 'android'
+            keyPassword 'android'
+        }
+        lintOptions {
+            checkReleaseBuilds false
+        }
+    }
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
 
     defaultConfig {
         multiDexEnabled true
         applicationId "com.example.acctu"
-        minSdkVersion 20
+        minSdkVersion 24
         targetSdkVersion 30
         versionCode 1
-        versionName "1.0"
+        versionName "2.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -22,6 +33,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+//            signingConfig signingConfigs.release
         }
     }
     compileOptions {
@@ -48,10 +60,19 @@ dependencies {
     implementation 'com.huawei.hms:ads-lite:13.4.40.302'
     implementation 'com.huawei.hms:maproute-fallback:5.2.0.302'
     implementation 'com.huawei.hms:hwmaps-fallback:5.2.0.302'
-    implementation 'com.squareup.okhttp3:okhttp:3.5.0'
+    implementation 'com.squareup.okhttp3:okhttp:4.7.2'
+    implementation "com.squareup.retrofit2:retrofit:2.5.0"
+    implementation "com.squareup.retrofit2:converter-gson:2.4.0"
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+    implementation 'com.huawei.hms:awareness:1.0.7.301'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.10'
+    implementation "io.reactivex.rxjava2:rxandroid:2.0.1"
     implementation 'com.github.denzcoskun:ImageSlideshow:0.0.6'
+    compile 'com.github.dmytrodanylyk:android-morphing-button:98a4986e56' // commit hash
     implementation fileTree(dir: "libs", include: ["*.jar"])
+    compile 'com.github.iammert:MaterialIntroView:1.6.0'
 
 
- 
+
+
 }

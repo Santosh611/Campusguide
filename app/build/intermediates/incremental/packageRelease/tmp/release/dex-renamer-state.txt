@@ -1,4 +1,4 @@
-#Wed Apr 28 20:06:28 IST 2021
+#Fri May 21 22:49:22 IST 2021
 base.0=C\:\\Users\\santo\\AndroidStudioProjects\\AccountkitHMS\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
 path.1=classes2.dex
 renamed.1=classes2.dex

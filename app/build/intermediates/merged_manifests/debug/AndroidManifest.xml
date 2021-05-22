@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.acctu" android:versionCode="1" android:versionName="1.0">
-  <uses-sdk android:minSdkVersion="20" android:targetSdkVersion="30"/>
+  <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="30"/>
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  <uses-permission android:name="android.permission.INTERNET"/>
   <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
   <uses-permission android:name="android.permission.CAMERA"/>
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
@@ -8,11 +9,14 @@
   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
   <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
   <uses-permission android:name="com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA"/>
-  <uses-permission android:name="android.permission.INTERNET"/>
   <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
   <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
-  <application android:name="androidx.multidex.MultiDexApplication" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:icon="@mipmap/ic_launcher" android:label="Campus Guide" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:testOnly="true" android:theme="@style/Theme.Acctu">
-    <activity android:name="com.example.acctu.Scannerinfo"/>
+  <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="false" android:icon="@mipmap/ic_launcher" android:label="KRCT Explorer" android:roundIcon="@drawable/logokrct1" android:supportsRtl="true" android:testOnly="true" android:theme="@style/Theme.Acctu">
+    <activity android:name="com.example.acctu.GuestActivity"/>
+    <activity android:name="com.example.acctu.Directions"/>
+    <activity android:name="com.example.acctu.Location1"/>
+    <activity android:name="com.example.acctu.MainActivity2" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+    <activity android:name="com.example.acctu.DepartmentsActivity"/>
     <activity android:name="com.example.acctu.MapViewDemoActivity"/>
     <activity android:name="com.example.acctu.BasicMapDemoActivity"/>
     <activity android:name="com.example.acctu.MapsActivity"/>
@@ -45,6 +49,9 @@
     <meta-data android:name="com.huawei.hms.min_api_level:maps:huawei_module_huaweimaps" android:value="7"/>
     <meta-data android:name="com.huawei.hms.client.service.name:ads-lite" android:value="ads-lite:13.4.40.302"/>
     <provider android:name="com.squareup.picasso.PicassoProvider" android:authorities="com.example.acctu.com.squareup.picasso" android:exported="false"/>
+    <meta-data android:name="com.huawei.hms.client.service.name:awareness" android:value="awareness:1.0.7.301"/>
+    <meta-data android:name="com.huawei.hms.min_api_level:awareness:awareness_kit" android:value="@integer/KIT_MINI_VERSION"/>
+    <meta-data android:name="com.huawei.hms.min_api_level:awareness:location" android:value="1"/>
     <meta-data android:name="com.huawei.hms.client.service.name:ml-computer-camera-inner" android:value="ml-computer-camera-inner:1.0.3.340"/>
     <meta-data android:name="com.huawei.hms.client.service.name:ml-computer-ha-inner" android:value="ml-computer-ha-inner:1.0.3.340"/>
     <meta-data android:name="com.huawei.hms.client.service.name:base" android:value="base:5.2.0.300"/>

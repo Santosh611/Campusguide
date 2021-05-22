@@ -22,19 +22,11 @@ import java.util.List;
 
 public class MapUtils {
 
-    public static final LatLng HUAWEI_CENTER = new LatLng(31.98559, 118.76613);
 
-    public static final LatLng APARTMENT_CENTER = new LatLng(31.97480, 118.75682);
 
-    public static final LatLng EPARK_CENTER = new LatLng(31.97846, 118.76454);
+    public static final LatLng krct = new LatLng(78, 10);
 
-    public static final LatLng FRANCE = new LatLng(47.893478, 2.334595);
-
-    public static final LatLng FRANCE1 = new LatLng(48.993478, 3.434595);
-
-    public static final LatLng FRANCE2 = new LatLng(48.693478, 2.134595);
-
-    public static final LatLng FRANCE3 = new LatLng(48.793478, 2.334595);
+    public static final LatLng source = new LatLng(72, 15);
 
     public static List<LatLng> createRectangle(LatLng center, double halfWidth, double halfHeight) {
         return Arrays.asList(new LatLng(center.latitude - halfHeight, center.longitude - halfWidth),
@@ -52,5 +44,5 @@ public class MapUtils {
 
     public static final float MIN_ZOOM_LEVEL = 3;
 
-    public static final String API_KEY = "YOUR API KEY";
+    public static final String API_KEY = "CgB6e3x9HT8wHBZoFsLF9L5r68jkBWYEZag7AQKBLbT8VObWOtmXjBNdKqdWQbiWNonajAxvNPWh6WoTdnNHmbxv";
 }

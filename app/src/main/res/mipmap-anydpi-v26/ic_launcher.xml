@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+
 <!--    <background android:drawable="@drawable/krct" />-->
     <foreground android:drawable="@drawable/krct" />
+=======
+    <background android:drawable="@color/ic_launcher_background"/>
+<!--    <foreground android:drawable="@mipmap/ic_launcher_foreground"/>-->
+>>>>>>> 13dcfe9412ddb4df79f868362c8300d283f00722
 </adaptive-icon>

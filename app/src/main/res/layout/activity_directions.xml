@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <com.huawei.hms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="411dp"
+        android:layout_height="734dp"
+        map:cameraTargetLat="9.94337049975441"
+        map:cameraTargetLng="78.08349311149902"
+        map:cameraZoom="10"
+        map:layout_constraintBottom_toBottomOf="parent"
+        map:layout_constraintEnd_toEndOf="parent"
+
+        map:layout_constraintHorizontal_bias="0.0"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toTopOf="parent"
+        map:layout_constraintVertical_bias="0.0"
+        map:mapType="normal"
+        map:uiCompass="true"
+        map:uiZoomControls="true">
+
+    </com.huawei.hms.maps.MapView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

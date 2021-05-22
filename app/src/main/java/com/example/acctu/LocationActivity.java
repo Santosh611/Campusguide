@@ -1,11 +1,14 @@
 package com.example.acctu;
 
+
+import androidx.annotation.RequiresPermission;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
 import android.Manifest;
 import android.content.IntentSender;
 import android.content.pm.PackageManager;
+import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Looper;
@@ -28,34 +31,170 @@ import com.huawei.hms.location.LocationSettingsRequest;
 import com.huawei.hms.location.LocationSettingsResponse;
 import com.huawei.hms.location.LocationSettingsStatusCodes;
 import com.huawei.hms.location.SettingsClient;
+import com.huawei.hms.maps.HuaweiMap;
+import com.huawei.hms.maps.HuaweiMapOptions;
+import com.huawei.hms.maps.MapView;
+import com.huawei.hms.maps.MapsInitializer;
+import com.huawei.hms.maps.OnMapReadyCallback;
+import com.huawei.hms.maps.SupportMapFragment;
+import com.huawei.hms.maps.model.BitmapDescriptorFactory;
+import com.huawei.hms.maps.model.CameraPosition;
+import com.huawei.hms.maps.model.LatLng;
+import com.huawei.hms.maps.model.Marker;
+import com.huawei.hms.maps.model.MarkerOptions;
+import com.huawei.hms.maps.model.Polyline;
+import com.huawei.hms.maps.model.PolylineOptions;
 
-public class LocationActivity extends AppCompatActivity implements View.OnClickListener {
+import static android.Manifest.permission.ACCESS_FINE_LOCATION;
+import static android.Manifest.permission.ACCESS_WIFI_STATE;
 
-    private static final String TAG = LocationActivity.class.getSimpleName();
-    Button btnstartul,btnstopul;
-    TextView tresult;
+public class LocationActivity extends AppCompatActivity implements OnMapReadyCallback {
+
+    private static final String TAG = MainActivity.class.getSimpleName();
     SettingsClient settingsClient;
     // Location interaction object.
     private FusedLocationProviderClient fusedLocationProviderClient;
     // Location request object.
     private LocationRequest mLocationRequest;
     LocationCallback mLocationCallback;
-    private String strresult;
+    double strresult, strresult1;
+    private MapView mMapView;
+    private HuaweiMap hMap;
+
+    private Marker marker;
+    private Marker marker1;
+    Polyline mPolyline;
+
+    private static final String MAPVIEW_BUNDLE_KEY = "MapViewBundleKey";
+    SupportMapFragment mSupportMapFragment;
+    CameraPosition cameraPosition =
+            CameraPosition.builder().target(new LatLng(10.929247440022037, 78.73805378269797)).zoom(1000).bearing(45).tilt(20).build();
+
+
+    HuaweiMapOptions options = new HuaweiMapOptions();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_location);
+        setContentView(R.layout.activity_maps);
         dynamicPermission();
-        btnstartul=findViewById(R.id.btnstartul);
-        btnstopul=findViewById(R.id.btnstopul);
-        tresult=findViewById(R.id.tresult);
-        btnstartul.setOnClickListener(this);
-        btnstopul.setOnClickListener(this);
         fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(this);
+        fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(this);
+        mMapView = findViewById(R.id.mapView);
+        Bundle mapViewBundle = null;
+
+        if (savedInstanceState != null) {
+            mapViewBundle = savedInstanceState.getBundle(MAPVIEW_BUNDLE_KEY);
+        }
+        mMapView.onCreate(mapViewBundle);
+        // Obtain a map instance.
+//        mMapView.getMapAsync(this);
+        mMapView.getMapAsync(this);
+        MapsInitializer.setApiKey("CgB6e3x9HT8wHBZoFsLF9L5r68jkBWYEZag7AQKBLbT8VObWOtmXjBNdKqdWQbiWNonajAxvNPWh6WoTdnNHmbxv");
 
 
     }
+
+    @RequiresPermission(allOf = {ACCESS_FINE_LOCATION, ACCESS_WIFI_STATE})
+
+    public void onMapReady(HuaweiMap map) {
+        // Obtain a map instance from callback.
+        Log.d(TAG, "onMapReady: ");
+        hMap = map;
+        hMap.setMyLocationEnabled(true);
+
+
+        mLocationRequest = new LocationRequest();
+        mLocationRequest.setInterval(1000);
+        mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
+
+        startupdatelocation();
+//
+        Log.d("getlocation", "Success");
+
+
+        marker1 = hMap.addMarker(new MarkerOptions()
+                .position(new LatLng(strresult, strresult1))
+                .icon(BitmapDescriptorFactory.fromResource(R.drawable.marker2)));
+
+        Log.d("StartUpdLocSuccess", "Success");
+
+
+
+
+        marker = hMap.addMarker(new MarkerOptions()
+                .position(new LatLng(10.929685963333904, 78.73875966897228))
+                .icon(BitmapDescriptorFactory.fromResource(R.drawable.marker2)));
+
+//
+
+
+        // If hMap is null, the program stops running.
+        if (null == hMap) {
+            return;
+        }
+// If mPolyline is not null, remove it from the map and then set it to null.
+
+        if (null != mPolyline) {
+            mPolyline.remove();
+            mPolyline = null;
+        }
+// Add a polyline to a map.
+        mPolyline = hMap.addPolyline(new PolylineOptions()
+                // Set the coordinates of a polyline.
+
+                .add(new LatLng(10.929685963333904, 78.73875966897228), new LatLng(strresult, strresult1))
+//                .add(new LatLng(10.929685963333904, 78.73875966897228), new LatLng(80, 10))
+                // Set the color of a polyline.
+                .color(Color.BLUE)
+                // Set the polyline width.
+                .width(3));
+
+
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        mMapView.onStart();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        mMapView.onStop();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mMapView.onDestroy();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        mMapView.onResume();
+        mLocationRequest = new LocationRequest();
+        mLocationRequest.setInterval(1000);
+        mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
+//
+
+    }
+
+    @Override
+    protected void onPause() {
+        mMapView.onPause();
+        super.onPause();
+    }
+
+
+
+
+
+
+
 
     private void dynamicPermission() {
         // Dynamically apply for required permissions if the API level is 28 or smaller.
@@ -83,25 +222,9 @@ public class LocationActivity extends AppCompatActivity implements View.OnClickL
                 ActivityCompat.requestPermissions(this, strings, 2);
             }
         }
-    }
-
-    @Override
-    public void onClick(View v) {
-        switch(v.getId()) {
-            case R.id.btnstartul:
-                startupdatelocation();
-
-
-                break;
-            case R.id.btnstopul:
-                stopupdatelocation();
-
-
-                break;
-
-        }
 
     }
+
 
 
     private void startupdatelocation() {
@@ -158,11 +281,11 @@ public class LocationActivity extends AppCompatActivity implements View.OnClickL
             @Override
             public void onLocationResult(LocationResult locationResult) {
                 if (locationResult != null) {
-//                     Process the location callback result.
-                    strresult = "Longitude:"+locationResult.getLastLocation().getLongitude()+"\n"+
-                            "Latitude:"+locationResult.getLastLocation().getLatitude();
-                    tresult.setText(strresult);
-                    Log.d(TAG,strresult);
+//
+                    strresult = locationResult.getLastLocation().getLongitude();
+                    strresult1 = locationResult.getLastLocation().getLatitude();
+                    Log.d("Location Lat:","Success"+strresult);
+                    Log.d("LocationCheck: Long","Success"+strresult);
 
                 }
             }
@@ -178,7 +301,7 @@ public class LocationActivity extends AppCompatActivity implements View.OnClickL
                     @Override
                     public void onSuccess(Void aVoid) {
                         //...
-                        tresult.setText("Stop update location");
+//                        tresult.setText("Stop update location");
                     }
                 })
                 // Define callback for failure in stopping requesting location updates.

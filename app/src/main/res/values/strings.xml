@@ -18,4 +18,15 @@
     <string name="stop_update_location">Stop update location</string>
     <string name="result">Result</string>
     <string name="createmapview">createMapView</string>
+    <string name="vlsi_design">VLSI DESIGN</string>
+    <string name="mech">Mech</string>
+    <string name="cse">CSE</string>
+    <string name="eee">EEE</string>
+    <string name="civil">Civil</string>
+    <string name="power_electroincs">POWER ELECTROINCS</string>
+    <string name="embedded_systems">EMBEDDED SYSTEMS</string>
+    <string name="ai_and_data_science">AI and Data Science</string>
+    <string name="ece">ECE</string>
+    <string name="ug_courses">UG COURSES</string>
+    <string name="pg_courses">PG COURSES</string>
 </resources>
